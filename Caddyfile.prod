@@ -1,6 +1,5 @@
-entest.almv.kz {
-	tls kaisar.abilgojaev@gmail.com
-
+# Доступ по IP (HTTP), домен entest.almv.kz временно отключён
+http://212.116.240.23 {
 	# Enable compression
 	encode gzip zstd
 
@@ -235,9 +234,4 @@ entest.almv.kz {
 		@4xx expression {http.error.status_code} >= 400
 		respond @4xx "Bad request" 400
 	}
-}
-
-# Доступ по IP (HTTP)
-http://212.116.240.23 {
-	reverse_proxy backend-1:8000
 }

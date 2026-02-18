@@ -236,3 +236,8 @@ entest.almv.kz {
 		respond @4xx "Bad request" 400
 	}
 }
+
+# Доступ по IP (HTTP)
+http://212.116.240.23 {
+	reverse_proxy backend-1:8000
+}

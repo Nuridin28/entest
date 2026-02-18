@@ -7,7 +7,7 @@ entest.almv.kz {
 	# Health check endpoint
 	handle /health {
 		reverse_proxy {
-			to backend-1:8000 backend-2:8000
+			to backend-1:8000
 			health_uri /health
 			health_interval 30s
 			health_timeout 10s
@@ -21,7 +21,7 @@ entest.almv.kz {
 	# Audio streaming endpoints with special handling
 	handle /api/v1/tests/*/audio/* {
 		reverse_proxy {
-			to backend-1:8000 backend-2:8000
+			to backend-1:8000
 			
 			# Load balancing for audio
 			lb_policy least_conn
@@ -54,7 +54,7 @@ entest.almv.kz {
 		request_body max_size 2048m
 		
 		reverse_proxy {
-			to backend-1:8000 backend-2:8000
+			to backend-1:8000
 			
 			# Load balancing configuration
 			lb_policy least_conn
@@ -87,7 +87,7 @@ entest.almv.kz {
 		request_body max_size 2048m
 		
 		reverse_proxy {
-			to backend-1:8000 backend-2:8000
+			to backend-1:8000
 			
 			# Load balancing configuration
 			lb_policy least_conn
@@ -120,7 +120,7 @@ entest.almv.kz {
 		request_body max_size 1024m
 		
 		reverse_proxy {
-			to backend-1:8000 backend-2:8000
+			to backend-1:8000
 			
 			# Load balancing configuration
 			lb_policy least_conn
@@ -151,7 +151,7 @@ entest.almv.kz {
 	# Proctoring files (no caching for security)
 	handle /app/uploads/proctoring/* {
 		reverse_proxy {
-			to backend-1:8000 backend-2:8000
+			to backend-1:8000
 			lb_policy round_robin
 		}
 		
@@ -165,7 +165,7 @@ entest.almv.kz {
 	# Screen recordings (no caching for security)
 	handle /app/uploads/screen_recordings/* {
 		reverse_proxy {
-			to backend-1:8000 backend-2:8000
+			to backend-1:8000
 			lb_policy round_robin
 		}
 		
@@ -179,7 +179,7 @@ entest.almv.kz {
 	# Screen recordings (no caching for security)
 	handle /app/uploads/screen_recordings/* {
 		reverse_proxy {
-			to backend-1:8000 backend-2:8000
+			to backend-1:8000
 			lb_policy round_robin
 		}
 		
@@ -193,7 +193,7 @@ entest.almv.kz {
 	# Static file uploads with caching
 	handle /app/uploads/* {
 		reverse_proxy {
-			to backend-1:8000 backend-2:8000
+			to backend-1:8000
 			lb_policy round_robin
 		}
 		

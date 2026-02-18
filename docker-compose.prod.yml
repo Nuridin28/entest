@@ -5,7 +5,7 @@ services:
     container_name: redis_prod
     volumes:
       - redis_data_prod:/data
-    command: redis-server --appendonly yes --maxmemory 4gb --maxmemory-policy allkeys-lru --tcp-keepalive 60 --timeout 300
+    command: redis-server --appendonly yes --maxmemory 512mb --maxmemory-policy allkeys-lru --tcp-keepalive 60 --timeout 300
     networks:
       - app-network
     healthcheck:
@@ -17,11 +17,10 @@ services:
     deploy:
       resources:
         limits:
-          memory: 4.5G
-        reservations:
-          memory: 4G
+          memory: 512M
+          cpus: '0.25'
 
-  # Load Balancer with Caddy - Production
+  # Load Balancer with Caddy - Production (2 vCPU)
   caddy:
     image: caddy:2-alpine
     container_name: caddy_prod
@@ -39,18 +38,16 @@ services:
       - ./.env
     depends_on:
       - backend-1
-      - backend-2
       - frontend-builder
     networks:
       - app-network
     deploy:
       resources:
         limits:
-          memory: 1G
-        reservations:
-          memory: 512M
+          memory: 256M
+          cpus: '0.25'
 
-  # Backend API Service Instance 1 - Production
+  # Backend API - single instance for 2 vCPU
   backend-1:
     build:
       context: .
@@ -77,56 +74,18 @@ services:
     deploy:
       resources:
         limits:
-          memory: 6G
-          cpus: '3'
+          memory: 1G
+          cpus: '1'
         reservations:
-          memory: 4G
-          cpus: '2'
+          memory: 256M
+          cpus: '0.5'
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:8000/health || exit 1"]
       interval: 30s
       timeout: 10s
       retries: 5
 
-  # Backend API Service Instance 2 - Production
-  backend-2:
-    build:
-      context: .
-      dockerfile: backend/Dockerfile
-    container_name: backend_prod_2
-    env_file:
-      - ./backend/.env
-    environment:
-      - REDIS_URL=redis://redis_prod:6379/0
-      - CELERY_BROKER_URL=redis://redis_prod:6379/0
-      - CELERY_RESULT_BACKEND=redis://redis_prod:6379/0
-      - INSTANCE_ID=backend-2
-    volumes:
-      - backend_uploads_prod:/app/uploads
-      - backend_audio_prod:/app/audio
-      - backend_backups_prod:/app/backups
-      - backend_reports_prod:/app/reports
-    networks:
-      - app-network
-    depends_on:
-      - db
-      - redis
-    restart: always
-    deploy:
-      resources:
-        limits:
-          memory: 6G
-          cpus: '3'
-        reservations:
-          memory: 4G
-          cpus: '2'
-    healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:8000/health || exit 1"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
-
-  # Celery worker for background tasks - Production Instance 1
+  # Celery worker - single instance for 2 vCPU
   celery-worker-1:
     build:
       context: .
@@ -153,70 +112,22 @@ services:
       celery -A app.core.celery_app worker 
       --loglevel=info 
       --pool=prefork 
-      --concurrency=8 
+      --concurrency=2 
       --queues=test_generation,audio_processing,evaluation,notifications,file_processing 
       --hostname=worker-1@%h 
-      --max-tasks-per-child=1000 
+      --max-tasks-per-child=500 
       --prefetch-multiplier=1
     restart: always
     deploy:
       resources:
         limits:
-          memory: 4G
-          cpus: '3'
+          memory: 512M
+          cpus: '0.5'
         reservations:
-          memory: 2G
-          cpus: '2'
+          memory: 128M
+          cpus: '0.25'
     healthcheck:
       test: ["CMD-SHELL", "celery -A app.core.celery_app inspect ping -d worker-1@celery_worker_prod_1 || exit 1"]
-      interval: 60s
-      timeout: 30s
-      retries: 3
-      start_period: 30s
-
-  # Celery worker for background tasks - Production Instance 2
-  celery-worker-2:
-    build:
-      context: .
-      dockerfile: backend/Dockerfile
-    container_name: celery_worker_prod_2
-    env_file:
-      - ./backend/.env
-    environment:
-      - REDIS_URL=redis://redis_prod:6379/0
-      - CELERY_BROKER_URL=redis://redis_prod:6379/0
-      - CELERY_RESULT_BACKEND=redis://redis_prod:6379/0
-      - WORKER_ID=worker-2
-      - PYTHONUNBUFFERED=1
-    volumes:
-      - backend_uploads_prod:/app/uploads
-      - backend_audio_prod:/app/audio
-      - backend_backups_prod:/app/backups
-    networks:
-      - app-network
-    depends_on:
-      - db
-      - redis
-    command: >
-      celery -A app.core.celery_app worker 
-      --loglevel=info 
-      --pool=prefork 
-      --concurrency=8 
-      --queues=test_generation,audio_processing,evaluation,notifications,file_processing 
-      --hostname=worker-2@%h 
-      --max-tasks-per-child=1000 
-      --prefetch-multiplier=1
-    restart: always
-    deploy:
-      resources:
-        limits:
-          memory: 4G
-          cpus: '3'
-        reservations:
-          memory: 2G
-          cpus: '2'
-    healthcheck:
-      test: ["CMD-SHELL", "celery -A app.core.celery_app inspect ping -d worker-2@celery_worker_prod_2 || exit 1"]
       interval: 60s
       timeout: 30s
       retries: 3
@@ -247,11 +158,8 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1G
-          cpus: '1'
-        reservations:
-          memory: 512M
-          cpus: '0.5'
+          memory: 256M
+          cpus: '0.25'
     healthcheck:
       test: ["CMD-SHELL", "ps aux | grep 'celery.*beat' | grep -v grep || exit 1"]
       interval: 60s

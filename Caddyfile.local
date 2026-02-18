@@ -18,7 +18,7 @@ localhost:80, entest.almv.kz:80 {
     # Health check endpoint
     handle /health {
         reverse_proxy {
-            to backend-1:8000 backend-2:8000
+            to backend-1:8000
             health_uri /health
             health_interval 30s
             health_timeout 10s
@@ -32,7 +32,7 @@ localhost:80, entest.almv.kz:80 {
     # Audio streaming endpoints with special handling
     handle /api/v1/tests/*/audio/* {
         reverse_proxy {
-            to backend-1:8000 backend-2:8000
+            to backend-1:8000
             
             # Load balancing for audio
             lb_policy least_conn
@@ -63,7 +63,7 @@ localhost:80, entest.almv.kz:80 {
         request_body max_size 2048m
         
         reverse_proxy {
-            to backend-1:8000 backend-2:8000
+            to backend-1:8000
             
             # Load balancing configuration
             lb_policy least_conn
@@ -94,7 +94,7 @@ localhost:80, entest.almv.kz:80 {
         request_body max_size 2048m
         
         reverse_proxy {
-            to backend-1:8000 backend-2:8000
+            to backend-1:8000
             
             # Load balancing configuration
             lb_policy least_conn
@@ -125,7 +125,7 @@ localhost:80, entest.almv.kz:80 {
         request_body max_size 1024m
         
         reverse_proxy {
-            to backend-1:8000 backend-2:8000
+            to backend-1:8000
             
             # Load balancing configuration
             lb_policy least_conn
@@ -154,7 +154,7 @@ localhost:80, entest.almv.kz:80 {
     # Proctoring files (no caching for security)
     handle /app/uploads/proctoring/* {
         reverse_proxy {
-            to backend-1:8000 backend-2:8000
+            to backend-1:8000
             lb_policy round_robin
         }
         
@@ -168,7 +168,7 @@ localhost:80, entest.almv.kz:80 {
     # Screen recordings (no caching for security)
     handle /app/uploads/screen_recordings/* {
         reverse_proxy {
-            to backend-1:8000 backend-2:8000
+            to backend-1:8000
             lb_policy round_robin
         }
         
@@ -182,7 +182,7 @@ localhost:80, entest.almv.kz:80 {
     # Screen recordings (no caching for security)
     handle /app/uploads/screen_recordings/* {
         reverse_proxy {
-            to backend-1:8000 backend-2:8000
+            to backend-1:8000
             lb_policy round_robin
         }
         
@@ -196,7 +196,7 @@ localhost:80, entest.almv.kz:80 {
     # Static file serving with caching
     handle /app/uploads/* {
         reverse_proxy {
-            to backend-1:8000 backend-2:8000
+            to backend-1:8000
             lb_policy round_robin
         }
         
@@ -241,7 +241,7 @@ localhost:80, entest.almv.kz:80 {
 localhost:8080 {
     handle /metrics {
         reverse_proxy {
-            to backend-1:8000 backend-2:8000
+            to backend-1:8000
             lb_policy round_robin
         }
     }

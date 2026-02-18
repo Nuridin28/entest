@@ -1,0 +1,741 @@
+[
+    {
+        "id": 1,
+        "text": "Looking ahead from the present position where food production has kept ahead of population growth globally, but has fallen per capita in 55 (mainly African) countries, it would seem that these trends will continue. About 30 countries - most of them African - can expect serious problems unless they reduce population growth and give higher priority to agriculture and conservation. Though a warmer, wetter earth with high CO2 levels is likely to be capable of producing more food, the amounts will still be inadequate for many poorer countries. In many cases, the population projections are greater than the entire local land resources can support.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Of all the countries in the world it is those in Africa___.",
+                "options": {
+                    "A": "which have taken the most drastic measures to prevent population growth",
+                    "B": "that are most threatened by food shortages",
+                    "C": "which are environmentally most at a disadvantage",
+                    "D": "that are most conscious of the need to preserve the environment",
+                    "E": "in which poverty has been greatly reduced through agricultural development"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "id": 2,
+                "statement": "It is argued in the passage that __________.",
+                "options": {
+                    "A": "changes in world climate are increasing the problems of food production",
+                    "B": "agricultural development will presently put an end to global food shortages",
+                    "C": "with the exception of African countries, the global production of food is adequate and likely to continue so",
+                    "D": "the conservation of land resources is of minor importance",
+                    "E": "every effort must be made to prevent the CO2 level from rising"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "id": 3,
+                "statement": "According to the passage, it is anticipated that_________________.",
+                "options": {
+                    "A": "the per capita income in Africa countries will continue to increase",
+                    "B": "food production will double in the years ahead",
+                    "C": "the present situation concerning population growth and food production will soon improve",
+                    "D": "all the African countries will soon solve all their population problems",
+                    "E": "unless serious measures are taken, the poor countries of the world will be faced with famine"
+                },
+                "correct_answer": "E"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "In one very long sentence, the introduction to the UN Charter expresses the ideals and the common goals of all the peoples whose governments joined together to form the UN. We the peoples of the UN determined to save succeeding generations from the scourge of war, which twice in our lifetime has brought untold suffering to mankind, and to reaffirm faith in fundamental rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, and for these ends, to practise tolerance and live together in peace with one another as good neighbours, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of economic and social advancement of all peoples, have resolved to combine our efforts to accomplish these aims.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "The first stated goal of the UN was ___",
+                "options": {
+                    "A": "to supervise peace treaties",
+                    "B": "to establish 'The United Nations'.",
+                    "C": "to assist the 'third world' countries",
+                    "D": "to prevent a third world war",
+                    "E": "to create a situation which supports justice and the fulfilment of international agreements"
+                },
+                "correct_answer": "E"
+            },
+            {
+                "id": 2,
+                "statement": "Under its Charter, the UN guarantees ___________",
+                "options": {
+                    "A": "to support economic and social advancement",
+                    "B": "never to use arms",
+                    "C": "better standards of housing",
+                    "D": "better education",
+                    "E": "the human rights"
+                },
+                "correct_answer": "E"
+            },
+            {
+                "id": 3,
+                "statement": "Succeeding (line 3) means ___.",
+                "options": {
+                    "A": "struggling",
+                    "B": "concentration",
+                    "C": "shared",
+                    "D": "following",
+                    "E": "successful"
+                },
+                "correct_answer": "D"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "A society like that of medieval England would nowadays be classified and described as 'pre-industrial'. Its income came mostly from agriculture and by far the largest proportion of its people was engaged in growing food. The numbers occupied in trade and industry formed a comparatively small proportion of the total; and even those so occupied often combined their industrial and commercial occupations with some agricultural pursuits that does not, however, mean that industrial and commercial activities were altogether insignificant and played little part in shaping the economic geography of the country or in directing the way of its economic development.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "In medieval England .....",
+                "options": {
+                    "A": "agriculture brought as high an income as industry",
+                    "B": "trade and industry were wholly unimportant",
+                    "C": "economic development depended on commerce",
+                    "D": "people made their living by working in factories",
+                    "E": "more people were engaged in agriculture than in industry"
+                },
+                "correct_answer": "E"
+            },
+            {
+                "id": 2,
+                "statement": "In the passage, the author emphasizes the _______________.",
+                "options": {
+                    "A": "increase in industrial activity in medieval England",
+                    "B": "relative significance of agriculture over industry",
+                    "C": "difficulty of growing food in the Middle Ages",
+                    "D": "role of industry in the development of agriculture",
+                    "E": "dependence of England on commerce for growth"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "id": 3,
+                "statement": "One can say that economic life in medieval England",
+                "options": {
+                    "A": "did not consist entirely of agriculture",
+                    "B": "played a significant part in the rise of the middle class",
+                    "C": "depended on agricultural activities only",
+                    "D": "changed the geography as well as the history of the country",
+                    "E": "was already more developed than in any other part of the world"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "When we go to the theatre we expect to find some excitement on the stage. We also hope not to be bored by a lack of a good plot or movement. We want our play to be somewhat close to real life, with characters whom we can recognize as having a 'psychology' like our own. We want them to entertain us and convey ideas and information which we did not have before.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Good plot and movement ...",
+                "options": {
+                    "A": "must not be boring for the audience",
+                    "B": "are among the elements we expect to find in a good play",
+                    "C": "are the main elements which are not often found in a play",
+                    "D": "can easily be found in every play",
+                    "E": "do not contribute to the enjoyment of a play"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "id": 2,
+                "statement": "To the author, .....",
+                "options": {
+                    "A": "we want to interpret the experiences of the players",
+                    "B": "everybody shouldn't expect to find himself in a play",
+                    "C": "nobody wants to see real life depicted in a play",
+                    "D": "characters in a play must relate to real people",
+                    "E": "we mustn't be emotionally affected by a play"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "id": 3,
+                "statement": "In the passage the writer thinks that a play...",
+                "options": {
+                    "A": "contains a number of unusual characters",
+                    "B": "should appeal to our senses only",
+                    "C": "must emphasize psychological rather than social reality",
+                    "D": "often has an undesirable effect on the audience",
+                    "E": "must offer us new ideas and experiences"
+                },
+                "correct_answer": "E"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Researches show that more than three cups of coffee a day can cause unpleasant symptoms such as nervousness, irritability and insomnia. Thus, although many people build up a certain tolerance for the stimulant, experiments indicate that caffeine users take longer to fall asleep than non-users and they also wake up more often. The effects of caffeine are similar in persons of all ages, but certain groups are particularly sensitive to the drug, including the elderly children, pregnant women, and those suffering from heart disease, hypertension, and emotional illness.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "One can understand from the passage that...",
+                "options": {
+                    "A": "children are particularly sensitive to some drugs",
+                    "B": "the effects of caffeine are deadly for all age groups",
+                    "C": "coffee drinkers must sleep less",
+                    "D": "caffeine is the only cause of nervousness",
+                    "E": "most people can tolerate a moderate amount of coffee a day"
+                },
+                "correct_answer": "E"
+            },
+            {
+                "id": 2,
+                "statement": "It is explained in the passage that...",
+                "options": {
+                    "A": "over a certain amount of caffeine has a harmful effect on our health",
+                    "B": "the elderly are more sensitive to caffeine than any other age group",
+                    "C": "caffeine is good for a sound sleep",
+                    "D": "heart patients can tolerate fairly large amounts of caffeine",
+                    "E": "the more caffeine one takes, the earlier one gets up"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "id": 3,
+                "statement": "The author stresses....",
+                "options": {
+                    "A": "how useful coffee is in our everyday life",
+                    "B": "that certain people should be particularly careful about their daily caffeine intake",
+                    "C": "the need for many people to watch their health in old age",
+                    "D": "how serious some bodily disorders are",
+                    "E": "the use of the experiments carried out to determine people's tolerance to various drugs"
+                },
+                "correct_answer": "B"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "The criminal justice system has three differently organized parts: the police, the courts and corrections. Each has separate tasks. But, these parts are by no means independent of each other. The courts must deal with those whom the police arrest; the business of corrections is to reform those delivered to it by the courts. However, it is not certain whether convicts can actually be reformed at all this way.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "The writer....",
+                "options": {
+                    "A": "believes that convicts receive unfair treatment in courts",
+                    "B": "does not refer to the organization of the criminal justice system",
+                    "C": "emphasizes the responsibility of the police in the prevention of crime",
+                    "D": "argues for stronger measures in the criminal justice system",
+                    "E": "is doubtful whether the justice system can reform criminals"
+                },
+                "correct_answer": "E"
+            },
+            {
+                "id": 2,
+                "statement": "The passage is mainly about ....",
+                "options": {
+                    "A": "the co-operation between the police and the courts",
+                    "B": "the ways through which convicts are reformed",
+                    "C": "the institutional structure and functions of the criminal justice system",
+                    "D": "the institutions which are not related to the criminal justice system",
+                    "E": "the reforms needed in the criminal justice system"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "id": 3,
+                "statement": "It is understood that the parts of the criminal justice system....",
+                "options": {
+                    "A": "have individually specified but interrelated duties",
+                    "B": "lay down principles for the arrest of convicts",
+                    "C": "do not depend on one another at all",
+                    "D": "must sometimes exchange their roles",
+                    "E": "are organized to conduct trials"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "Before starting your job, talk with the hiring manager or human resources professional to make sure you understand what constitutes acceptable outfit for your new workplace. There’s nothing more embarrassing than showing up wearing something that doesn’t fly with your supervisors.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Title _____________________",
+                "options": {
+                    "A": "Don’t lose confidence in yourself",
+                    "B": "Don’t try to change things",
+                    "C": "Don’t dress unprofessionally",
+                    "D": "Don’t be afraid to ask for help"
+                },
+                "correct_answer": "C"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "Many companies require new employees to go through a training process before starting a new position. While it may be tempting to skip these sessions or treat them lightly, don’t do it. Even if your training managers won’t be your direct supervisors, they are watching you.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Title____",
+                "options": {
+                    "A": "Don’t avoid the job orientation",
+                    "B": "Don’t be afraid to ask for help",
+                    "C": "Don’t lose confidence in yourself",
+                    "D": "Don’t take too long before you start work"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "No matter where you’re working, there are certain processes, tools, and forms that make up the standard operating procedures of your company. You may have been introduced to these through a very organized, systematic orientation, or you may feel like you’re expected to absorb them by osmosis. If you were formally informed, consider yourself fortunate, if not, don’t feel shortchanged or frustrated. Instead, take initiative and master the basics on your own.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Title ____",
+                "options": {
+                    "A": "Don’t be afraid to ask for help",
+                    "B": "Don’t avoid the job orientation",
+                    "C": "Don’t feel disappointed if you are not given total support",
+                    "D": "Don’t lose confidence in yourself"
+                },
+                "correct_answer": "C"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "It’s understandable that you may need help or guidance during your first few weeks at a new job, and asking co-workers for assistance or just to answer questions can be perfectly acceptable. But remember, you were hired because managers believed in your ability to get the job done. Ask for help if you need it, but believe in yourself and prove that you can do the work yourself.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Title ____",
+                "options": {
+                    "A": "Don’t be afraid to ask for help",
+                    "B": "Don’t lose confidence in yourself",
+                    "C": "Don’t spend time on private matters",
+                    "D": "Don’t be dishonest"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "text": "Most likely, you and your employer agreed to a certain salary during the hiring process. So don’t change your mind before you even show up at work. Don’t expect more money until you’ve worked long enough to prove your value to the employer.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Title ____",
+                "options": {
+                    "A": "Don’t lose confidence in yourself",
+                    "B": "Don’t show up late",
+                    "C": "Don’t demand a higher income",
+                    "D": "Don’t feel disappointed if you are not given total support"
+                },
+                "correct_answer": "C"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "text": "Of course you want to make a good impression as soon as you arrive at a new job, and show your new employer they made the right choice in hiring you. However, be cautious of suggesting new policies or strategies during your first few weeks, as it may not be the best way to demonstrate you are a team player. At first, take time to really understand and learn your job, then over time, you can make suggestions and changes as situations arise, and as your input and expertise is called upon.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Title",
+                "options": {
+                    "A": "Don’t lose confidence in yourself",
+                    "B": "Don’t take too long before you start work",
+                    "C": "Don’t spend time on private matters",
+                    "D": "Don’t try to change things"
+                },
+                "correct_answer": "D"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "text": "If you’ve been listening to the news you already know about our national obesity levels rising by the day. It has never been more important to watch what you are eating and to get an adequate amount of exercise and sleep to keep yourself fit and healthy. Though it may feel like really hard work at first, once you adopt an exercise routine and start __________ , you’ll forget you ever did things differently.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "",
+                "options": {
+                    "A": "to adapt to a new situation",
+                    "B": "to reduce your protein intake",
+                    "C": "to make further steps towards stopping completely",
+                    "D": "to get rid of and eradicate completely from your life"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "text": "Look at your diet and what you’re eating now and make changes where you see fit. If you are susceptible to snacking, keep a piece of fruit or a few nuts at hand. The key is to eat small meals throughout the day. Reduce portion sizes, take out white bread and replace with whole grains and make sure each meal contains at least one portion of fruit and – or vegetables. Healthy food doesn’t have __________ , and you can get an abundance of low priced fruit and veggies, like apples, bananas, potatoes and peas.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "",
+                "options": {
+                    "A": "to be expensive in the least bit",
+                    "B": "to maintain good health and keep fit",
+                    "C": "to get a full eight hours every night",
+                    "D": "to change your sleep patterns"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "text": "We all should be doing at least 30 minutes of exercise, 3 to 4 or more times a week, ________. This can be pretty much anything that is physical, like walking, cycling, running, swimming to weightlifting, etc. This too does not have to be expensive, and you can get a great work out without joining any costly gyms. Most of these exercises are inexpensive, and just doing a cardiovascular exercise, like walking, jogging, or walking on a treadmill a few times a week will do your body (and heart) good.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "",
+                "options": {
+                    "A": "to maintain good health and keep fit",
+                    "B": "to be expensive in the least bit",
+                    "C": "to adapt to a new situation",
+                    "D": "to get a full eight hours every night"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "text": "Emmanuel Mutai and Mary Keitany completed a Kenyan double as they won the men’s and women’s races at the 201 London Marathon. Mutai raced to a London record of two hours four minutes and 39 seconds, while Keithany won in 2:19.19, the fourth fastest women’s marathon ever. Russian defending champion Liliya Shobukhova was the women’s runner-up. Mutai told BBC Sport: “My dreams have come true; the day has come for me. My aim was just to win the race; I was not focusing on the time. “I am happy with the result, since I came to run in London, I was fourth twice and second once. It’s fantastic achievement for me personally.” Ethopian Aberu Kebede, last year's winner of the men's race, could only manage a ninth placed finish. Great Britain's Jo Pavey came through in a time of 2:28.24, the seventh fastest time by a British female athlete and inside the British Olympic qualifying time. Team-mate Louise Damen, the second British athlete across the line, was also inside the qualifying time in 2:30.00.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Question: Emmanuel Mutai broke the record for the fastest running time for the London marathon.",
+                "options": {
+                    "True": "True",
+                    "False": "False",
+                    "Not given": "Not given"
+                },
+                "correct_answer": "True"
+            },
+            {
+                "id": 2,
+                "statement": "Question: The female winner finished the race before the male winner.",
+                "options": {
+                    "True": "True",
+                    "False": "False",
+                    "Not given": "Not given"
+                },
+                "correct_answer": "Not given"
+            },
+            {
+                "id": 3,
+                "statement": "Question: The winner of last year's London Marathon came within the top five.",
+                "options": {
+                    "True": "True",
+                    "False": "False",
+                    "Not given": "Not given"
+                },
+                "correct_answer": "False"
+            },
+            {
+                "id": 4,
+                "statement": "Question: Two female British athletes have qualified for the Olympics.",
+                "options": {
+                    "True": "True",
+                    "False": "False",
+                    "Not given": "Not given"
+                },
+                "correct_answer": "True"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "text": "Hi! I’m E-tutor, or Emma. I’m here to help with any study-related problems, whether big or small.\nPost a message on the forum below.\nWhat should I say to my sister?\nHi, E-tutor. Unfortunately, I share a bedroom and a desk with my elder sister. She continually distracts me because she's noisy and disorganized. I think she's disrespectful. I’ve got exams in a fortnight and I desperately need to revise. I can’t concentrate when she’s studying too and the desk is always overflowing with stuff so I can’t find anything. If I try to have a dialogue with my sister, she gets annoyed. Can you help?\nRe: What should I say to my sister?\nHi, Meg. That’s a common complaint between siblings. Why don’t you discuss a rota system so that you use the desk at different times? Or maybe you could study at the local library, cultural center or community center a few days a week. Make sure you’ve got storage space for everything on your desk: folders and containers for your paper and stationery. If everything has its own place, it will be easier to keep orderly. It might even be enjoyable to do this together. If it’s easier to write instead of talking face to face, try messaging her and explain how awful you feel.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Question: Meg finds it difficult to talk to her sister.",
+                "options": {
+                    "True": "True",
+                    "False": "False",
+                    "Not given": "Not given"
+                },
+                "correct_answer": "True"
+            },
+            {
+                "id": 2,
+                "statement": "Question: E-tutor thinks Meg’s problem is unusual.",
+                "options": {
+                    "True": "True",
+                    "False": "False",
+                    "Not given": "Not given"
+                },
+                "correct_answer": "False"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "text": "Psychology is literally the study of the mind (or soul) but its area has broadened somewhat in the last century as we have learned that one cannot consider the mind as totally isolated from the body, and it now includes the study of human personality and behaviour. Psychologists also study the behaviour and brain of animals whenever such studies throw light on human behaviour. It is important to realize that psychologists are first and foremost trained as scientists rather than as medical experts and do not necessarily take much interest in abnormalities of the brain and mental process.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "As can be inferred from the passage, psychology __.",
+                "options": {
+                    "A": "has in time developed as a branch of medicine",
+                    "B": "has always been confined to the study of the mind",
+                    "C": "primarily concentrates on the study of animal behaviour",
+                    "D": "mostly deals with mental abnormalities",
+                    "E": "is not concerned with the mind alone, but also with human-personality and behaviour"
+                },
+                "correct_answer": "E"
+            },
+            {
+                "id": 2,
+                "statement": "In the passages, attention is drawn to the fact that________.",
+                "options": {
+                    "A": "psychologists give great importance to the study of mental processes for medical purposes",
+                    "B": "psychologists are basically scientists",
+                    "C": "the body and the mind are separate entities in the eyes of psychologists",
+                    "D": "the human mind can be best understood through the study of animal behaviour",
+                    "E": "there have been no noticeable developments in psychology since the last century"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "id": 3,
+                "statement": "Question: It is pointed out in the passage that __.",
+                "options": {
+                    "A": "a close cooperation between psychologists and medical experts is essential",
+                    "B": "the study of human behaviour alone is what interests present-day psychologists",
+                    "C": "as a branch of science, psychology is no longer to be understood in its literal sense",
+                    "D": "the mind and the body function independently",
+                    "E": "in recent years psychologists have concentrated mostly on the study of the mind"
+                },
+                "correct_answer": "C"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "text": "Against the clock\nMy problem is time – or lack of it! Next month I’ve got 12 exams in three weeks. How can I possibly study for all of them? It’s complicated. I think it's impossible.\nRe: Against the clock\nHi, Rudy. It isn’t impossible but you DO have to get started NOW. Make a study plan and highlight periods of study time for each subject. Make a detailed plan for this week and then do the same for the weeks ahead. It’s better to study for an hour or so a day than just once a week, all day. Your brain needs time to process.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Question: E-tutor thinks Rudy needs to start studying immediately",
+                "options": {
+                    "True": "True",
+                    "False": "False",
+                    "Not given": "Not given"
+                },
+                "correct_answer": "True"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "text": "In The Call of the Wild, Jack London tells the story of a dog named Buck, which is kidnapped from the safety of his California home and turned by the brutality of humans into a leader in a sled dog in the Klondike, and finally into a leader of the wolves. Powerfully written and deeply disturbing, the book calls attention to the hidden forces – in both human beings and beasts – that come to the surface in a struggle for survival. London unconsciously shows his sense of identification with nature of the wolf, both as a lone animal and, through strength and cunning, as the leader of the pack.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "According to the passage, the main idea of London’s story is that .............. .",
+                "options": {
+                    "A": "wild animals will, at all costs, try to return to their own environment",
+                    "B": "hidden powers in humans and animals are revealed when they struggle to survive",
+                    "C": "human being have treated animals throughout their history",
+                    "D": "not only humans but also animals can be kidnapped",
+                    "E": "a wolf has to be strong and cunning in order to be the leader of the pack"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "id": 2,
+                "statement": "We can infer from the passage that Buck .............. .",
+                "options": {
+                    "A": "was a pet dog before he was kidnapped",
+                    "B": "abandoned his home in California to join his own species",
+                    "C": "originally came from wolf parents",
+                    "D": "escaped from California because of humans’ brutality",
+                    "E": "used to be a sled dog before his escape"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "text": "Ecologists have recently discovered dozens of infectious wildlife diseases that pose a significant threat to the conservation of global biodiversity and the health of an expanding human population. For example, a newly discovered fungal disease has been linked to the drastic decline and possible extinction of amphibians in the rain forests of Central America and Australia. Other diseases have led to the extinction of African wild dog populations and blindness of kangaroos in Australia. Since wildlife can act as a natural reservoir for diseases that are extremely virulent among humans, such as influenza and West Nile virus, as the human population expands into wildlife habitat, the conditions ripen for a new disease to emerge. Emerging infectious diseases of wildlife are caused by the spillover of pathogens from domestic animals to wildlife populations, the transport of domestic and wildlife species around the globe, and even climate change in pristine wilderness areas.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "As a result of the expansion of human populations into wildlife habitats, ................ .",
+                "options": {
+                    "A": "the possibility of the occurrence of new diseases increases",
+                    "B": "people get more and more stalwart against such infectious diseases as influenza",
+                    "C": "they are affected by the different climate conditions positively",
+                    "D": "people find more food resources to live on",
+                    "E": "new residence areas are found where there is almost no risk of being ill"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "id": 2,
+                "statement": "The extinction of amphibians in the rain forests of Central America and Australia could have been caused by .................. .",
+                "options": {
+                    "A": "some infectious diseases that are still unknown",
+                    "B": "the expansion of mankind to new fertile regions",
+                    "C": "a fungal disease which has been detected lately",
+                    "D": "the fact that ancient people were ignorant of health-care",
+                    "E": "unsanitary living conditions ancient tribes were in"
+                },
+                "correct_answer": "C"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "text": "From Spain and North Africa through the central lands of Egypt, Syria and Iraq, to Iran and India in the East, and over a period of roughly twelve centuries, Islamic medicine has shown great variation and diversity. As cosmopolitan Islamic culture developed, shared traditions spanned vast areas and crossed many centuries. Yet local conditions and innumerable other factors produced considerable diversity. Communications over such a vast area during the course of several centuries were, as would be expected, neither uniform nor very swift, and the dispersion of ideas and texts from one region to another was uneven. The general health of the Islamic community was influenced by many factors: the climatic conditions of the desert, marsh, mountain and littoral communities; the different living conditions of nomadic, rural, and urban populations; local economic factors and agricultural successes or failures; population migration as well as travel undertaken for commerce, for attendance at courts, or as a pilgrimage; the injuries and diseases attendant upon army camps and battles; and the incidence of plague and other epidemics as well as the occurrence of endemic conditions such as trachoma and other eye diseases.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "From the passage it's clear that Islamic medicine ............. .",
+                "options": {
+                    "A": "started to be practised first in Spain and North Africa in the 8th century",
+                    "B": "was not respected by European physicians due to its out-of-date nature",
+                    "C": "spread over quite a wide region in a few centuries’ time",
+                    "D": "gained its popularity partly because of the European methods it adopted",
+                    "E": "was not so common a practice in European countries as it was in the East"
+                },
+                "correct_answer": "C"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "text": "Alfred Bernhard Nobel, a Swedish inventor and philanthropist, bequeathed most of his vast fortune in trust as a fund from which annual prizes could be awarded to individuals and organisations who had achieved the greatest benefit to humanity in a particular year. Originally, there were six classifications for outstanding contributions designated in Nobel’s will including, chemistry, physics, physiology or medicine, literature, and international peace. The prizes are administered by the Nobel Foundation in Stockholm. In 1969, a prize for economics endowed by the Central Bank of Sweden was added. Candidates for prizes must be nominated in writing by a qualified authority in the field of competition. Recipients in physics, chemistry, and economics are selected by the Royal Swedish Academy of sciences; in physiology or medicine by the Caroline Institute; in literature by the Swedish Academy; in peace by the Norwegian Nobel Committee appointed by Norway’s parliament. The prizes are all presented in Stocholm on December, 10, with the King of Sweden officiating, an appropriate tribute to Alfred Nobel on the anniversary of his death. Each one includes a gold medal, a diploma, and a cash award of about one million dollars.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "From the passage, it's understood that a person who has composed a symphony ............ .",
+                "options": {
+                    "A": "is regarded as a great contributor to mankind",
+                    "B": "used to take Nobel prizes before Alfred Nobel died",
+                    "C": "doesn't have the same possibility to get Nobel as a writer",
+                    "D": "might be awarded with a Nobel prize should the Nobel Foundation accept",
+                    "E": "doesn't have the right to be awarded with Nobel"
+                },
+                "correct_answer": "E"
+            },
+            {
+                "id": 2,
+                "statement": "In order to be nominated to one of the Nobel prizes, ............... .",
+                "options": {
+                    "A": "one should reside in Sweden and be a graduate of Royal Swedish academy",
+                    "B": "someone authority in the related branch should show his written approval of it",
+                    "C": "a scientist must find someone who will talk in favour of him before the Nobel committee",
+                    "D": "one should be experienced and have many research papers",
+                    "E": "someone should be in good terms with the Nobel Foundation in Stockholm"
+                },
+                "correct_answer": "B"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "text": "In recent years evidence has accumulated that polyunsaturated fatty acids function in protecting humans and some laboratory animals from diseases of the arteries and heart such as atherosclerosis. In this disease, small patches of fatty material, composed mostly of cholesterol, from on the inside lining of the arteries. As the deposits increase in thickness, they may cut down on the blood flow to the organs supplied by the arteries until the structures are severely damaged. If this occurs in a branch of the coronary artery supplying the heart muscle, that portion of the muscle dies, and the person experiences a painful and sometime fatal heart attack. Another danger of atherosclerosis is that pieces of the fatty deposits may break free and travel in the bloodstream until they lodge in small vessels and block the flow of blood. This blockage may also cause heart damage, or, if it occurs in the brain, may damage cells and lead to a grave stroke.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Researchers have found that polyunsaturated fatty acids ................ .",
+                "options": {
+                    "A": "might be able to guard people and certain animals from atherosclerosis",
+                    "B": "are the substances that cause atherosclerosis",
+                    "C": "are wrongly thought as helpful to the illnesses people face",
+                    "D": "block the arteries and, thus, cause heart attacks",
+                    "E": "cover the outside part of the blood vessels in thickness"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "text": "Some experts think that labour by children is not productive. According to Jean Maurie Derrien, an expert at ILO (International Labour Organisation), children work power is a vicious circle and does not make nations rich, but only causes poverty. The reason is because if children work, the level of education, qualified work power or profession, and the rate of earning will get lower. The lack of healthy food, poor housing and lack of immunisation from diseases brings low working capabilities and, thus, have many impacts on children for the rest of their lives. In order to solve these problems, ILO started a program called IPEC in such developing countries as Turkey, Brazil, India, which includes serial conferences, seminars, and other activities, The program is still continuing, therefore the results are yet to come.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "The author of the passage seems to suggest that ............. .",
+                "options": {
+                    "A": "unless immediate measures are taken, most parts of the world will turn poor",
+                    "B": "in a country where children work, poverty of the general public is inevitable",
+                    "C": "children labour generally happens in rich countries",
+                    "D": "children shouldn't work as it doesn't provide any benefit",
+                    "E": "when the education level of the working children improves, most countries will be richer"
+                },
+                "correct_answer": "B"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "text": "The Middle East faces a difficult environmental problem. Until the 1960s, many countries in the region had economies based totally on recyclable materials. No harmful waste existed. Everything was usable and anything that was thrown away was reused by nature. Since then the region has wholly embraced the pre-packaged, thrown-away life style. Unfortunately, the modern man-made waste continues to be treated as though it were organic, and is thrown away carelessly, so now there is litter everywhere, including plastic, which was one of the worst things that could have happened to the region.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "The author thinks there is so much litter in the region because people ........ .",
+                "options": {
+                    "A": "don’t realise that man-made materials are not reused by nature",
+                    "B": "are concentrating more on their profits than on the environment",
+                    "C": "already know that litter is a world wide problem with no solution",
+                    "D": "believe creating a modern economy is more important than environmental concerns",
+                    "E": "do not treat their waste in a special way before they discard them"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "text": "Aid to underdeveloped countries takes many forms and it is given for many reasons. Underdeveloped countries need aid to provide finance for development projects to provide foreign exchange with which imports for development purpose can be bought; and to provide the trained manpower and technical knowledge they lack. The motives of the donor are not always humanitarian. \"Aid can take a military form; it can be used to support an incompetent or unjust government. Nor is aid always beneficial to the recipient country. It may be wasted on ill-concerned or prestige projects, or cause the government simply to relax its own efforts.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "In the passage, it is argued that the reasons behind the aid given to underdeveloped countries______.",
+                "options": {
+                    "A": "are always of a military nature",
+                    "B": "are varied in purpose and in effect",
+                    "C": "can be disregarded altogether",
+                    "D": "invariably involved humanitarian principals",
+                    "E": "relate only to the technical needs of the recipient country"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "id": 2,
+                "statement": "One infers from the passage that what is generally referred to as aid ________.",
+                "options": {
+                    "A": "can really be regarded as a waste of resources",
+                    "B": "does not necessarily benefit the recipient country",
+                    "C": "is actually one country's intervention in another country's internal affairs",
+                    "D": "is in fact, monetary support for development projects only",
+                    "E": "usually leads to the overthrow of the government of the recipient country"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "id": 3,
+                "statement": "According to the passage, unless they receive aid, underdeveloped countries ________.",
+                "options": {
+                    "A": "cannot provide money and human recourses for development",
+                    "B": "will have to rely on foreign technical advice for many years to come",
+                    "C": "will loose their world-wide prestige",
+                    "D": "often face military coups",
+                    "E": "will be at the mercy of donor countries"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    }
+]

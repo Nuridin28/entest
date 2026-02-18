@@ -1,0 +1,2527 @@
+[
+    {
+        "id": 1,
+        "question": "Choose the correct option to complete this sentence:\nEverything you need for your climb can be found in the village situated at the _______ of the mountain.",
+        "options": {
+            "A": "head",
+            "B": "foot"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 2,
+        "question": "Choose the correct option to complete this sentence:\nHe bought the cottage with a _______ to doing it up and selling it at a later date.",
+        "options": {
+            "A": "eye",
+            "B": "heart"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 3,
+        "question": "Choose the correct option to complete this sentence:\nHe had always said yes. But this time he was going to put his ______ down.",
+        "options": {
+            "A": "hand",
+            "B": "foot"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 4,
+        "question": "Choose the correct option to complete this sentence:\nI don’t know off-_______ . I’ll have to look it up in the encyclopedia.",
+        "options": {
+            "A": "heart",
+            "B": "hand"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 5,
+        "question": "Choose the correct option to complete this sentence:\nI don’t think he’s really determined. In the end, he’ll get cold ________ and cancel the whole thing.",
+        "options": {
+            "A": "feet",
+            "B": "heart"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "question": "Choose the correct option to complete this sentence:\nIt was happening right under my _______ , and I didn’t realise it. I feel so stupid.",
+        "options": {
+            "A": "nose",
+            "B": "foot"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "question": "Choose the correct option to complete this sentence:\nIt’s a terrible car and what really gets up my ___________ is that I paid a fortune for it.",
+        "options": {
+            "A": "teeth",
+            "B": "nose"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 8,
+        "question": "Choose the correct option to complete this sentence:\nIt’s impossible to anticipate all the questions that you are going to be asked. You’re going to have to think on your ________.",
+        "options": {
+            "A": "head",
+            "B": "feet"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 9,
+        "question": "Choose the correct option to complete this sentence:\nMum had her ________ on the painting for months, so we bought it for her on her birthday.",
+        "options": {
+            "A": "heart",
+            "B": "eye"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 10,
+        "question": "Choose the correct option to complete this sentence:\nNow it looks like I’m going to have to _______ the bill for the repairs.",
+        "options": {
+            "A": "hand",
+            "B": "foot"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 11,
+        "question": "Choose the correct option to complete this sentence:\nThe lecturer had such a ridiculous voice that neither of us could keep a straight ________.",
+        "options": {
+            "A": "eye",
+            "B": "face"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 12,
+        "question": "Choose the correct option to complete this sentence:\nThe little girl was obviously very upset as she was sitting on the step crying her _______ out.",
+        "options": {
+            "A": "eyes",
+            "B": "chest"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 13,
+        "question": "Choose the correct option to complete this sentence:\nWe ought to _______ home. It’s late and I’m working early tomorrow.",
+        "options": {
+            "A": "hand",
+            "B": "head"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 14,
+        "question": "Choose the correct option to complete this sentence: We were the first company to set up business in China, so we have a _______ start over our competitors.",
+        "options": {
+            "A": "neck",
+            "B": "head"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 15,
+        "question": "Choose the correct option to complete this sentence: Why do you always have to stick your ______ into other people’s affairs?",
+        "options": {
+            "A": "hand",
+            "B": "nose"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 16,
+        "question": "Choose the correct option to complete this sentence: You have to _______ it to Joe – his company is a roaring success.",
+        "options": {
+            "A": "back",
+            "B": "hand"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 17,
+        "question": "Complete the collocations with an appropriate part of the body from the list below: He crossed his ................ .",
+        "options": {
+            "A": "Shoulders",
+            "B": "Heart",
+            "C": "Teeth",
+            "D": "Fist",
+            "E": "Eyebrows",
+            "F": "Legs",
+            "G": "Muscles"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 18,
+        "question": "Complete the collocations with an appropriate part of the body from the list below: She folded her ................ .",
+        "options": {
+            "A": "Eyelid",
+            "B": "Toe",
+            "C": "Throat",
+            "D": "Head",
+            "E": "Stomach",
+            "F": "Ankle",
+            "G": "Arms"
+        },
+        "correct_answer": "G"
+    },
+    {
+        "id": 19,
+        "question": "Complete the collocations with an appropriate part of the body from the list below: He stubbed his ................ .",
+        "options": {
+            "A": "Eyelid",
+            "B": "Toe",
+            "C": "Throat",
+            "D": "Head",
+            "E": "Stomach",
+            "F": "Ankle",
+            "G": "Arms"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 20,
+        "question": "Complete the collocations with an appropriate part of the body from the list below: He clenched his ................ .",
+        "options": {
+            "A": "Shoulders",
+            "B": "Heart",
+            "C": "Teeth",
+            "D": "Fist",
+            "E": "Eyebrows",
+            "F": "Legs",
+            "G": "Muscles"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 21,
+        "question": "Complete the collocations with an appropriate part of the body from the list below: His ............. was pounding.",
+        "options": {
+            "A": "Shoulders",
+            "B": "Heart",
+            "C": "Teeth",
+            "D": "Fist",
+            "E": "Eyebrows",
+            "F": "Legs",
+            "G": "Muscles"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 22,
+        "question": "Complete the collocations with an appropriate part of the body from the list below: He shook his ................ .",
+        "options": {
+            "A": "Eyelid",
+            "B": "Toe",
+            "C": "Throat",
+            "D": "Head",
+            "E": "Stomach",
+            "F": "Ankle",
+            "G": "Arms"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 23,
+        "question": "Complete the collocations with an appropriate part of the body from the list below: She sprained her ............. .",
+        "options": {
+            "A": "Eyelid",
+            "B": "Toe",
+            "C": "Throat",
+            "D": "Head",
+            "E": "Stomach",
+            "F": "Ankle",
+            "G": "Arms"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 24,
+        "question": "Complete the collocations with an appropriate part of the body from the list below: He cleared his ................ .",
+        "options": {
+            "A": "Eyelid",
+            "B": "Toe",
+            "C": "Throat",
+            "D": "Head",
+            "E": "Stomach",
+            "F": "Ankle",
+            "G": "Arms"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 25,
+        "question": "Complete the collocations with an appropriate part of the body from the list below: He didn’t bat a/an ................",
+        "options": {
+            "A": "Eyelid",
+            "B": "Toe",
+            "C": "Throat",
+            "D": "Head",
+            "E": "Eyebrow"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 26,
+        "question": "Complete the collocations with an appropriate part of the body from the list below: He shrugged his ................ .",
+        "options": {
+            "A": "Shoulders",
+            "B": "Heart",
+            "C": "Teeth",
+            "D": "Fist",
+            "E": "Eyebrows",
+            "F": "Legs",
+            "G": "Muscles"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 27,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: Your coach is right. What you need is two or three years’ playing experience under your ................. .",
+        "options": {
+            "A": "Socks",
+            "B": "Belt",
+            "C": "Trousers",
+            "D": "Hat",
+            "E": "Boot",
+            "F": "Cap"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 28,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: We were delayed taking off, the cabin crew were rude, and, to ................. it all, when we arrived in Prague, we were told that our luggage had been lost.",
+        "options": {
+            "A": "Socks",
+            "B": "Belt",
+            "C": "Trousers",
+            "D": "Hat",
+            "E": "Boot",
+            "F": "Cap"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 29,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: It's not difficult to see who wears the ................. in that house. Look at the way she orders him around.",
+        "options": {
+            "A": "Socks",
+            "B": "Belt",
+            "C": "Trousers",
+            "D": "Hat",
+            "E": "Boot",
+            "F": "Cap"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 30,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: These trousers fit me like a/an/- ................. .",
+        "options": {
+            "A": "Shoes",
+            "B": "Pocket",
+            "C": "Sleeve",
+            "D": "Belt",
+            "E": "Glove",
+            "F": "Collar"
+        },
+        "correct_answer": "E"
+    },
+    {
+        "id": 31,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: If you can't afford to lend me the money, tell me. I don't want you to be out of ................. .",
+        "options": {
+            "A": "Shoes",
+            "B": "Pocket",
+            "C": "Sleeve",
+            "D": "Belt",
+            "E": "Glove",
+            "F": "Collar"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 32,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: My opponent had a look of quiet confidence on his face. What did he have up his .................?",
+        "options": {
+            "A": "Shoes",
+            "B": "Pocket",
+            "C": "Sleeve",
+            "D": "Belt",
+            "E": "Glove",
+            "F": "Collar"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 33,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: It's time you pulled your ................. up and got down to some serious work. Your exam's next week.",
+        "options": {
+            "A": "Socks",
+            "B": "Belt",
+            "C": "Trousers",
+            "D": "Hat",
+            "E": "Boot",
+            "F": "Cap"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 34,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: I don't know what I'd do if I were in her ................. . I guess I'd take the promotion.",
+        "options": {
+            "A": "Shoes",
+            "B": "Pocket",
+            "C": "Sleeve",
+            "D": "Belt",
+            "E": "Glove",
+            "F": "Collar"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 35,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: He bought luxury cars, jewels and he'd throw large, extravagant parties at the drop of a ................. .",
+        "options": {
+            "A": "Socks",
+            "B": "Belt",
+            "C": "Trousers",
+            "D": "Hat",
+            "E": "Boot",
+            "F": "Cap"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 36,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: Why are you getting so hot under the .................? I only said I’d think about their suggestion.",
+        "options": {
+            "A": "Shoes",
+            "B": "Pocket",
+            "C": "Sleeve",
+            "D": "Belt",
+            "E": "Glove",
+            "F": "Collar"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 37,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: Granted he's not our most talented player, but calling him the worst football player on the planet was a bit below the ................. .",
+        "options": {
+            "A": "Socks",
+            "B": "Belt",
+            "C": "Trousers",
+            "D": "Hat",
+            "E": "Boot",
+            "F": "Cap"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 38,
+        "question": "Complete the idiom in the following sentences with an item of clothing from the list below: No, he didn't resign. He got the ................. .",
+        "options": {
+            "A": "Socks",
+            "B": "Belt",
+            "C": "Trousers",
+            "D": "Hat",
+            "E": "Boot",
+            "F": "Cap"
+        },
+        "correct_answer": "E"
+    },
+    {
+        "id": 39,
+        "question": "He doesn't want a _________ -collar job. He’d rather work outside than be stuck in an office all day.",
+        "options": {
+            "A": "Blue",
+            "B": "White"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 40,
+        "question": "I didn’t believe I’d won the prize until I saw it in black and ______.",
+        "options": {
+            "A": "Red",
+            "B": "White"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 41,
+        "question": "I didn’t realise hockey was such a violent game. I’m _______ and blue all over.",
+        "options": {
+            "A": "Mauve",
+            "B": "Black"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 42,
+        "question": "I parked and quickly ran into the bank. I didn't realise I'd left my car on a double _______ line.",
+        "options": {
+            "A": "Yellow",
+            "B": "White"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 43,
+        "question": "I wish I had _________ fingers like you. I only have to look at a plant and it dies.",
+        "options": {
+            "A": "Yellow",
+            "B": "Green"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 44,
+        "question": "If you don't know the company's number, look it up in the ________ Pages.",
+        "options": {
+            "A": "Blue",
+            "B": "Yellow"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 45,
+        "question": "Now that the chairman has given us the _______ light, we can go ahead and buy Proudfoot's company.",
+        "options": {
+            "A": "Red",
+            "B": "Green"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 46,
+        "question": "Only one of the nouns bellow goes with this adjective. Choose the correct one: a nail-biting …",
+        "options": {
+            "A": "finish",
+            "B": "person"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 47,
+        "question": "Only one of the nouns bellow goes with this adjective. Choose the correct one: a well-thumbed …",
+        "options": {
+            "A": "book",
+            "B": "road"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 48,
+        "question": "Only one of the nouns bellow goes with this adjective. Choose the correct one: a mouth-watering …",
+        "options": {
+            "A": "nap",
+            "B": "dessert"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 49,
+        "question": "Only one of the nouns bellow goes with this adjective. Choose the correct one: an eye-catching …",
+        "options": {
+            "A": "disease",
+            "B": "dress"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 50,
+        "question": "Only one of the nouns bellow goes with this adjective. Choose the correct one: a light-hearted …",
+        "options": {
+            "A": "comedy",
+            "B": "fruit"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 51,
+        "question": "Only one of the nouns bellow goes with this adjective. Choose the correct one: narrow-minded …",
+        "options": {
+            "A": "streets",
+            "B": "parents"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 52,
+        "question": "Only one of the nouns bellow goes with this adjective. Choose the correct one: a blood-curdling …",
+        "options": {
+            "A": "recipe",
+            "B": "scream"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 53,
+        "question": "Only one of the nouns bellow goes with this adjective. Choose the correct one: a hair-raising …",
+        "options": {
+            "A": "shampoo",
+            "B": "bus journey"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 54,
+        "question": "Only one of the nouns bellow goes with this adjective. Choose the correct one: a head-on …",
+        "options": {
+            "A": "collision",
+            "B": "decision"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 55,
+        "question": "Only one of the nouns bellow goes with this adjective. Choose the correct one: firsthand …",
+        "options": {
+            "A": "cars",
+            "B": "knowledge"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 56,
+        "question": "She went as _________ as a sheet when I mentioned his name. I had touched a raw and painful nerve.",
+        "options": {
+            "A": "White",
+            "B": "Blue"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 57,
+        "question": "The bank refused to lend me any more money as my account was in the _________.",
+        "options": {
+            "A": "Black",
+            "B": "Red"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 58,
+        "question": "We hadn’t seen her in years and then the other day she came to visit us out of the _________ .",
+        "options": {
+            "A": "Red",
+            "B": "Blue"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 59,
+        "question": "We live in the ________ belt just outside London. It's ideal as we live in the country but the city is right on the doorstep.",
+        "options": {
+            "A": "Green",
+            "B": "Black"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 60,
+        "question": "We only see each other once in a ________ moon, which is a shame really.",
+        "options": {
+            "A": "Blue",
+            "B": "White"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 61,
+        "question": "You can shout and argue until you're _______ in the face, but I'm not going to change my mind.",
+        "options": {
+            "A": "Red",
+            "B": "Blue"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 62,
+        "question": "You can’t deny that you did it. You were caught ______- handed.",
+        "options": {
+            "A": "Red",
+            "B": "Black"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 63,
+        "question": "You should have seen the _________ look she gave him when he criticised her work.",
+        "options": {
+            "A": "Black",
+            "B": "Blue"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 64,
+        "question": "You wouldn’t believe how much _______ tape is involved in getting a work permit here.",
+        "options": {
+            "A": "Red",
+            "B": "Green"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 65,
+        "question": "You're a coward. You're ________ . You were afraid to do it.",
+        "options": {
+            "A": "Yellow",
+            "B": "Green"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 66,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: PRECISE",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 67,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: NORMAL",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "E"
+    },
+    {
+        "id": 68,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: ACCURATE",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "G"
+    },
+    {
+        "id": 69,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: LOGICAL",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 70,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: ACCESSIBLE",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "G"
+    },
+    {
+        "id": 71,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: DISCREET",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "G"
+    },
+    {
+        "id": 72,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: LEGIBLE",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 73,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: OBEDIENT",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 74,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: PLAUSIBLE",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 75,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: ORTHODOX",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 76,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: PRACTICAL",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 77,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: SCRUPULOUS",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 78,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: RESPONSIBLE",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 79,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: REPLACEABLE",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 80,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: LOYAL",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 81,
+        "question": "Make the opposites of the given adjective by choosing one of the prefixes: RIPE",
+        "options": {
+            "A": "un-",
+            "B": "dis-",
+            "C": "ir-",
+            "D": "il-",
+            "E": "ab-",
+            "F": "im-",
+            "G": "in-"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 82,
+        "question": "Baby chimps ________ their mothers whereas human babies have to be carried.",
+        "options": {
+            "A": "cling",
+            "B": "cling to",
+            "C": "carry",
+            "D": "cling at"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 83,
+        "question": "If I had allowed for extra expenses like medical costs, I wouldn't have …",
+        "options": {
+            "A": "made a lot of money",
+            "B": "spent a lot of money",
+            "C": "run out of money"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 84,
+        "question": "You'll have to give the jacket back to whoever you …",
+        "options": {
+            "A": "bought it from",
+            "B": "sold it to",
+            "C": "borrowed it from"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 85,
+        "question": "A lot of famous musicians help charities and development projects by drumming up",
+        "options": {
+            "A": "great new songs",
+            "B": "support from their fans",
+            "C": "greedy politicians"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 86,
+        "question": "A newspaper relies on the honesty and accuracy of",
+        "options": {
+            "A": "its customers",
+            "B": "its reporters",
+            "C": "its news"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 87,
+        "question": "After checking his work, Lee's boss told him to carry on because he'd … .",
+        "options": {
+            "A": "made many mistakes",
+            "B": "finished the work",
+            "C": "done a good job"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 88,
+        "question": "After I've washed my shirts, I hang them up … .",
+        "options": {
+            "A": "in the drawer",
+            "B": "in the cupboard",
+            "C": "in the clothes basket"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 89,
+        "question": "After talking to his teacher, Jason has owned up to …",
+        "options": {
+            "A": "failing his exam",
+            "B": "passing his exam",
+            "C": "cheating in his exam"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 90,
+        "question": "After we'd boarded the plane, the stewardess handed out …",
+        "options": {
+            "A": "seats",
+            "B": "passengers",
+            "C": "drinks"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 91,
+        "question": "After we'd eaten our meal, we asked the waiter for …",
+        "options": {
+            "A": "the waitress",
+            "B": "the bill",
+            "C": "the food"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 92,
+        "question": "Before buying the phone, I tried it out to see … .",
+        "options": {
+            "A": "if I could break it",
+            "B": "if it worked properly",
+            "C": "how much it cost"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 93,
+        "question": "Before deciding to get a puppy, you need to carefully weigh up … .",
+        "options": {
+            "A": "the price you'll pay",
+            "B": "your other pets",
+            "C": "the benefits and drawbacks"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 94,
+        "question": "Before you buy the car, you'll have to pick out … .",
+        "options": {
+            "A": "some money",
+            "B": "a colour",
+            "C": "your driver's licence"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 95,
+        "question": "Clair and Ben named their daughter after Clair's grandmother Grace, so they are both called …",
+        "options": {
+            "A": "Clair",
+            "B": "Grace",
+            "C": "Granny"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 96,
+        "question": "Do you know what became of that girl Jane who used to work here? I haven't heard anything about her …",
+        "options": {
+            "A": "since yesterday",
+            "B": "for ages",
+            "C": "all day"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 97,
+        "question": "Hiroko asked Makiko out because he … .",
+        "options": {
+            "A": "wanted her to go away",
+            "B": "didn't believe what she'd said",
+            "C": "wanted to get to know her"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 98,
+        "question": "I bumped into my old friend Robert when I went to … .",
+        "options": {
+            "A": "his house for dinner",
+            "B": "see him play basketball",
+            "C": "the supermarket this morning"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 99,
+        "question": "I knew that money was missing from the company, but it never occurred to me that my partner was stealing it because I had … .",
+        "options": {
+            "A": "always suspected him",
+            "B": "never understood him",
+            "C": "always trusted him"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 100,
+        "question": "I wanted to read up on publishing fashion magazines, so I found … .",
+        "options": {
+            "A": "a book of fashion photography",
+            "B": "a popular fashion magazine",
+            "C": "a website on fashion magazines"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 101,
+        "question": "If Maria keeps coming to work late, she'll end up …",
+        "options": {
+            "A": "getting a promotion",
+            "B": "getting a raise",
+            "C": "getting fired"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 102,
+        "question": "If politicians are involved in corrupt activities, it means they are … .",
+        "options": {
+            "A": "investigating corruption",
+            "B": "fighting against corruption",
+            "C": "corrupt politicians"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 103,
+        "question": "If you give away a lot of money, most people will say you are …",
+        "options": {
+            "A": "a generous person",
+            "B": "a strange person",
+            "C": "a selfish person"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 104,
+        "question": "If you meet a salesman, they'll try to talk you into …",
+        "options": {
+            "A": "selling something",
+            "B": "buying something",
+            "C": "saving something"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 105,
+        "question": "If you need to find something out, you can … .",
+        "options": {
+            "A": "chat it up",
+            "B": "look it up",
+            "C": "save it up"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 106,
+        "question": "If you've used up all your prepaid phone calls, you'll have to …",
+        "options": {
+            "A": "get a new phone",
+            "B": "make fewer calls",
+            "C": "top up your phone account"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 107,
+        "question": "In a democracy, the decision on who will govern the country is left up to the country's … .",
+        "options": {
+            "A": "Great Leader",
+            "B": "king or queen",
+            "C": "citizens"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 108,
+        "question": "Isabel has grown up since the last time I saw her … .",
+        "options": {
+            "A": "six hours ago",
+            "B": "six days ago",
+            "C": "six years ago"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 109,
+        "question": "It would be wrong to sit in for someone if they couldn't make it to … .",
+        "options": {
+            "A": "a staff meeting",
+            "B": "a college exam",
+            "C": "a card game"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 110,
+        "question": "Jamal opted for overtime because he … .",
+        "options": {
+            "A": "needed to make more money",
+            "B": "wanted more time with his kids",
+            "C": "had stress-related health problems"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 111,
+        "question": "John and his father sound the same when they speak, so I can't tell them apart when they … .",
+        "options": {
+            "A": "walk into a room",
+            "B": "send me emails",
+            "C": "answer the phone"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 112,
+        "question": "Lots of people want to be published writers, but only those who stick at it for a long time … .",
+        "options": {
+            "A": "fail",
+            "B": "give up",
+            "C": "succeed"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 113,
+        "question": "Mark loves to show off. He's always trying to …",
+        "options": {
+            "A": "impress people",
+            "B": "avoid people",
+            "C": "annoy people"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 114,
+        "question": "Michael wants to be a world-class footballer, so he's working on … .",
+        "options": {
+            "A": "his favourite players",
+            "B": "the gym every day",
+            "C": "his ball-control skills"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 115,
+        "question": "My son has ruled out a career as a doctor because … .",
+        "options": {
+            "A": "he hates the sight of blood",
+            "B": "he thinks he'd be good at it",
+            "C": "he doesn't get sick very often"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 116,
+        "question": "Our cable TV company is doing a viewer survey, and they want us to fill out this … .",
+        "options": {
+            "A": "questionnaire",
+            "B": "TV guide",
+            "C": "new show"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 117,
+        "question": "Paul has worked out a way to … .",
+        "options": {
+            "A": "solve the problem",
+            "B": "create the problem",
+            "C": "increase the problem"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 118,
+        "question": "Sandra realised she'd left her passport behind, so she …",
+        "options": {
+            "A": "moved it to the front",
+            "B": "went back to get it",
+            "C": "took someone else's"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 119,
+        "question": "Sarah was kicked out of the exam room because she …",
+        "options": {
+            "A": "needed to go to the toilet",
+            "B": "finished early",
+            "C": "tried to cheat"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 120,
+        "question": "Smoking cigarettes can lead to … .",
+        "options": {
+            "A": "excellent health",
+            "B": "lung cancer",
+            "C": "sweet-smelling breath"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 121,
+        "question": "The accident investigator wrote up his final report on the fire after he had …",
+        "options": {
+            "A": "heard about the fire",
+            "B": "seen the fire",
+            "C": "reviewed his notes on the fire"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 122,
+        "question": "The best person to deal with a medical emergency would be …",
+        "options": {
+            "A": "a dealer",
+            "B": "a doctor",
+            "C": "a sick person"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 123,
+        "question": "The judge read the statement out because he …",
+        "options": {
+            "A": "wanted everyone to hear it",
+            "B": "didn't want anyone to hear it",
+            "C": "couldn't understand it"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 124,
+        "question": "The Olympic Games always end with … .",
+        "options": {
+            "A": "an Opening Ceremony",
+            "B": "a Closing Ceremony",
+            "C": "a Wedding Ceremony"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 125,
+        "question": "The taxation department is trying to stamp out … .",
+        "options": {
+            "A": "tax forms",
+            "B": "tax returns",
+            "C": "tax evasion"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 126,
+        "question": "There was a sale on yesterday with lots of nice clothes at very low prices. We missed out because we … .",
+        "options": {
+            "A": "got there early",
+            "B": "didn't like any of them",
+            "C": "didn't know about it"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 127,
+        "question": "These books belong to the college library, so you can …",
+        "options": {
+            "A": "keep them forever",
+            "B": "own them for a while",
+            "C": "borrow them for a while"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 128,
+        "question": "Vivian told me to watch out because there was …",
+        "options": {
+            "A": "something interesting on TV",
+            "B": "a bull running straight at me",
+            "C": "an important message on my desk"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 129,
+        "question": "When Tom saw his friends fighting some other boys, he joined in and ….",
+        "options": {
+            "A": "fought alongside them",
+            "B": "ran away to get help",
+            "C": "stood there watching"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 130,
+        "question": "You should follow up a potential sale with a call or an email to the customer …",
+        "options": {
+            "A": "before you meet them",
+            "B": "after you meet them",
+            "C": "while you meet them"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 131,
+        "question": "I wish George and his father would settle their ________ and start talking to each other again.",
+        "options": {
+            "A": "disagreements",
+            "B": "arguments",
+            "C": "differences",
+            "D": "problems"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 132,
+        "question": "Our car started making a strange noise, so we had to ________ to the side of the road.",
+        "options": {
+            "A": "drop sb off",
+            "B": "pull over",
+            "C": "put sb up",
+            "D": "pull out"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 133,
+        "question": "The police are ________ an investigation into the robbery.",
+        "options": {
+            "A": "carrying out",
+            "B": "working out",
+            "C": "searching out",
+            "D": "making out"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 134,
+        "question": "This area of town is beginning to look very ________ and impoverished.",
+        "options": {
+            "A": "put-down",
+            "B": "run-down",
+            "C": "broken-down",
+            "D": "worn-down"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 135,
+        "question": "She always keeps ___________ about how much money she has and all the things she can buy.",
+        "options": {
+            "A": "Believe in",
+            "B": "Drop in",
+            "C": "Live up to",
+            "D": "Make up",
+            "E": "Object to",
+            "F": "Put up with",
+            "G": "Show off"
+        },
+        "correct_answer": "G"
+    },
+    {
+        "id": 136,
+        "question": "After our quarrel we decided to go for a meal and ________.",
+        "options": {
+            "A": "Believe in",
+            "B": "Drop in",
+            "C": "Live up to",
+            "D": "Make up",
+            "E": "Object to",
+            "F": "Put up with",
+            "G": "Show off"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 137,
+        "question": "He is such an arrogant colleague. I don't want to _______ his behaviour any longer.",
+        "options": {
+            "A": "Believe in",
+            "B": "Drop in",
+            "C": "Live up to",
+            "D": "Make up",
+            "E": "Object to",
+            "F": "Put up with",
+            "G": "Show off"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 138,
+        "question": "He tried really hard and ran as fast as he could but simply couldn't __________ with the best runners.",
+        "options": {
+            "A": "Catch up",
+            "B": "Come across",
+            "C": "Drop off",
+            "D": "Hang out",
+            "E": "Head for",
+            "F": "Show up",
+            "G": "Work out"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 139,
+        "question": "I am going home anyway so I can _________ you _____ wherever you want.",
+        "options": {
+            "A": "Catch up",
+            "B": "Come across",
+            "C": "Drop off",
+            "D": "Head for",
+            "E": "Show up",
+            "F": "Take up",
+            "G": "Work out"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 140,
+        "question": "Mum ________ at the local fitness centre twice a week.",
+        "options": {
+            "A": "Catch up",
+            "B": "Come across",
+            "C": "Drop off",
+            "D": "Head for",
+            "E": "Show up",
+            "F": "Take up",
+            "G": "Work out"
+        },
+        "correct_answer": "G"
+    },
+    {
+        "id": 141,
+        "question": "The book I read didn't _________ my expectations, but maybe I was influenced by too many people.",
+        "options": {
+            "A": "Believe in",
+            "B": "Drop in",
+            "C": "Live up to",
+            "D": "Make up",
+            "E": "Object to",
+            "F": "Put up with",
+            "G": "Show off"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 142,
+        "question": "The mayor offered his version of the plan but local residents __________ it at once.",
+        "options": {
+            "A": "Believe in",
+            "B": "Drop in",
+            "C": "Live up to",
+            "D": "Make up",
+            "E": "Object to",
+            "F": "Put up with",
+            "G": "Show off"
+        },
+        "correct_answer": "E"
+    },
+    {
+        "id": 143,
+        "question": "They happened to be in the city for a short holiday so they just ___________ without calling in advance.",
+        "options": {
+            "A": "Believe in",
+            "B": "Drop in",
+            "C": "Live up to",
+            "D": "Make up",
+            "E": "Object to",
+            "F": "Put up with",
+            "G": "Show off"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 144,
+        "question": "We decided to _________ the south because the weather was much better there.",
+        "options": {
+            "A": "Catch up",
+            "B": "Come across",
+            "C": "Drop off",
+            "D": "Hang out",
+            "E": "Head for",
+            "F": "Show up",
+            "G": "Take up",
+            "H": "Work out"
+        },
+        "correct_answer": "E"
+    },
+    {
+        "id": 145,
+        "question": "We waited for over an hour but they simply didn't __________. Something might have happened to them.",
+        "options": {
+            "A": "Catch up",
+            "B": "Come across",
+            "C": "Drop off",
+            "D": "Hang out",
+            "E": "Head for",
+            "F": "Show up",
+            "G": "Take up",
+            "H": "Work out"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 146,
+        "question": "When I retire I'll _________ some new hobbies like fishing or playing golf.",
+        "options": {
+            "A": "Catch up",
+            "B": "Come across",
+            "C": "Hang out",
+            "D": "Head for",
+            "E": "Show up",
+            "F": "Take up",
+            "G": "Work out"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 147,
+        "question": "When I was a child I _________ Father Christmas, but that was a long time ago.",
+        "options": {
+            "A": "Believe in",
+            "B": "Drop in",
+            "C": "Live up to",
+            "D": "Make up",
+            "E": "Object to",
+            "F": "Put up with",
+            "G": "Show off"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 148,
+        "question": "When we looked through the old albums we __________ a photo of my aunt.",
+        "options": {
+            "A": "Catch up",
+            "B": "Come across",
+            "C": "Drop off",
+            "D": "Head for",
+            "E": "Show up",
+            "F": "Take up",
+            "G": "Work out"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 149,
+        "question": "When we went to high school we used to _________ on weekends in a nearby park.",
+        "options": {
+            "A": "Catch up",
+            "B": "Come across",
+            "C": "Drop off",
+            "D": "Hang out",
+            "E": "Head for",
+            "F": "Show up",
+            "G": "Take up"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 150,
+        "question": "A full scholarship to Harvard and you’re worried about leaving your job? Get real! You’d be a fool to ................ up a chance like that.",
+        "options": {
+            "A": "Turn",
+            "B": "Brush",
+            "C": "Pass",
+            "D": "Cast"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 151,
+        "question": "At first, her father was against her studying abroad, but later on he had a change of ........................ and let her go to Paris.",
+        "options": {
+            "A": "Thought",
+            "B": "Feeling",
+            "C": "Mind",
+            "D": "Heart"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 152,
+        "question": "Both the favourite and then the second favourite pulled out. Naturally, we thought we were ................ a chance.",
+        "options": {
+            "A": "in with",
+            "B": "up for",
+            "C": "in for",
+            "D": "up with"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 153,
+        "question": "Chris was ........................ between buying a new house and going on a round-the-world cruise.",
+        "options": {
+            "A": "Pulled",
+            "B": "Torn",
+            "C": "Moving",
+            "D": "Leaning"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 154,
+        "question": "Given the appalling weather conditions on top of the mountain, I’d say the chances of their finding any survivors are very ................ indeed.",
+        "options": {
+            "A": "Narrow",
+            "B": "Lean",
+            "C": "Remote",
+            "D": "Shallow"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 155,
+        "question": "Harry was offered a scholarship to study in Spain and he ................ the opportunity with both hands.",
+        "options": {
+            "A": "Grasped",
+            "B": "Grabbed",
+            "C": "Held",
+            "D": "Passed"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 156,
+        "question": "He admitted taking a bribe and he doesn’t think he’s ................ his chances of getting re-elected?",
+        "options": {
+            "A": "Pulled",
+            "B": "Wiped",
+            "C": "Thrown",
+            "D": "Blown"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 157,
+        "question": "I have to admit I’m in two ................... about whether to tell her or not.",
+        "options": {
+            "A": "Minds",
+            "B": "Choices",
+            "C": "Camps",
+            "D": "Options"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 158,
+        "question": "I suppose that there is a ................ chance that he could win, but I can’t see it happening, myself.",
+        "options": {
+            "A": "Thin",
+            "B": "Slim",
+            "C": "Meagre",
+            "D": "Short"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 159,
+        "question": "I was in a ........................ as to what to do. If I told the truth, he would get into trouble, but if I said nothing I would be in more trouble.",
+        "options": {
+            "A": "Doubt",
+            "B": "Quandary",
+            "C": "Hitch",
+            "D": "Complexity"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 160,
+        "question": "I wish you would stop sitting on the ........................ and decide whose side you’re on.",
+        "options": {
+            "A": "Fence",
+            "B": "Crossroads",
+            "C": "Wall",
+            "D": "Middle"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 161,
+        "question": "I’m ______ two minds whether to go or not.",
+        "options": {
+            "A": "over",
+            "B": "between",
+            "C": "for",
+            "D": "in"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 162,
+        "question": "If someone offered me a posting in South Africa, I’d ................ at the chance.",
+        "options": {
+            "A": "Bound",
+            "B": "Jump",
+            "C": "Grab",
+            "D": "Seize"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 163,
+        "question": "If you need a decent suit, go to Munns Stores. You’ll be ........................ for choice.",
+        "options": {
+            "A": "Overcome",
+            "B": "Ruined",
+            "C": "Spoilt",
+            "D": "Overwhelmed"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 164,
+        "question": "It took the selection panel only twenty minutes to ........................ to a decision.",
+        "options": {
+            "A": "Reach",
+            "B": "Arrive",
+            "C": "Come",
+            "D": "Clinch"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 165,
+        "question": "It was ................ by chance that we managed to find her.",
+        "options": {
+            "A": "Sheerly",
+            "B": "Purely",
+            "C": "Plainly",
+            "D": "Highly"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 166,
+        "question": "It was a difficult decision, but in the end we ................. for a state rather than a private pension scheme.",
+        "options": {
+            "A": "Chose",
+            "B": "Preferred",
+            "C": "Opted",
+            "D": "Selected"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 167,
+        "question": "No way will you beat him. You don’t ................ a chance. He’s a hundred times better than you are.",
+        "options": {
+            "A": "Hold",
+            "B": "Run",
+            "C": "Possess",
+            "D": "Stand"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 168,
+        "question": "Of all the entries received, his was ........................ out for special praise.",
+        "options": {
+            "A": "Isolated",
+            "B": "Brought",
+            "C": "Opted",
+            "D": "Singled"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 169,
+        "question": "Royson had deliberately disobeyed her orders. She had no alternative ........................ punish him.",
+        "options": {
+            "A": "but to",
+            "B": "to",
+            "C": "apart from",
+            "D": "than"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 170,
+        "question": "They were the best economic analysts in the United States – a team hand-........................ by the President himself.",
+        "options": {
+            "A": "Selected",
+            "B": "Picked",
+            "C": "Named",
+            "D": "Settled"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 171,
+        "question": "Two hundred and fifty people applied for the job. Of these, only twenty applicants were ........................ for interview.",
+        "options": {
+            "A": "Shortcut",
+            "B": "Short-changed",
+            "C": "Short-staffed",
+            "D": "Shortlisted"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 172,
+        "question": "We knew the concert was sold out, but we still went to the stadium ................ the off-chance that someone might want to sell us their tickets.",
+        "options": {
+            "A": "With",
+            "B": "By",
+            "C": "On",
+            "D": "In"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 173,
+        "question": "________, I believe that a goal is more likely to make us happy than people or things.",
+        "options": {
+            "A": "As a result",
+            "B": "Certainly",
+            "C": "As for",
+            "D": "Regarding"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 174,
+        "question": "Kids do it when they can’t keep still.",
+        "options": {
+            "A": "Nudge",
+            "B": "Duck",
+            "C": "Kneel",
+            "D": "Crouch",
+            "E": "Tremble",
+            "F": "Fidget"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 175,
+        "question": "Some people do it when they pray.",
+        "options": {
+            "A": "Nudge",
+            "B": "Duck",
+            "C": "Kneel",
+            "D": "Crouch",
+            "E": "Tremble",
+            "F": "Fidget"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 176,
+        "question": "To gently push sb with your elbow to get someone’s attention.",
+        "options": {
+            "A": "Nudge",
+            "B": "Duck",
+            "C": "Kneel",
+            "D": "Crouch",
+            "E": "Tremble",
+            "F": "Fidget"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 177,
+        "question": "To move into a position where your body makes a rounded shape. You do it on the floor or on a big sofa, often whilst reading a book or watching television.",
+        "options": {
+            "A": "Curl up",
+            "B": "Shudder",
+            "C": "Frown",
+            "D": "Nod",
+            "E": "Shiver",
+            "F": "Flinch"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 178,
+        "question": "When you shake because you are cold, you do it.",
+        "options": {
+            "A": "Curl up",
+            "B": "Shudder",
+            "C": "Frown",
+            "D": "Nod",
+            "E": "Shiver",
+            "F": "Flinch"
+        },
+        "correct_answer": "E"
+    },
+    {
+        "id": 179,
+        "question": "When you shake because you are frightened, you do it.",
+        "options": {
+            "A": "Shiver",
+            "B": "Duck",
+            "C": "Kneel",
+            "D": "Crouch",
+            "E": "Tremble",
+            "F": "Fidget"
+        },
+        "correct_answer": "E"
+    },
+    {
+        "id": 180,
+        "question": "When you shake momentarily because you have seen, heard or eaten something unpleasant, you do it.",
+        "options": {
+            "A": "Curl up",
+            "B": "Shudder",
+            "C": "Frown",
+            "D": "Nod",
+            "E": "Shiver",
+            "F": "Flinch"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 181,
+        "question": "You do it to avoid something that has been thrown at your head.",
+        "options": {
+            "A": "Nudge",
+            "B": "Duck",
+            "C": "Kneel",
+            "D": "Crouch",
+            "E": "Tremble",
+            "F": "Fidget"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 182,
+        "question": "You do it when you lower your body to the ground by bending your knees. When a football team is having its photograph taken, the players in the front row do it.",
+        "options": {
+            "A": "Nudge",
+            "B": "Duck",
+            "C": "Kneel",
+            "D": "Crouch",
+            "E": "Tremble",
+            "F": "Fidget"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 183,
+        "question": "You do it when you make a small sudden movement because something has hurt you (an injection, for example) or something has made you jump.",
+        "options": {
+            "A": "Curl up",
+            "B": "Shudder",
+            "C": "Frown",
+            "D": "Nod",
+            "E": "Shiver",
+            "F": "Flinch"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 184,
+        "question": "You do it with your eyebrows when you are angry or you don’t understand.",
+        "options": {
+            "A": "Curl up",
+            "B": "Shudder",
+            "C": "Frown",
+            "D": "Nod",
+            "E": "Shiver",
+            "F": "Flinch"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 185,
+        "question": "You do it with your head when you are agreeing with someone or when you are saying yes.",
+        "options": {
+            "A": "Curl up",
+            "B": "Shudder",
+            "C": "Frown",
+            "D": "Nod",
+            "E": "Shiver",
+            "F": "Flinch"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 186,
+        "question": "You knead ......................",
+        "options": {
+            "A": "a turkey",
+            "B": "eggs",
+            "C": "sugar",
+            "D": "a frozen chicken",
+            "E": "dough",
+            "F": "cream"
+        },
+        "correct_answer": "E"
+    },
+    {
+        "id": 187,
+        "question": "You whip ......................",
+        "options": {
+            "A": "a turkey",
+            "B": "eggs",
+            "C": "sugar",
+            "D": "a frozen chicken",
+            "E": "dough",
+            "F": "cream"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 188,
+        "question": "You baste ......................",
+        "options": {
+            "A": "a sauce",
+            "B": "a cake",
+            "C": "cheese",
+            "D": "coffee beans",
+            "E": "prawns",
+            "F": "meat"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 189,
+        "question": "You stuff ......................",
+        "options": {
+            "A": "a turkey",
+            "B": "eggs",
+            "C": "sugar",
+            "D": "a frozen chicken",
+            "E": "dough",
+            "F": "cream"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 190,
+        "question": "You grind ......................",
+        "options": {
+            "A": "a sauce",
+            "B": "a cake",
+            "C": "cheese",
+            "D": "coffee beans",
+            "E": "prawns",
+            "F": "meat"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 191,
+        "question": "You grate ......................",
+        "options": {
+            "A": "a sauce",
+            "B": "a cake",
+            "C": "cheese",
+            "D": "coffee beans",
+            "E": "prawns",
+            "F": "meat"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 192,
+        "question": "You beat ......................",
+        "options": {
+            "A": "a turkey",
+            "B": "eggs",
+            "C": "sugar",
+            "D": "a frozen chicken",
+            "E": "dough",
+            "F": "cream"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 193,
+        "question": "You pluck ......................",
+        "options": {
+            "A": "a turkey",
+            "B": "eggs",
+            "C": "sugar",
+            "D": "a frozen chicken",
+            "E": "dough",
+            "F": "cream"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 194,
+        "question": "You roast ......................",
+        "options": {
+            "A": "a sauce",
+            "B": "a cake",
+            "C": "cheese",
+            "D": "coffee beans",
+            "E": "prawns",
+            "F": "meat"
+        },
+        "correct_answer": "F"
+    },
+    {
+        "id": 195,
+        "question": "You defrost ......................",
+        "options": {
+            "A": "a turkey",
+            "B": "eggs",
+            "C": "sugar",
+            "D": "a frozen chicken",
+            "E": "dough",
+            "F": "cream"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 196,
+        "question": "You shell ......................",
+        "options": {
+            "A": "a sauce",
+            "B": "a cake",
+            "C": "cheese",
+            "D": "coffee beans",
+            "E": "prawns",
+            "F": "meat"
+        },
+        "correct_answer": "E"
+    },
+    {
+        "id": 197,
+        "question": "I don’t mind swimming in the sea, _______ cold it is.",
+        "options": {
+            "A": "no matter",
+            "B": "however",
+            "C": "whenever",
+            "D": "whichever"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 198,
+        "question": "Languages develop over thousands of years to become ________ when the last speaker dies.",
+        "options": {
+            "A": "void",
+            "B": "conveyed",
+            "C": "extinct",
+            "D": "pinpointed"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 199,
+        "question": "I was born and bred in London so I know the city like the back of my .................. .",
+        "options": {},
+        "correct_answer": "hand"
+    },
+    {
+        "id": 200,
+        "question": "Something was different about the place, but I just couldn’t put my .................. on what it was.",
+        "options": {},
+        "correct_answer": "finger"
+    },
+    {
+        "id": 201,
+        "question": "She stayed with us for six weeks and she was a real pain in the .................. . All she did was criticise me and complain about everything.",
+        "options": {},
+        "correct_answer": "neck"
+    },
+    {
+        "id": 202,
+        "question": "When she left, I was glad to see the .................. of her.",
+        "options": {},
+        "correct_answer": "back"
+    },
+    {
+        "id": 203,
+        "question": "I think it’s time we got a new television. This one is on its last .................. .",
+        "options": {},
+        "correct_answer": "legs"
+    },
+    {
+        "id": 204,
+        "question": "It is difficult to make ends meet when you are the sole ................... for a large family.",
+        "options": {},
+        "correct_answer": "breadwinner"
+    },
+    {
+        "id": 205,
+        "question": "They said I was the best boss they had ever had, but I think they were just trying to ...................... me up.",
+        "options": {},
+        "correct_answer": "butter"
+    },
+    {
+        "id": 206,
+        "question": "The police ................ the suspects for over six hours.",
+        "options": {},
+        "correct_answer": "grilled"
+    },
+    {
+        "id": 207,
+        "question": "My exam was a piece of ............. . It couldn’t have been easier.",
+        "options": {},
+        "correct_answer": "cake"
+    },
+    {
+        "id": 208,
+        "question": "Malcolm’s still angry about being passed over for promotion but he should soon ........................ down.",
+        "options": {},
+        "correct_answer": "simmer"
+    },
+    {
+        "id": 209,
+        "question": "You pay her £25 a week! That’s ........................ for a woman of her experience. (Meaning too little)",
+        "options": {},
+        "correct_answer": "peanuts"
+    },
+    {
+        "id": 210,
+        "question": "He’s got football on the .................. . It’s all he ever talks about.",
+        "options": {},
+        "correct_answer": "brain"
+    },
+    {
+        "id": 211,
+        "question": "“Turn on the air conditioning,” she said. “It’s like a ........... in here.”",
+        "options": {},
+        "correct_answer": "oven"
+    },
+    {
+        "id": 212,
+        "question": "I’m afraid an adventure holiday is not really my cup of ..................... . I’d rather laze by the pool at a luxury hotel.",
+        "options": {},
+        "correct_answer": "tea"
+    },
+    {
+        "id": 213,
+        "question": "The boss went ................... when I told him that Jamieson plc. had pulled out of the merger deal.",
+        "options": {},
+        "correct_answer": "bananas"
+    },
+    {
+        "id": 214,
+        "question": "My sister and I may look alike, but in character we’re as different as chalk and ..................... .",
+        "options": {},
+        "correct_answer": "cheese"
+    },
+    {
+        "id": 215,
+        "question": "She exaggerates everything, so take anything she says with a pinch of ..................... .",
+        "options": {},
+        "correct_answer": "salt"
+    },
+    {
+        "id": 216,
+        "question": "It was a joke! I was just pulling your .................. .",
+        "options": {},
+        "correct_answer": "leg"
+    },
+    {
+        "id": 217,
+        "question": "They’re so lucky! I’d give my right .................. for a house like theirs.",
+        "options": {},
+        "correct_answer": "arm"
+    },
+    {
+        "id": 218,
+        "question": "He fell head over .................. in love the minute she walked into the room.",
+        "options": {},
+        "correct_answer": "heels"
+    },
+    {
+        "id": 219,
+        "question": "Business has been awful. We’ve been losing money head over .................. .",
+        "options": {},
+        "correct_answer": "fist"
+    },
+    {
+        "id": 220,
+        "question": "Do you see how much better you feel now that you have got it off your ..................?",
+        "options": {},
+        "correct_answer": "chest"
+    },
+    {
+        "id": 221,
+        "question": "“There’s no way we can afford it,” she said. “It’ll cost an .................. and a leg",
+        "options": {},
+        "correct_answer": "arm"
+    },
+    {
+        "id": 222,
+        "question": "She had set her .................. on studying at Oxford but they turned her down.",
+        "options": {},
+        "correct_answer": "heart"
+    },
+    {
+        "id": 223,
+        "question": "We’re receiving food, but it is only arriving in dribs and ​_________.",
+        "options": {},
+        "correct_answer": "drabs"
+    },
+    {
+        "id": 224,
+        "question": "We’re talking about my family here, my own flesh and _____. Of course I trust them.",
+        "options": {},
+        "correct_answer": "blood"
+    },
+    {
+        "id": 225,
+        "question": "That is an out-and-_____ lie; you’ve made it all up!",
+        "options": {},
+        "correct_answer": "out"
+    },
+    {
+        "id": 226,
+        "question": "Having your private life splashed across the front pages of newspapers and glossy magazines is part and ______ of being a celebrity.",
+        "options": {},
+        "correct_answer": "parcel"
+    },
+    {
+        "id": 227,
+        "question": "We took a couple of days off and went to the country for a bit of peace and ____.",
+        "options": {},
+        "correct_answer": "quiet"
+    },
+    {
+        "id": 228,
+        "question": "His daughter is his pride and _____.",
+        "options": {},
+        "correct_answer": "joy"
+    },
+    {
+        "id": 229,
+        "question": "She’s far too prim and _______ to have written anything as scandalous as that.",
+        "options": {},
+        "correct_answer": "proper"
+    },
+    {
+        "id": 230,
+        "question": "After a lot of pushing and _______, I finally made it to the counter where everything had been reduced by 50%.",
+        "options": {},
+        "correct_answer": "shoving"
+    },
+    {
+        "id": 231,
+        "question": "The two children, who had been missing for three days, were found safe and ______ hiding in an abandoned mine shaft.",
+        "options": {},
+        "correct_answer": "sound"
+    },
+    {
+        "id": 232,
+        "question": "When I get back, I want this place looking spick and ____.",
+        "options": {},
+        "correct_answer": "span"
+    },
+    {
+        "id": 233,
+        "question": "It was touch and _____ whether they would allow us to leave the country.",
+        "options": {},
+        "correct_answer": "go"
+    },
+    {
+        "id": 234,
+        "question": "If we leave bright and ​_______ tomorrow morning, we should get there by midday.",
+        "options": {},
+        "correct_answer": "early"
+    },
+    {
+        "id": 235,
+        "question": "The government has introduced a scheme whereby up-and-_____ young athletes will receive financial support.",
+        "options": {},
+        "correct_answer": "coming"
+    },
+    {
+        "id": 236,
+        "question": "What family doesn’t have its ups and _____?",
+        "options": {},
+        "correct_answer": "downs"
+    },
+    {
+        "id": 237,
+        "question": "Even allowing for wear and _____, these chair covers should last for at least fifteen years.",
+        "options": {},
+        "correct_answer": "tear"
+    },
+    {
+        "id": 238,
+        "question": "After walking for three hours, we realised that we were well and _____ lost.",
+        "options": {},
+        "correct_answer": "truly"
+    },
+    {
+        "id": 239,
+        "question": "What do you mean I cheated? I won fair and ________, and you know it.",
+        "options": {},
+        "correct_answer": "square"
+    },
+    {
+        "id": 240,
+        "question": "By and ______, most people would prefer to have a badly paid job that they liked rather than a well paid job that they disliked.",
+        "options": {},
+        "correct_answer": "large"
+    },
+    {
+        "id": 241,
+        "question": "Good jobs are few and ______ between in days of high unemployment.",
+        "options": {},
+        "correct_answer": "far"
+    },
+    {
+        "id": 242,
+        "question": "A shorter lunch break is new company policy, so we’ll just have to grin and ______ it.",
+        "options": {},
+        "correct_answer": "bear"
+    },
+    {
+        "id": 243,
+        "question": "We have yet to discuss all the ins and ______ of his proposal.",
+        "options": {},
+        "correct_answer": "outs"
+    },
+    {
+        "id": 244,
+        "question": "I was only 10 minutes late. Why are you making such a song and _____ about it?",
+        "options": {},
+        "correct_answer": "dance"
+    },
+    {
+        "id": 245,
+        "question": "Everything had been packed away in boxes except for a few odds and _____.",
+        "options": {},
+        "correct_answer": "ends"
+    },
+    {
+        "id": 246,
+        "question": "He set out to prove once and for ____ that Deakin’s alibi was nothing but a tissue of lies.",
+        "options": {},
+        "correct_answer": "all"
+    }
+]

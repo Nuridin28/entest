@@ -1,0 +1,596 @@
+[
+    {
+        "id": 1,
+        "question": "________ you speak French before you moved to Paris?",
+        "options": {
+            "A": "Can",
+            "B": "Could",
+            "C": "Managed to",
+            "D": "Couldn’t"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 2,
+        "question": "_____John give you those flowers?",
+        "options": {
+            "A": "Did",
+            "B": "Have",
+            "C": "Was",
+            "D": "Is"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 3,
+        "question": "A football match lasts______ninety minutes.",
+        "options": {
+            "A": "while",
+            "B": "during",
+            "C": "for",
+            "D": "in"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 4,
+        "question": "_____I was in Paris, I made a lot of friends.",
+        "options": {
+            "A": "While",
+            "B": "During",
+            "C": "For",
+            "D": "In"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "question": "______ my stay in hospital, the nurses looked after me very well.",
+        "options": {
+            "A": "While",
+            "B": "During",
+            "C": "For",
+            "D": "In"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "question": "He hates ___ calculators.",
+        "options": {
+            "A": "use",
+            "B": "using",
+            "C": "used",
+            "D": "to use"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 7,
+        "question": "Can we go ______quiet?",
+        "options": {
+            "A": "somewhere",
+            "B": "anywhere",
+            "C": "nowhere",
+            "D": "everywhere"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "question": "Come and see me ____ you want. I don’t mind.",
+        "options": {
+            "A": "some time",
+            "B": "any time",
+            "C": "no time",
+            "D": "every time"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 9,
+        "question": "Give me Peter’s letter. If I ___him, I ___it to him.",
+        "options": {
+            "A": "see-will give",
+            "B": "saw-would give",
+            "C": "meet-would visit",
+            "D": "had seen- would give"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "question": "Can I have______to drink?",
+        "options": {
+            "A": "something",
+            "B": "anything",
+            "C": "nothing",
+            "D": "everything"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 11,
+        "question": "Anna likes ice-cream but John ____.",
+        "options": {
+            "A": "haven’t",
+            "B": "hasn’t",
+            "C": "isn’t",
+            "D": "doesn’t"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 12,
+        "question": "How many people ______you invited to the party?",
+        "options": {
+            "A": "was",
+            "B": "have",
+            "C": "did",
+            "D": "were"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 13,
+        "question": "I _____ extra money teaching computer studies.",
+        "options": {
+            "A": "earn",
+            "B": "earns",
+            "C": "win",
+            "D": "buy"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 14,
+        "question": "I _____ lunch in the university canteen.",
+        "options": {
+            "A": "eats",
+            "B": "have",
+            "C": "drink",
+            "D": "has"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 15,
+        "question": "I _____ my homework very quickly last night.",
+        "options": {
+            "A": "do",
+            "B": "have",
+            "C": "did",
+            "D": "am"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 16,
+        "question": "I _____ the traffic in Bangkok.",
+        "options": {
+            "A": "play",
+            "B": "have",
+            "C": "hate",
+            "D": "has"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 17,
+        "question": "I don’t like ice-cream but Jill ______.",
+        "options": {
+            "A": "have",
+            "B": "has",
+            "C": "is",
+            "D": "does"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 18,
+        "question": "I have been to Australia but Anna _____ .",
+        "options": {
+            "A": "haven’t",
+            "B": "hasn’t",
+            "C": "isn’t",
+            "D": "doesn’t"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 19,
+        "question": "I have to work about 80 hours a week, so I’m very busy. But if I ____ any spare time, I _____a sport like golf.",
+        "options": {
+            "A": "will have/will take up",
+            "B": "had/will take up",
+            "C": "will have/had",
+            "D": "had/would take up"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 20,
+        "question": "I learned to drive ____ 1980 ___the age of 17.",
+        "options": {
+            "A": "at/at",
+            "B": "in/at",
+            "C": "on/at",
+            "D": "* /at"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 21,
+        "question": "I lived in Paris ____several years.",
+        "options": {
+            "A": "while",
+            "B": "during",
+            "C": "for",
+            "D": "in"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 22,
+        "question": "I phoned yesterday, but I ______get an answer. Where were you?",
+        "options": {
+            "A": "can",
+            "B": "could",
+            "C": "managed to",
+            "D": "couldn’t"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 23,
+        "question": "I was in hospital _____ three weeks.",
+        "options": {
+            "A": "while",
+            "B": "during",
+            "C": "for",
+            "D": "in"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 24,
+        "question": "I watched TV last night but my sister_____.",
+        "options": {
+            "A": "hasn’t",
+            "B": "didn’t",
+            "C": "isn’t",
+            "D": "doesn’t"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 25,
+        "question": "I went for a ten-mile run last Saturday. It nearly killed me! I _______ move on Sunday.",
+        "options": {
+            "A": "can",
+            "B": "could",
+            "C": "managed to",
+            "D": "couldn’t"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 26,
+        "question": "I would hate __ your party.",
+        "options": {
+            "A": "miss",
+            "B": "miss to",
+            "C": "missed",
+            "D": "to miss"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 27,
+        "question": "If I___ taller, I ____be a policeman, but I’m too short.",
+        "options": {
+            "A": "was/can",
+            "B": "had/could",
+            "C": "were/could",
+            "D": "am/will"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 28,
+        "question": "If you need ____, just ask.",
+        "options": {
+            "A": "something",
+            "B": "anything",
+            "C": "nothing",
+            "D": "everything"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 29,
+        "question": "In my country you______ get married when you’re sixteen.",
+        "options": {
+            "A": "can",
+            "B": "could",
+            "C": "managed to",
+            "D": "couldn’t"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 30,
+        "question": "It _____ her fifteen minutes to______ school.",
+        "options": {
+            "A": "took/go",
+            "B": "has taken/ walk",
+            "C": "takes/walk",
+            "D": "takes/to walk"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 31,
+        "question": "John loves flying but we ______.",
+        "options": {
+            "A": "haven’t",
+            "B": "don’t",
+            "C": "isn’t",
+            "D": "doesn’t"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 32,
+        "question": "Lots of trees_____blown down by the wind.",
+        "options": {
+            "A": "were",
+            "B": "has",
+            "C": "did",
+            "D": "is"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 33,
+        "question": "Maria isn’t studying hard but I ______.",
+        "options": {
+            "A": "have",
+            "B": "has",
+            "C": "am",
+            "D": "are"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 34,
+        "question": "Mary never _____the washing up.",
+        "options": {
+            "A": "does",
+            "B": "has",
+            "C": "do",
+            "D": "is"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 35,
+        "question": "Most days the shop_____ at 10.00 p.m.",
+        "options": {
+            "A": "sells",
+            "B": "opened",
+            "C": "closes",
+            "D": "run"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 36,
+        "question": "My brother learned ____ the same time as me, but I passed first.",
+        "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on",
+            "D": "*"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 37,
+        "question": "Please, start your meal. If you _____ your soup now, it_____ cold.",
+        "options": {
+            "A": "didn’t have/would go",
+            "B": "had/got",
+            "C": "can eat/doesn’t go",
+            "D": "don’t have/will go"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 38,
+        "question": "She ___a shower every morning before school.",
+        "options": {
+            "A": "does",
+            "B": "has",
+            "C": "did",
+            "D": "is"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 39,
+        "question": "She____ school at 7:45 a.m.",
+        "options": {
+            "A": "go",
+            "B": "begin",
+            "C": "starts",
+            "D": "goes"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 40,
+        "question": "Sue and Geoff ______a shop.",
+        "options": {
+            "A": "work",
+            "B": "study",
+            "C": "run",
+            "D": "runs"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 41,
+        "question": "Suppose! If it ___last weekend, we ____to play tennis.",
+        "options": {
+            "A": "rained/wouldn’t be able",
+            "B": "rains/won’t be able",
+            "C": "rain/would be able",
+            "D": "had rained/could"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 42,
+        "question": "Thank goodness we ___a dishwasher!",
+        "options": {
+            "A": "was",
+            "B": "have",
+            "C": "did",
+            "D": "were"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 43,
+        "question": "The neighbours were having a row, and I ______hear every word they said.",
+        "options": {
+            "A": "can",
+            "B": "could",
+            "C": "managed to",
+            "D": "couldn’t"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 44,
+        "question": "The phone rang________ I was having supper.",
+        "options": {
+            "A": "while",
+            "B": "during",
+            "C": "for",
+            "D": "in"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 45,
+        "question": "They ____ camping any more.",
+        "options": {
+            "A": "go",
+            "B": "doesn’t go",
+            "C": "don’t go",
+            "D": "have gone"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 46,
+        "question": "They can’t promise ___ the work today.",
+        "options": {
+            "A": "finish",
+            "B": "finishing",
+            "C": "finished",
+            "D": "to finish"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 47,
+        "question": "This kind of shop _____ a milk bar.",
+        "options": {
+            "A": "is called",
+            "B": "called",
+            "C": "is calling",
+            "D": "has being called"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 48,
+        "question": "Ursula _____four brothers and sisters.",
+        "options": {
+            "A": "have",
+            "B": "has",
+            "C": "haven’t",
+            "D": "having"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 49,
+        "question": "We _____a beautiful puppy called Molly.",
+        "options": {
+            "A": "was",
+            "B": "having",
+            "C": "did",
+            "D": "had"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 50,
+        "question": "We _____got a beautiful puppy called Molly.",
+        "options": {
+            "A": "was",
+            "B": "have",
+            "C": "did",
+            "D": "were"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 51,
+        "question": "We ___talking to James about his exam.",
+        "options": {
+            "A": "don’t",
+            "B": "haven’t",
+            "C": "wasn’t",
+            "D": "aren’t"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 52,
+        "question": "Where_____you yesterday?",
+        "options": {
+            "A": "was",
+            "B": "have",
+            "C": "did",
+            "D": "were"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 53,
+        "question": "Why ___you leaving so early?",
+        "options": {
+            "A": "was",
+            "B": "have",
+            "C": "is",
+            "D": "are"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 54,
+        "question": "Would you like____to eat?",
+        "options": {
+            "A": "something",
+            "B": "anything",
+            "C": "nothing",
+            "D": "everything"
+        },
+        "correct_answer": "A"
+    }
+]

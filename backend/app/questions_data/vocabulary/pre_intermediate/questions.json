@@ -1,0 +1,522 @@
+[
+    {
+        "id": 1,
+        "question": "Choose the correct answer: A, B, C or D.\nCan I ______ your sweater, please? It's cold and I have only a T-shirt.",
+        "options": {
+            "A": "get",
+            "B": "give",
+            "C": "lend",
+            "D": "borrow"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 2,
+        "question": "Choose the correct answer: A, B, C or D.\nCan you turn ______ the TV? I want to watch the news.",
+        "options": {
+            "A": "on",
+            "B": "in",
+            "C": "off"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 3,
+        "question": "Choose the correct answer: A, B, C, or D.\nDavid ______ me he wanted to get a burger.",
+        "options": {
+            "A": "told",
+            "B": "said",
+            "C": "replied"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "question": "Choose the correct answer: A, B, C, or D.\nDid you ______ sightseeing in Madrid?",
+        "options": {
+            "A": "do",
+            "B": "make",
+            "C": "go",
+            "D": "take"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 5,
+        "question": "Choose the correct answer: A, B, C, or D.\nDo you drink ______ of tea with sugar?",
+        "options": {
+            "A": "much",
+            "B": "a lot",
+            "C": "huge",
+            "D": "many"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "question": "Choose the correct answer: A, B, C, or D.\nEmma has been late today. She ______ the bus.",
+        "options": {
+            "A": "missed",
+            "B": "lost",
+            "C": "losed",
+            "D": "skipped"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "question": "Choose the correct answer: A, B, C, or D.\nEnter our competition now! You could ______ a great prize.",
+        "options": {
+            "A": "win",
+            "B": "earn",
+            "C": "make"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "question": "Choose the correct answer: A, B, C, or D.\nExcuse me I ______ if you can help me.",
+        "options": {
+            "A": "expect",
+            "B": "hope",
+            "C": "believe",
+            "D": "wonder"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 9,
+        "question": "Choose the correct answer: A, B, C, or D.\nFor the whole of next week we are planning to sell our new dictionaries at a special ______.",
+        "options": {
+            "A": "price",
+            "B": "prize",
+            "C": "prise",
+            "D": "praise"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "question": "Choose the correct answer: A, B, C, or D.\nHe ______ his exam because he didn't study.",
+        "options": {
+            "A": "failed",
+            "B": "passed",
+            "C": "missed",
+            "D": "fell"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 11,
+        "question": "Choose the correct answer: A, B, C, or D.\nHe ______ on really well with his sister.",
+        "options": {
+            "A": "does",
+            "B": "gets",
+            "C": "makes"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 12,
+        "question": "Choose the correct answer: A, B, C, or D. He is looking ______ a present to buy his girlfriend.",
+        "options": {
+            "A": "for",
+            "B": "at",
+            "C": "in",
+            "D": "on"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 13,
+        "question": "Choose the correct answer: A, B, C, or D. I always get ______ early in the summer.",
+        "options": {
+            "A": "up",
+            "B": "over",
+            "C": "through",
+            "D": "on"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 14,
+        "question": "Choose the correct answer: A, B, C, or D. I am very ______ in old cars.",
+        "options": {
+            "A": "keen",
+            "B": "interesting",
+            "C": "interested",
+            "D": "fond"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 15,
+        "question": "Choose the correct answer: A, B, C, or D. I don't eat much fruit. I'm not that ______ on it.",
+        "options": {
+            "A": "crazy",
+            "B": "keen",
+            "C": "fond",
+            "D": "excited"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 16,
+        "question": "Choose the correct answer: A, B, C, or D. I don't like preparing food, but I like ______ in restaurants.",
+        "options": {
+            "A": "cooking",
+            "B": "eating",
+            "C": "going",
+            "D": "using"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 17,
+        "question": "Choose the correct answer: A, B, C, or D. I mostly ______ my friends via email.",
+        "options": {
+            "A": "get on well with",
+            "B": "have in common",
+            "C": "see each other",
+            "D": "keep in touch"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 18,
+        "question": "Choose the correct answer: A, B, C, or D. I often read short articles ______ pets in my favourite magazine.",
+        "options": {
+            "A": "for",
+            "B": "at",
+            "C": "about",
+            "D": "after"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 19,
+        "question": "Choose the correct answer: A, B, C, or D. I only ______ one mistake in last night's test.",
+        "options": {
+            "A": "made",
+            "B": "done",
+            "C": "did",
+            "D": "make"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 20,
+        "question": "Choose the correct answer: A, B, C, or D. I'm sure you're quite ______ but many people disagree with you.",
+        "options": {
+            "A": "write",
+            "B": "right",
+            "C": "all right",
+            "D": "serious"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 21,
+        "question": "Choose the correct answer: A, B, C, or D. I'm not ______ good at languages. I find them difficult.",
+        "options": {
+            "A": "bit",
+            "B": "quite",
+            "C": "very"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 22,
+        "question": "Choose the correct answer: A, B, C, or D. If you have a question please feel ______ to ask.",
+        "options": {
+            "A": "good",
+            "B": "well",
+            "C": "nice",
+            "D": "free"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 23,
+        "question": "Choose the correct answer: A, B, C, or D. Is he looking ______ to the party?",
+        "options": {
+            "A": "after",
+            "B": "for",
+            "C": "forward"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 24,
+        "question": "Choose the correct answer: A, B, C, or D. Kate's really ______. She always gives me presents.",
+        "options": {
+            "A": "mean",
+            "B": "lazy",
+            "C": "generous"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 25,
+        "question": "Choose the correct answer: A, B, C, or D. Last summer we went ______ holiday to Greece.",
+        "options": {
+            "A": "on",
+            "B": "off",
+            "C": "in",
+            "D": "by"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 26,
+        "question": "Choose the correct answer: A, B, C, or D. My brother is my aunt's ______.",
+        "options": {
+            "A": "niece",
+            "B": "grandson",
+            "C": "nephew"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 27,
+        "question": "Choose the correct answer: A, B, C, or D. My sister is very ______. She isn't good at listening.",
+        "options": {
+            "A": "shy",
+            "B": "patient",
+            "C": "talkative",
+            "D": "messy"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 28,
+        "question": "Choose the correct answer: A, B, C, or D. My son has posters ______ the walls of his bedroom.",
+        "options": {
+            "A": "in",
+            "B": "between",
+            "C": "on"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 29,
+        "question": "Choose the correct answer: A, B, C, or D. Next time you drink tea with sugar, don't forget to ______ the spoon.",
+        "options": {
+            "A": "reject",
+            "B": "replace",
+            "C": "repeat",
+            "D": "remove"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 30,
+        "question": "Choose the correct answer: A, B, C, or D. Next we'll have the ______ news.",
+        "options": {
+            "A": "latest",
+            "B": "newest",
+            "C": "later",
+            "D": "newer"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 31,
+        "question": "Choose the correct answer: A, B, C, or D. Next year I'd like to ______ a course in England.",
+        "options": {
+            "A": "have",
+            "B": "do",
+            "C": "get",
+            "D": "make"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 32,
+        "question": "Choose the correct answer: A, B, C, or D. Our new school year starts ______ 5th September.",
+        "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 33,
+        "question": "Choose the correct answer: A, B, C or D. Please be ______ when you cross this road.",
+        "options": {
+            "A": "careless",
+            "B": "carefree",
+            "C": "caring",
+            "D": "careful"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 34,
+        "question": "Choose the correct answer: A, B, C or D. Put your lights on. We're going to drive ______ a tunnel!",
+        "options": {
+            "A": "through",
+            "B": "under",
+            "C": "across"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 35,
+        "question": "Choose the correct answer: A, B, C, or D. She looks ______ a famous film star.",
+        "options": {
+            "A": "as",
+            "B": "like",
+            "C": "similar",
+            "D": "same"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 36,
+        "question": "Choose the correct answer: A, B, C, or D. Thank you very much indeed, that's very kind ______ you.",
+        "options": {
+            "A": "from",
+            "B": "for",
+            "C": "of",
+            "D": "it"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 37,
+        "question": "Choose the correct answer: A, B, C, or D. That ______ interesting.",
+        "options": {
+            "A": "rings",
+            "B": "listens",
+            "C": "hears",
+            "D": "sounds"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 38,
+        "question": "Choose the correct answer: A, B, C or D. The opposite of crowded is ______.",
+        "options": {
+            "A": "clean",
+            "B": "safe",
+            "C": "empty"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 39,
+        "question": "Choose the correct answer: A, B, C, or D. The teacher asked her students to do their ______.",
+        "options": {
+            "A": "housework",
+            "B": "homework",
+            "C": "home duty",
+            "D": "house job"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 40,
+        "question": "Choose the correct answer: A, B, C, or D. There's a big tree ______ of our house.",
+        "options": {
+            "A": "behind",
+            "B": "in front of",
+            "C": "in the middle"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 41,
+        "question": "Choose the correct answer: A, B, C or D. There's a table ______ my desk and the window.",
+        "options": {
+            "A": "on",
+            "B": "in front",
+            "C": "between"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 42,
+        "question": "Choose the correct answer: A, B, C or D. This is a photo of my family. That's me ______ the middle.",
+        "options": {
+            "A": "in",
+            "B": "on",
+            "C": "to"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 43,
+        "question": "Choose the correct answer: A, B, C, or D. This street is ______ at night - you can't hear any traffic.",
+        "options": {
+            "A": "safe",
+            "B": "quiet",
+            "C": "clean",
+            "D": "noisy"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 44,
+        "question": "Choose the correct answer: A, B, C or D. Those jeans look nice. Would you like to ______ them on?",
+        "options": {
+            "A": "take",
+            "B": "try",
+            "C": "wear"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 45,
+        "question": "Choose the correct answer: A, B, C, or D. We ______ a really good time at the festival.",
+        "options": {
+            "A": "spent",
+            "B": "had",
+            "C": "did"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 46,
+        "question": "Choose the correct answer: A, B, C, or D. We haven't got much money ______ we aren't going to buy the flat.",
+        "options": {
+            "A": "because",
+            "B": "so",
+            "C": "although"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 47,
+        "question": "Choose the correct answer: A, B, C, or D. We were ______ during the film. It wasn't interesting at all.",
+        "options": {
+            "A": "shocked",
+            "B": "bored",
+            "C": "annoyed",
+            "D": "depressed"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 48,
+        "question": "Choose the correct answer: A, B, C, or D. What exercise do you like doing ______ of all?",
+        "options": {
+            "A": "next",
+            "B": "best",
+            "C": "after",
+            "D": "before"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 49,
+        "question": "Choose the correct answer: A, B, C, or D. Who's the man standing ______ you in this photo?",
+        "options": {
+            "A": "behind",
+            "B": "on the right",
+            "C": "under"
+        },
+        "correct_answer": "A"
+    }
+]

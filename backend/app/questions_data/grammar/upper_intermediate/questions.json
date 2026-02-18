@@ -1,0 +1,763 @@
+[
+    {
+        "id": 1,
+        "question": "Complete the sentence with the correct preposition:\n _____ general, he was a peaceful, loving man.",
+        "options": {
+            "A": "In",
+            "B": "On",
+            "C": "At",
+            "D": "For"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 2,
+        "question": "Complete the phrase with the correct preposition:\n an answer __________ the question",
+        "options": {
+            "A": "to",
+            "B": "for",
+            "C": "of",
+            "D": "with"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 3,
+        "question": "Complete the sentence with the correct preposition:\n His is only one voice_______ many, but it will be heard.",
+        "options": {
+            "A": "among",
+            "B": "in",
+            "C": "with",
+            "D": "for"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "question": "Complete the sentence with the correct preposition:\n I think architects are ____ a great extent inspired by their clients.",
+        "options": {
+            "A": "to",
+            "B": "at",
+            "C": "in",
+            "D": "with"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "question": "Complete the sentence with the correct preposition:\n It’s a machine ___ making ice-cream",
+        "options": {
+            "A": "for",
+            "B": "to",
+            "C": "in",
+            "D": "with"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "question": "Complete the sentence with the correct preposition:\n Our boss put _____a memo regarding the new rule.",
+        "options": {
+            "A": "out",
+            "B": "up",
+            "C": "in",
+            "D": "on"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "question": "Complete the sentence with the correct preposition:\n The balloon drifted___ the stairs.",
+        "options": {
+            "A": "up",
+            "B": "out",
+            "C": "in",
+            "D": "to"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "question": "Complete the sentence with the correct preposition:\n The outcome is no longer ___ doubt",
+        "options": {
+            "A": "in",
+            "B": "on",
+            "C": "with",
+            "D": "for"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "question": "Complete the phrase with the correct preposition:\n to be ashamed __________ having failed",
+        "options": {
+            "A": "of",
+            "B": "in",
+            "C": "for",
+            "D": "with"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "question": "Complete the phrase with the correct preposition:\n to be capable __________ getting to the top",
+        "options": {
+            "A": "in",
+            "B": "of",
+            "C": "for",
+            "D": "at"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 11,
+        "question": "Complete the phrase with the correct preposition: to be excellent __________ something",
+        "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on",
+            "D": "with"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 12,
+        "question": "Complete the phrase with the correct preposition: to be experienced __________ writing emails",
+        "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on",
+            "D": "with"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 13,
+        "question": "Complete the phrase with the correct preposition: to be famous __________ breath-taking sights",
+        "options": {
+            "A": "for",
+            "B": "of",
+            "C": "with",
+            "D": "in"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 14,
+        "question": "Complete the phrase with the correct preposition: to be fond __________ romantic films",
+        "options": {
+            "A": "of",
+            "B": "for",
+            "C": "in",
+            "D": "with"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 15,
+        "question": "Complete the phrase with the correct preposition: to be interested __________ pursuing a career",
+        "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at",
+            "D": "for"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 16,
+        "question": "Complete the phrase with the correct preposition: to be keen __________ going to the cinema",
+        "options": {
+            "A": "on",
+            "B": "in",
+            "C": "at",
+            "D": "for"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 17,
+        "question": "Complete the phrase with the correct preposition: to be respected __________ being an honest politician.",
+        "options": {
+            "A": "for",
+            "B": "in",
+            "C": "as",
+            "D": "to"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 18,
+        "question": "Complete the phrase with the correct preposition: to be responsible __________ employing new workers",
+        "options": {
+            "A": "for",
+            "B": "of",
+            "C": "in",
+            "D": "to"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 19,
+        "question": "Complete the phrase with the correct preposition: to be similar __________ mine",
+        "options": {
+            "A": "to",
+            "B": "with",
+            "C": "as",
+            "D": "for"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 20,
+        "question": "Complete the phrase with the correct preposition: to be sorry __________ having done something wrong",
+        "options": {
+            "A": "for",
+            "B": "about",
+            "C": "of",
+            "D": "in"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 21,
+        "question": "Complete the phrase with the correct preposition: to concentrate __________ something important",
+        "options": {
+            "A": "on",
+            "B": "in",
+            "C": "at",
+            "D": "with"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 22,
+        "question": "Complete the phrase with the correct preposition: to congratulate him __________ his success",
+        "options": {
+            "A": "on",
+            "B": "for",
+            "C": "at",
+            "D": "with"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 23,
+        "question": "Complete the phrase with the correct preposition: to cooperate __________ the competitor",
+        "options": {
+            "A": "with",
+            "B": "to",
+            "C": "for",
+            "D": "on"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 24,
+        "question": "Complete the phrase with the correct preposition: to deal __________ the problem later.",
+        "options": {
+            "A": "with",
+            "B": "in",
+            "C": "on",
+            "D": "for"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 25,
+        "question": "Complete the phrase with the correct preposition: to praise her __________ doing such a good job",
+        "options": {
+            "A": "for",
+            "B": "on",
+            "C": "with",
+            "D": "in"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 26,
+        "question": "Complete the phrase with the correct preposition: to provide her __________ everything she needs",
+        "options": {
+            "A": "with",
+            "B": "for",
+            "C": "to",
+            "D": "of"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 27,
+        "question": "Complete the phrase with the correct preposition: to supply the customers __________ the right products",
+        "options": {
+            "A": "with",
+            "B": "to",
+            "C": "for",
+            "D": "of"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 28,
+        "question": "Complete the sentence with the correct preposition: We also stayed in Japan _______ a while during our trip to China.",
+        "options": {
+            "A": "for",
+            "B": "in",
+            "C": "at",
+            "D": "on"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 29,
+        "question": "Complete the sentence with the correct preposition: We finished the job, but only _______ great difficulty.",
+        "options": {
+            "A": "with",
+            "B": "in",
+            "C": "by",
+            "D": "for"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 30,
+        "question": "Complete the sentence with the correct preposition: We were really surprised _____ what they wrote",
+        "options": {
+            "A": "at",
+            "B": "with",
+            "C": "by",
+            "D": "about"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 31,
+        "question": "_____ amazing that we can all be here today.",
+        "options": {
+            "A": "There is",
+            "B": "There seems",
+            "C": "It seems",
+            "D": "It turns"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 32,
+        "question": "_____ forced to do anything. He acted of his own free will.",
+        "options": {
+            "A": "In no way was he",
+            "B": "No way he was",
+            "C": "In any way he was",
+            "D": "In any way"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 33,
+        "question": "_____ to offend anyone, she said both cakes were equally good",
+        "options": {
+            "A": "Not wanting",
+            "B": "As not wanting",
+            "C": "She didn't want",
+            "D": "Because not wanting"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 34,
+        "question": "‘She was really excited about the race. She _______________ (train) for weeks, and she knew she was ready.",
+        "options": {
+            "A": "trains",
+            "B": "were training",
+            "C": "had been training",
+            "D": "were trained"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 35,
+        "question": "After breakfast, Tim _______________ (go) down to the garden to get some fresh air.",
+        "options": {
+            "A": "go",
+            "B": "going",
+            "C": "went",
+            "D": "had gone"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 36,
+        "question": "Choose grammatically correct sentence:",
+        "options": {
+            "A": "We won’t know how to do after we get the results",
+            "B": "When we get the results we won’t know what to do",
+            "C": "We won’t know what to do until we get the results.",
+            "D": "We wouldn’t know how to do until we get the results."
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 37,
+        "question": "Choose the correct answer for Type 1 Conditional:",
+        "options": {
+            "A": "If you wouldn’t tell me, I’ll scream!",
+            "B": "If you don’t tell me, I’ll scream!",
+            "C": "If you didn’t tell me, I’ll scream!",
+            "D": "If you won’t tell me, I’d scream!"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 38,
+        "question": "Choose the correct answer for Type 1 Conditional:",
+        "options": {
+            "A": "I’ll only tell you, if you can keep a secret.",
+            "B": "If you can keep a secret, I would tell you.",
+            "C": "You can’t keep a secret, if I didn’t tell you.",
+            "D": "You wouldn’t keep a secret if I didn’t tell you."
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 39,
+        "question": "Choose the correct answer for Type 2 Conditional:",
+        "options": {
+            "A": "I didn’t do that if I were you.",
+            "B": "I wouldn’t do that if I were you.",
+            "C": "I wouldn’t do that if I was you.",
+            "D": "I won’t do that if I was you."
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 40,
+        "question": "A motorbike _________________a car.",
+        "options": {
+            "A": "doesn’t cost so much as",
+            "B": "doesn’t cost much as",
+            "C": "don’t cost so much as",
+            "D": "doesn’t cost as much as"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 41,
+        "question": "_____________________after the accident.",
+        "options": {
+            "A": "He had repaired his car",
+            "B": "He had his car repaired",
+            "C": "He repairs his car",
+            "D": "His car were repaired"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 42,
+        "question": "…to the theatre for ages.",
+        "options": {
+            "A": "I haven’t been",
+            "B": "I haven’t gone",
+            "C": "I didn’t been",
+            "D": "I wasn’t"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 43,
+        "question": "Choose the correct option for Future Tense:",
+        "options": {
+            "A": "This time tomorrow, I am in Tokyo.",
+            "B": "This time tomorrow, I am being in Tokyo.",
+            "C": "This time tomorrow, I would be at Tokyo.",
+            "D": "This time tomorrow, I will be in Tokyo."
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 44,
+        "question": "I told him …",
+        "options": {
+            "A": "don’t go there.",
+            "B": "not to go there.",
+            "C": "that he doesn’t go there.",
+            "D": "he wouldn’t go there"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 45,
+        "question": "Choose the correct option with the Past Tense:",
+        "options": {
+            "A": "You didn’t use to smoke, did you?",
+            "B": "You usen’t to smoke, did you?",
+            "C": "You aren’t used to smoke, did you?",
+            "D": "You weren’t used to smoke, are you?"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 46,
+        "question": "Choose the correct option:",
+        "options": {
+            "A": "He told he wasn’t feeling well",
+            "B": "He said he doesn’t feeling well",
+            "C": "He said he wasn’t feeling well.",
+            "D": "He said he didn’t feeling well."
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 47,
+        "question": "Choose the correct option:",
+        "options": {
+            "A": "He’s probably lost her number",
+            "B": "He’s lost her number, probably",
+            "C": "Probably, he lost her number.",
+            "D": "He probably lost her number."
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 48,
+        "question": "Choose the correct option:",
+        "options": {
+            "A": "What are you think we would be doing in five years?",
+            "B": "What do you think you’re doing in five years’ time?",
+            "C": "What do you think we do in five years’ time?",
+            "D": "What do you think we’ll be doing in five years’ time?"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 49,
+        "question": "Choose the correct option:",
+        "options": {
+            "A": "I usually to live in Paris, but now I live in Madrid.",
+            "B": "I used to live in Paris, but now I live in Madrid.",
+            "C": "I am used to live in Paris, but now I live in Madrid.",
+            "D": "I was used to live in Paris, but I now living in Madrid."
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 50,
+        "question": "Choose the correct type of Conditional to complete the sentence: I wish…",
+        "options": {
+            "A": "you haven’t said that.",
+            "B": "you didn’t said that.",
+            "C": "you hadn’t said that.",
+            "D": "you weren’t saying that."
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 51,
+        "question": "Congratulations on your latest test results. You did much ____ than you did the previous time.",
+        "options": {
+            "A": "better",
+            "B": "good",
+            "C": "best"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 52,
+        "question": "His apology wasn't enough _____ him.",
+        "options": {
+            "A": "so I forgive",
+            "B": "for me to forgive",
+            "C": "that I forgave",
+            "D": "for me forgiving"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 53,
+        "question": "I _______________ (travel) in Italy when I first met her.",
+        "options": {
+            "A": "travel",
+            "B": "was travelled",
+            "C": "was travelling",
+            "D": "had travelled"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 54,
+        "question": "I don’t know why ______.",
+        "options": {
+            "A": "the accident happened",
+            "B": "did the accident happen",
+            "C": "happened the accident"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 55,
+        "question": "I recommend getting there with plenty of time. _____, we might not get good seats.",
+        "options": {
+            "A": "Otherwise",
+            "B": "On the contrary",
+            "C": "Furthermore",
+            "D": "On the other hand"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 56,
+        "question": "I think people nowadays are a lot more technically-minded than they _______ be.",
+        "options": {
+            "A": "used to",
+            "B": "use",
+            "C": "would"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 57,
+        "question": "I told her I admire everything _____ she's been doing.",
+        "options": {
+            "A": "that",
+            "B": "what",
+            "C": "whom",
+            "D": "who"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 58,
+        "question": "I tried to open the door but someone _______________ (lock) it from the inside.",
+        "options": {
+            "A": "locked",
+            "B": "had locked",
+            "C": "locks",
+            "D": "lock"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 59,
+        "question": "I’m wondering what country ______.",
+        "options": {
+            "A": "he has been to",
+            "B": "has he been to",
+            "C": "has he been"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 60,
+        "question": "If we had planned this better, we ______ in so much trouble now.",
+        "options": {
+            "A": "wouldn't have been",
+            "B": "hadn't been",
+            "C": "wouldn't be",
+            "D": "weren't"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 61,
+        "question": "If you like modern art, you ______ really visit the new exhibition at the museum.",
+        "options": {
+            "A": "should",
+            "B": "must",
+            "C": "can"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 62,
+        "question": "Last year, when I last met her, she told me she _____ a letter every day for the last two months.",
+        "options": {
+            "A": "had written",
+            "B": "has written",
+            "C": "had been writing",
+            "D": "wrote"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 63,
+        "question": "Massachusetts is _____ of becoming the first state to put a tax on carbon",
+        "options": {
+            "A": "on the verge",
+            "B": "about",
+            "C": "due to",
+            "D": "bound"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 64,
+        "question": "Please, list the quality of the product in order of __________.",
+        "options": {
+            "A": "preference",
+            "B": "prefer",
+            "C": "preferable",
+            "D": "preferentiality"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 65,
+        "question": "She was working on her computer with her baby next to _____.",
+        "options": {
+            "A": "herself",
+            "B": "her",
+            "C": "her own",
+            "D": "hers"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 66,
+        "question": "They didn't reach an agreement ______ their differences.",
+        "options": {
+            "A": "on account of",
+            "B": "due",
+            "C": "because",
+            "D": "owing"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 67,
+        "question": "This word means something. What____?",
+        "options": {
+            "A": "does it mean",
+            "B": "means",
+            "C": "it means"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 68,
+        "question": "We had such a great week _____ we went walking in the mountains.",
+        "options": {
+            "A": "when",
+            "B": "where",
+            "C": "that"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 69,
+        "question": "When we arrived, somebody had stolen the bag. Who ______?",
+        "options": {
+            "A": "had he stolen the bag",
+            "B": "stolen the bag",
+            "C": "had stolen the bag"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 70,
+        "question": "Who ______?",
+        "options": {
+            "A": "he has been writing to",
+            "B": "has he been writing to",
+            "C": "has been writing to"
+        },
+        "correct_answer": "B"
+    }
+]

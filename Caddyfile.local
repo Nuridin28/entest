@@ -1,0 +1,248 @@
+# Development Caddyfile with Load Balancing
+# Mirrors production configuration for testing
+
+{
+    # Global options
+    admin off
+    auto_https off
+    log {
+        level INFO
+    }
+}
+
+# Main application (localhost and entest.almv.kz when in /etc/hosts)
+localhost:80, entest.almv.kz:80 {
+    # Enable compression
+    encode gzip zstd
+
+    # Health check endpoint
+    handle /health {
+        reverse_proxy {
+            to backend-1:8000 backend-2:8000
+            health_uri /health
+            health_interval 30s
+            health_timeout 10s
+            health_status 200
+            
+            # Load balancing strategy
+            lb_policy round_robin
+        }
+    }
+
+    # Audio streaming endpoints with special handling
+    handle /api/v1/tests/*/audio/* {
+        reverse_proxy {
+            to backend-1:8000 backend-2:8000
+            
+            # Load balancing for audio
+            lb_policy least_conn
+            lb_try_duration 10s
+            lb_try_interval 500ms
+            
+            # Health checking
+            health_uri /health
+            health_interval 30s
+            health_timeout 10s
+            health_status 200
+            
+            # Extended timeouts for audio processing
+            transport http {
+                read_timeout 10m
+                write_timeout 10m
+            }
+            flush_interval -1
+            
+            # Headers for load balancing
+            header_up X-Real-IP {remote_host}
+            header_up X-Forwarded-For {remote_host}
+        }
+    }
+
+    # Proctoring video upload endpoints with larger limits
+    handle /api/v1/proctoring/* {
+        request_body max_size 2048m
+        
+        reverse_proxy {
+            to backend-1:8000 backend-2:8000
+            
+            # Load balancing configuration
+            lb_policy least_conn
+            lb_try_duration 10s
+            lb_try_interval 500ms
+            
+            # Health checking
+            health_uri /health
+            health_interval 30s
+            health_timeout 10s
+            health_status 200
+            
+            # Extended timeouts for large file uploads
+            transport http {
+                read_timeout 15m
+                write_timeout 15m
+            }
+            flush_interval -1
+            
+            # Headers for load balancing
+            header_up X-Real-IP {remote_host}
+            header_up X-Forwarded-For {remote_host}
+        }
+    }
+
+    # Screen recording upload endpoints with larger limits
+    handle /api/v1/tests/*/upload-screen* {
+        request_body max_size 2048m
+        
+        reverse_proxy {
+            to backend-1:8000 backend-2:8000
+            
+            # Load balancing configuration
+            lb_policy least_conn
+            lb_try_duration 10s
+            lb_try_interval 500ms
+            
+            # Health checking
+            health_uri /health
+            health_interval 30s
+            health_timeout 10s
+            health_status 200
+            
+            # Extended timeouts for large file uploads
+            transport http {
+                read_timeout 15m
+                write_timeout 15m
+            }
+            flush_interval -1
+            
+            # Headers for load balancing
+            header_up X-Real-IP {remote_host}
+            header_up X-Forwarded-For {remote_host}
+        }
+    }
+
+    # API endpoints with load balancing
+    handle /api/* {
+        request_body max_size 1024m
+        
+        reverse_proxy {
+            to backend-1:8000 backend-2:8000
+            
+            # Load balancing configuration
+            lb_policy least_conn
+            lb_try_duration 5s
+            lb_try_interval 250ms
+            
+            # Health checking
+            health_uri /health
+            health_interval 30s
+            health_timeout 10s
+            health_status 200
+            
+            # Transport settings
+            transport http {
+                read_timeout 5m
+                write_timeout 5m
+            }
+            flush_interval -1
+            
+            # Headers for load balancing
+            header_up X-Real-IP {remote_host}
+            header_up X-Forwarded-For {remote_host}
+        }
+    }
+
+    # Proctoring files (no caching for security)
+    handle /app/uploads/proctoring/* {
+        reverse_proxy {
+            to backend-1:8000 backend-2:8000
+            lb_policy round_robin
+        }
+        
+        # Security headers for proctoring files
+        header X-Content-Type-Options nosniff
+        header Cache-Control "no-cache, no-store, must-revalidate"
+        header Pragma "no-cache"
+        header Expires "0"
+    }
+
+    # Screen recordings (no caching for security)
+    handle /app/uploads/screen_recordings/* {
+        reverse_proxy {
+            to backend-1:8000 backend-2:8000
+            lb_policy round_robin
+        }
+        
+        # Security headers for screen recordings
+        header X-Content-Type-Options nosniff
+        header Cache-Control "no-cache, no-store, must-revalidate"
+        header Pragma "no-cache"
+        header Expires "0"
+    }
+
+    # Screen recordings (no caching for security)
+    handle /app/uploads/screen_recordings/* {
+        reverse_proxy {
+            to backend-1:8000 backend-2:8000
+            lb_policy round_robin
+        }
+        
+        # Security headers for screen recordings
+        header X-Content-Type-Options nosniff
+        header Cache-Control "no-cache, no-store, must-revalidate"
+        header Pragma "no-cache"
+        header Expires "0"
+    }
+
+    # Static file serving with caching
+    handle /app/uploads/* {
+        reverse_proxy {
+            to backend-1:8000 backend-2:8000
+            lb_policy round_robin
+        }
+        
+        # Cache static files
+        header Cache-Control "public, max-age=3600"
+        header X-Content-Type-Options nosniff
+    }
+
+    # Frontend serving
+    handle /* {
+        reverse_proxy frontend:5173
+        
+        # Frontend-specific headers
+        header X-Frame-Options DENY
+        header X-Content-Type-Options nosniff
+        header Referrer-Policy strict-origin-when-cross-origin
+    }
+
+    # Logging for monitoring
+    log {
+        output file /var/log/caddy/access.log {
+            roll_size 100mb
+            roll_keep 5
+            roll_keep_for 720h
+        }
+        format json
+        level INFO
+    }
+
+    # Error handling
+    handle_errors {
+        @5xx expression {http.error.status_code} >= 500
+        respond @5xx "Service temporarily unavailable" 503
+        
+        @4xx expression {http.error.status_code} >= 400
+        respond @4xx "Bad request" 400
+    }
+}
+
+
+# Metrics endpoint
+localhost:8080 {
+    handle /metrics {
+        reverse_proxy {
+            to backend-1:8000 backend-2:8000
+            lb_policy round_robin
+        }
+    }
+}

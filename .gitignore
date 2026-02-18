@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+build/
+.env
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.log
+.Python
+venv/
+backend/.env
+
+# Docker
+.dockerignore
+
+
+# IDEs and others
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Recordings and photos (if stored locally)
+backend/recordings/
+backend/photos/
+backend/audio/
+
+# Test results
+backend/certificates/
+
+# Frontend specific
+frontend/dist/
+frontend/.env
+
+# Root .env file
+.env 
+backend/.env

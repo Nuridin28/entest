@@ -1,0 +1,516 @@
+[
+    {
+        "id": 1,
+        "text": "Another question is what is it about human brains that allowed language to evolve in a way that it did not in other primates? At some point, our brains became able to make our mouths produce vowel and consonant sounds, and we developed the capacity to invent words to name things around us. These were the basic ingredients for complex language. The next change would have been to put those words into sentences, similar to the ‘protolanguage’ children use when they first learn to speak. No one knows if the next step – adding grammar to signal past, present and future, for example, or plurals and relative clauses – required a further development in the human brain or was simply a response to our increasingly civilised way of living together. Between 100,000 and 50,000 years ago, though, we start to see the evidence of early human civilisation, through cave paintings for example; no one knows the connection between this and language. Brains didn’t suddenly get bigger, yet humans did become more complex and more intelligent. Was it using language that caused their brains to develop? Or did their more complex brains start producing language?",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Match the paragraph to the right heading:",
+                "options": {
+                    "A": "What we know",
+                    "B": "How linguistic capacity evolved",
+                    "C": "How unique are we?",
+                    "D": "The physical evidence",
+                    "E": "The tiny change that may separate us from monkeys"
+                },
+                "correct_answer": "B"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "If we want to know where our capability for complex language came from, we need to look at how our brains are different from other animals. This relates to more than just brain size; it is important what other things our brains can do and when and why they evolved that way. And for this there are very few physical clues; artefacts left by our ancestors don’t tell us what speech they were capable of making. One thing we can see in the remains of early humans, however, is the development of the mouth, throat and tongue. By about 100,000 years ago, humans had evolved the ability to create complex sounds. Before that, evolutionary biologists can only guess whether or not early humans communicated using more basic sounds.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Match the paragraph to the right heading:",
+                "options": {
+                    "A": "What we know",
+                    "B": "How linguistic capacity evolved",
+                    "C": "How unique are we?",
+                    "D": "The physical evidence",
+                    "E": "The tiny change that may separate us from monkeys"
+                },
+                "correct_answer": "D"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "More questions lie in looking at the influence of genetics on brain and language development. Are there genes that mutated and gave us language ability? Researchers have found a gene mutation that occurred between 200,000 and 100,000 years ago, which seems to have a connection with speaking and how our brains control our mouths and face. Monkeys have a similar gene, but it did not undergo this mutation. It’s too early to say how much influence genes have on language, but one day the answers might be found in our DNA.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Match the paragraph to the right heading:",
+                "options": {
+                    "A": "What we know",
+                    "B": "How linguistic capacity evolved",
+                    "C": "How unique are we?",
+                    "D": "The physical evidence",
+                    "E": "The tiny change that may separate us from monkeys"
+                },
+                "correct_answer": "E"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "Thanks to the field of linguistics we know much about the development of the 5,000 plus languages in existence today. We can describe their grammar and pronunciation and see how their spoken and written forms have changed over time. For example, we understand the origins of the Indo-European group of languages, which includes Norwegian, Hindi and English, and can trace them back to tribes in eastern Europe in about 3000 BC. So, we have mapped out a great deal of the history of language, but there are still areas we know little about. Experts are beginning to look to the field of evolutionary biology to find out how the human species developed to be able to use language. So far, there are far more questions and half-theories than answers.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Match the paragraph to the right heading:",
+                "options": {
+                    "A": "What we know",
+                    "B": "How linguistic capacity evolved",
+                    "C": "How unique are we?",
+                    "D": "The physical evidence",
+                    "E": "The tiny change that may separate us from monkeys"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "We know that human language is far more complex than that of even our nearest and most intelligent relatives like chimpanzees. We can express complex thoughts, convey subtle emotions and communicate about abstract concepts such as past and future. And we do this following a set of structural rules, known as grammar. Do only humans use an innate system of rules to govern the order of words? Perhaps not, as some research may suggest dolphins share this capability because they are able to recognise when these rules are broken.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Match the paragraph to the right heading:",
+                "options": {
+                    "A": "What we know",
+                    "B": "How linguistic capacity evolved",
+                    "C": "How unique are we?",
+                    "D": "The physical evidence",
+                    "E": "The tiny change that may separate us from monkeys"
+                },
+                "correct_answer": "C"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "A famous Russian proverb states that ‘a smile without reason is a sign of idiocy’ and a so-called ‘smile of respect’ is seen as insincere and often regarded with suspicion in Russia. Yet in countries like the United States, Australia and Britain, smiling is often interpreted as a sign of openness, friendship and respect, and is frequently used to break the ice.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "There might be a misunderstanding if an American smiles at a Russian business associate because the Russian might think that the American is …",
+                "options": {
+                    "A": "being fake.",
+                    "B": "challenging their authority.",
+                    "C": "Trying to break the ice.",
+                    "D": "disrespectful."
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "An American or British person might be looking their client in the eye to show that they are paying full attention to what is being said, but if that client is from Japan or Korea, they might find the direct eye contact awkward or even disrespectful. In parts of South America and Africa, prolonged eye contact could also be seen as challenging authority. In the Middle East, eye contact across genders is considered inappropriate, although eye contact within a gender could signify honesty and truthfulness.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Americans and British people sometimes use eye contact to show that they …",
+                "options": {
+                    "A": "like the speaker.",
+                    "B": "are really listening to what is being said.",
+                    "C": "are honest and truthful.",
+                    "D": "are attending to every need of the speaker."
+                },
+                "correct_answer": "B"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "Cultivating bananas in densely packed fields leads to the spread of the fungus Fusarium oxysporum f. sp. Cubense, which attacks the plant’s roots and prevents it from transporting water to the stem and leaves. The TR-1 strain of the fungus was resistant to crop sprays and travelled around on boots or the tyres of trucks, slowly infecting plantations across the region. In an attempt to escape the fungus, farmers abandoned infected fields, flooded them and then replanted crops somewhere else, often cutting down rainforest to do so.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "The spread of the TR-1 strain was …",
+                "options": {
+                    "A": "caused by lack of water.",
+                    "B": "speeded up by the flooding of banana fields.",
+                    "C": "slowed down by crop spraying.",
+                    "D": "helped by the movement of people and vehicles."
+                },
+                "correct_answer": "D"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "Farmers searched for a variety of banana that the fungus didn’t affect. They found the Cavendish, as it was called, in the greenhouse of a British duke. It wasn’t as well suited to shipping as the Gros Michel, but its bananas tasted good enough to keep consumers happy. Most importantly, TR-1 didn’t seem to affect it. In a few years, United Fruit had saved itself from bankruptcy by filling its plantations with thousands of the new plants, copying the same monoculture growing conditions Gros Michel had thrived in.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Which sentence is NOT true?",
+                "options": {
+                    "A": "The Cavendish replaced the Gros Michel.",
+                    "B": "The Cavendish bananas were easier to transport than the Gros Michel.",
+                    "C": "The Cavendish was resistant.",
+                    "D": "The Cavendish stopped United Fruit from losing more money."
+                },
+                "correct_answer": "B"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "Having an increased awareness of the possible differences in expectations and behaviour can help us avoid cases of miscommunication, but it is vital that we also remember that cultural stereotypes can be detrimental to building good business relationships. Although national cultures could play a part in shaping the way we behave and think, we are also largely influenced by the region we come from, the communities we associate with, our age and gender, our corporate culture and our individual experiences of the world. The knowledge of the potential differences should therefore be something we keep at the back of our minds, rather than something that we use to pigeonhole the individuals of an entire nation.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "The text warns the reader not to …",
+                "options": {
+                    "A": "engage in international business.",
+                    "B": "let national cultures shape the way we behave and think.",
+                    "C": "let miscommunication damage our business relationships.",
+                    "D": "overgeneralise using our knowledge of cultural stereotypes."
+                },
+                "correct_answer": "D"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "text": "In a piece of research done on smiles across cultures, the researchers found that smiling individuals were considered more intelligent than non-smiling people in countries such as Germany, Switzerland, China and Malaysia. However, in countries like Russia, Japan, South Korea and Iran, pictures of smiling faces were rated as less intelligent than the non-smiling ones. Meanwhile, in countries like India, Argentina and the Maldives, smiling was associated with dishonesty.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "The Japanese, South Koreans and Iranians might interpret a smiling face as being …",
+                "options": {
+                    "A": "friendlier.",
+                    "B": "less open.",
+                    "C": "not as intelligent.",
+                    "D": "dishonest."
+                },
+                "correct_answer": "C"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "text": "In an attempt to inject some positivity into their feedback, many managers rely on sandwiching negative feedback between two positive comments. However, when feedback becomes such a routine, employees can start to perceive positive feedback as simply a form of sugarcoating the negatives, thus diminishing its value. Instead, positive feedback should not simply be seen as something to cushion the negative, but should be delivered so as to reinforce and encourage good performance. Below are three tips to help you make positive feedback count.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "The writer believes that the ‘feedback sandwich’ …",
+                "options": {
+                    "A": "can encourage good performance.",
+                    "B": "makes negative feedback more painful.",
+                    "C": "makes employees fearful of feedback.",
+                    "D": "is too predictable to be effective."
+                },
+                "correct_answer": "D"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "text": "In the 1950s, Central American commercial banana growers were facing the death of their most lucrative product, the Gros Michel banana, known as Big Mike. And now it’s happening again to Big Mike’s successor – the Cavendish.\nWith its easily transported, thick-skinned and sweet-tasting fruit, the Gros Michel banana plant dominated the plantations of Central America. United Fruit, the main grower and exporter in South America at the time, mass-produced its bananas in the most efficient way possible: it cloned shoots from the stems of plants instead of growing plants from seeds, and cultivated them in densely packed fields.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Mass-produced bananas are …",
+                "options": {
+                    "A": "grown from seeds because its efficient.",
+                    "B": "cloned because it’s a fast and cheap way to grow them.",
+                    "C": "sweeter than other bananas.",
+                    "D": "exported to Central America."
+                },
+                "correct_answer": "B"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "text": "It might take time to counter the effects of an environment where there is a cynical view of positive feedback, but in the long run, by embracing positive feedback, you can not only enhance working performance but also enrich the quality of life in the workplace.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "A cynical view of positive feedback …",
+                "options": {
+                    "A": "is irreversible.",
+                    "B": "can make the quality of working life richer.",
+                    "C": "can be healthy.",
+                    "D": "can be changed gradually."
+                },
+                "correct_answer": "D"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "text": "Make giving positive feedback part of your team/department/company culture. Don’t just wait for special moments like appraisals to give feedback. Offer informal positive feedback when making small talk or when walking down a corridor. Feedback doesn’t have to only come from the higher ranks either. Encourage peer feedback among team members and colleagues and actively ask them for positive comments on each other’s performances on tasks.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "How can we create a culture of positive feedback?",
+                "options": {
+                    "A": "By offering feedback only during informal occasions such as when walking down a corridor.",
+                    "B": "By making sure that only positive and not negative feedback is given.",
+                    "C": "By asking your employees to offer positive feedback to their colleagues.",
+                    "D": "By not conducting appraisals for employees."
+                },
+                "correct_answer": "C"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "text": "Psychologist and ‘growth mindset’ proponent Carol Dweck spoke of the plasticity of the brain and our ability to develop skills and talents that we might not have been good at to start with. Many of us tend to focus our praise on the end result and seemingly innate talents, e.g. ‘You really have an eye for details’ or ‘You have a real talent for organising events’. However, research suggests that by focusing on the process of how things are done – praising effort, experimentation and problem-solving strategies – we can encourage the development of new skills and the continued honing of talents.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "The ‘growth mindset’ idea is that ...",
+                "options": {
+                    "A": "we can become good at things that we might initially not seem to have a talent for.",
+                    "B": "we should focus on honing the talents that we are born with.",
+                    "C": "the end result is more important than the process.",
+                    "D": "we must not tell people that they are good at certain things."
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "text": "Racing against the inevitable, scientists are working on solving the problem by genetically modifying the Cavendish with genes from TR-4-resistant banana species. Researchers at the Queensland University of Technology have successfully grown two kinds of modified plant which have remained resistant for three years so far. But some experts think this is just a sophisticated version of the same temporary solution the original Cavendish provided. If the new bananas are planted in the same monocultures as the Cavendish and the Gros Michel before it, the risk is that another strain of the disease may rise up to threaten the modified plants too.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Genetically modifying bananas may …",
+                "options": {
+                    "A": "mean farmers can grow the Gros Michel again.",
+                    "B": "cause farmers to repeat the mistakes of the past.",
+                    "C": "encourage farmers to try new growing methods.",
+                    "D": "only be a short-term solution."
+                },
+                "correct_answer": "D"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "text": "When discussing the topic of business etiquette in a training course, a German trainee and a British trainee got into a hot debate about whether it was appropriate for someone with a doctorate to use the corresponding title on their business card. The British trainee maintained that anyone who wasn’t a medical doctor expecting to be addressed as ‘Dr’ was disgustingly pompous and full of themselves. The German trainee, however, argued that the hard work and years of education put into earning that PhD should give them full rights to expect to be addressed as ‘Dr’.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "The British trainee felt that people who want to be addressed as ‘Dr’ must be …",
+                "options": {
+                    "A": "hard-working.",
+                    "B": "conceited and self-important.",
+                    "C": "doing a medical degree.",
+                    "D": "from Germany."
+                },
+                "correct_answer": "B"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "text": "While many Continental Europeans and Latin Americans prefer to be addressed with a title, for example Mr or Ms and their surname when meeting someone in a business context for the first time, Americans, and increasingly the British, now tend to prefer using their first names. The best thing to do is to listen and observe how your conversation partner addresses you and, if you are still unsure, do not be afraid to ask them how they would like to be addressed.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "If you are not sure how to address someone, you should …",
+                "options": {
+                    "A": "use the title you see on their business card.",
+                    "B": "make your decision based on cultural stereotypes about their country.",
+                    "C": "address them the way you’d like to be addressed.",
+                    "D": "ask them what they would like you to call them."
+                },
+                "correct_answer": "D"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "text": "While the operation was a huge success for the Latin American industry, the Cavendish banana itself is far from safe. In 2014, South East Asia, another major banana producer, exported four million tons of Cavendish bananas. But, in 2015, its exports had dropped by 46 per cent thanks to a combination of another strain of the fungus, TR-4, and bad weather.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "South East Asia’s Cavendish exports fell in 2015 because …",
+                "options": {
+                    "A": "a new strain of the fungus had developed.",
+                    "B": "farmers can’t afford new farming technology.",
+                    "C": "they had to quarantine their fruit.",
+                    "D": "they depended too much on other countries."
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "text": "Your manager stops you and says she needs to have a word about your performance in the recent project. You worry about it all weekend, wondering what you might have done wrong. When you step into her office on Monday morning she begins by praising you for the good work you’ve done on the project, and you wonder if this is the obligatory praise that starts off the typical ‘feedback sandwich’. You know how the feedback sandwich goes: say something nice, say what you really want to say, say something nice again. In an attempt to inject some positivity into their feedback, many managers rely on sandwiching negative feedback between two positive comments.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "What does the ‘feedback sandwich’ involve?",
+                "options": {
+                    "A": "Giving positive feedback by accompanying it with negative feedback",
+                    "B": "Giving negative feedback by accompanying it with positive feedback",
+                    "C": "Creating a feedback culture in an organization",
+                    "D": "Devaluing positive feedback"
+                },
+                "correct_answer": "B"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "text": "A new study published in the journal Science shows definitive evidence of organic matter on the surface of Mars. The data was collected by NASA’s nuclear-powered rover Curiosity. It confirms earlier findings that the Red Planet once contained carbon-based compounds. These compounds – also called organic molecules – are essential ingredients for life as scientists understand it.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "The study in the journal Science was written by NASA scientists.",
+                "options": {
+                    "A": "True",
+                    "B": "False",
+                    "C": "Not given"
+                },
+                "correct_answer": "C"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "text": "The organic molecules were found in Mars’s Gale Crater, a large area that may have been a watery lake over three billion years ago. The rover encountered traces of the molecule in rocks extracted from the area. The rocks also contain sulfur, which scientists speculate helped preserve the organics even when the rocks were exposed to the harsh radiation on the surface of the planet.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "A scientific vehicle found very small elements of an organic molecule within water extracted from the planet.",
+                "options": {
+                    "A": "True",
+                    "B": "False",
+                    "C": "Not given"
+                },
+                "correct_answer": "B"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "text": "The rover analyses the air around Mars periodically, and in 2014 it found the air contained another of the most basic organic molecules and a key ingredient of natural gas: methane. One of the characteristics of methane is that it only survives a few hundred years. This means that something, somewhere on Mars, is replenishing the supply. According to NASA, Mars emits thousands of tons of methane at a time. The level of methane rises and falls at seasonal intervals in the year, almost as if the planet is breathing it.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Methane is a natural molecule that is a sign of life.",
+                "options": {
+                    "A": "True",
+                    "B": "False",
+                    "C": "Not given"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "text": "NASA suspects the methane comes from deep under the surface of the planet. The variations in temperature on the surface of Mars cause the molecule to flow upwards at higher or lower levels. For example, in the Martian winter the gas could get trapped in underground icy crystals. These crystals, called clathrates, melt in the summer and release the gas. However, the source of the methane is still a complete mystery.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Mars can be said to have a winter and a summer.",
+                "options": {
+                    "A": "True",
+                    "B": "False",
+                    "C": "Not given"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "text": "Of course, this means further research is necessary. Scientists say they need to send new equipment to Mars, equipment that can measure the air and soil with more precision. There are already missions underway. The European Space Agency’s ExoMars ship lands in 2020 and will be able to drill into the ground on Mars to analyse what it finds. Additionally, NASA is sending another Mars rover in the same year to collect samples of Martian soil and return them to Earth.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "There are at least two more scientific expeditions heading to Mars.",
+                "options": {
+                    "A": "True",
+                    "B": "False",
+                    "C": "Not given"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "text": "Westwend is a changing town. People come to Westwend to build a better and more prosperous future for themselves and their family.\nAs your representative I pledge to:\n-fight to improve public schooling for our children;\n-work to ensure that Westwend is connected more effectively: both its transport and digital connections;\n-listen to each and every citizen’s problems and help them overcome them.\nWestwend needs someone who represents all of our communities and not only the wealthy, who puts people before politics and who keeps their promises.\nLet me be that person.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "This manifesto talks about:",
+                "options": {
+                    "A": "Higher education",
+                    "B": "Transportation",
+                    "C": "Healthcare",
+                    "D": "Deregulation",
+                    "E": "Better conditions for workers"
+                },
+                "correct_answer": "B"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "text": "My goal is to restore full services at our local hospital and create free parking for visitors. I pledge to provide better care for the elderly and the most vulnerable in our town.\nI will create jobs in Westwend by reducing taxes and red tape. Together we will help families overcome the high cost of living by tackling job insecurity and extending free childcare for working parents.\nI will fight for our services and to keep our streets safe.\nI will support our rural communities and local businesses.\nMy priority is people. My priority is you.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "This manifesto talks about:",
+                "options": {
+                    "A": "Higher education",
+                    "B": "Transportation",
+                    "C": "Healthcare",
+                    "D": "Communication with citizens",
+                    "E": "Tourism"
+                },
+                "correct_answer": "C"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "text": "My first goal is to press for a minimum wage of £10 by next year, and ban zero-hours contracts, which contribute greatly to job insecurity. I will join the fight to scrap highly prohibitive university tuition fees. A good education and a good job should be available to all the citizens of Westwend.\nOur planet is in a moment of crisis, and Westwend can play its part. I am committed to investment in renewable energy and will provide tax credits to small businesses that engage in green practices. I will also fight to protect the wildlands around Westwend.\nI will fight for fairness in government. I will work to protect our planet.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "This manifesto talks about:",
+                "options": {
+                    "A": "Higher education",
+                    "B": "Transportation",
+                    "C": "Healthcare",
+                    "D": "Communication with citizens",
+                    "E": "Deregulation"
+                },
+                "correct_answer": "A"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "text": "I pledge to be a full-time, unsponsored representative for the communities of Westwend. I will give you straight answers to your questions, without using jargon or meaningless statistics. I will maintain a full-time office and hold regular open-door sessions with the people of Westwend.\nI promise to promote Westwend as a beacon for business and tourism. I will seek to reduce the unnecessary restrictions government places on people and companies. I will campaign for a more simple and transparent tax system for all.\nThe time of empty promises is over. Let’s bring change to our town. Change for the better.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "This manifesto talks about:",
+                "options": {
+                    "A": "Higher education",
+                    "B": "Transportation",
+                    "C": "Healthcare",
+                    "D": "Communication with citizens",
+                    "E": "Better conditions for workers"
+                },
+                "correct_answer": "D"
+            }
+        ]
+    }
+]

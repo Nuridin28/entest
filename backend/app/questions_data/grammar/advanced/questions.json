@@ -1,0 +1,462 @@
+[
+    {
+        "id": 1,
+        "question": "... Richard, it seems he finally made his decision",
+        "options": {
+            "A": "Had spoken to",
+            "B": "Having spoken to",
+            "C": "Speaking to"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 2,
+        "question": "Alex dreads ________ to retire.",
+        "options": {
+            "A": "to have",
+            "B": "have",
+            "C": "having"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 3,
+        "question": "All my life ...",
+        "options": {
+            "A": "-I loved going to the movies",
+            "B": "I have loved to go to the movies",
+            "C": "I´ve loved going to the movies"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 4,
+        "question": "Choose the correct sentence:",
+        "options": {
+            "A": "Your birthday´s next month, isn´t it?",
+            "B": "Your birthday will be next month, won´t it?",
+            "C": "Your birthday is going to be next month, isn´t it?"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 5,
+        "question": "Choose the correct sentence:",
+        "options": {
+            "A": "The doctor said it was nothing to worry about",
+            "B": "The doctor said its nothing. Don´t worry",
+            "C": "The doctor said it isn´t something to worry about"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "question": "Choose the correct sentence:",
+        "options": {
+            "A": "I can´t imagine why he said that",
+            "B": "I might imagine why he said that",
+            "C": "I don´t imagine why he said that"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "question": "Choose the correct sentence:",
+        "options": {
+            "A": "The painting sold for three thousand euros",
+            "B": "The painting was sold for three thousand euros",
+            "C": "The painting was being sold for three thousand euros"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 8,
+        "question": "Having … his driving test several times, Paul finally passed at the fourth attempt.",
+        "options": {
+            "A": "taken",
+            "B": "made",
+            "C": "had",
+            "D": "attended"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "question": "He Jin said she, … interested in going to a museum.",
+        "options": {
+            "A": "hadn’t been",
+            "B": "isn’t",
+            "C": "wasn’t"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 10,
+        "question": "He´s had his car...",
+        "options": {
+            "A": "when he passed his driving test",
+            "B": "since he passed his driving test",
+            "C": "as he passed his driving test"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 11,
+        "question": "I ...... that we arrive on time. I don't want to miss the beginning",
+        "options": {
+            "A": "hope",
+            "B": "await",
+            "C": "expect",
+            "D": "wait"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 12,
+        "question": "I appreciate ________ able to study in peace and quiet.",
+        "options": {
+            "A": "being",
+            "B": "be",
+            "C": "to be"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 13,
+        "question": "I asked my sister if ...... a bottle of perfume for me at the airport.",
+        "options": {
+            "A": "she had buy",
+            "B": "she would bought",
+            "C": "she had bought",
+            "D": "she bought"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 14,
+        "question": "I don´t think Tokyo...",
+        "options": {
+            "A": "is as dangerous like London",
+            "B": "is so dangerous as London",
+            "C": "is as dangerous as London"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 15,
+        "question": "I had never seen it before, and ...... I knew exactly what to do.",
+        "options": {
+            "A": "still",
+            "B": "yet",
+            "C": "just",
+            "D": "even"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 16,
+        "question": "I have never been ... in all my life!",
+        "options": {
+            "A": "such embarrassed",
+            "B": "so embarrassed",
+            "C": "such an embarrassed"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 17,
+        "question": "I prefer to buy CDs … download music from my computer.",
+        "options": {
+            "A": "in contrast to",
+            "B": "as opposed to",
+            "C": "rather than",
+            "D": "in comparison to"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 18,
+        "question": "I was relieved ________ out that I had passed the exam.",
+        "options": {
+            "A": "finding",
+            "B": "to find",
+            "C": "find"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 19,
+        "question": "I’d lived in Australia, so I was used to … on the left side of the road.",
+        "options": {
+            "A": "driving",
+            "B": "drive",
+            "C": "having driven",
+            "D": "drove"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 20,
+        "question": "If ...... you were coming, I would have baked a cake!",
+        "options": {
+            "A": "I would know",
+            "B": "I would have known",
+            "C": "I had known",
+            "D": "I had had known"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 21,
+        "question": "If you lost your key, try ________ a pin or something sharp to open the door.",
+        "options": {
+            "A": "using",
+            "B": "use",
+            "C": "to use"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 22,
+        "question": "It ...... ages since the last time I saw you",
+        "options": {
+            "A": "has been",
+            "B": "was be",
+            "C": "must been",
+            "D": "must have been"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 23,
+        "question": "Maintaining an accurate balance sheet is essential, … business you’re in.",
+        "options": {
+            "A": "however",
+            "B": "wherever",
+            "C": "whatever",
+            "D": "whenever"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 24,
+        "question": "Not for many months, … find a solution to the problem.",
+        "options": {
+            "A": "we did",
+            "B": "did we",
+            "C": "didn’t we"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 25,
+        "question": "She tried to make me ________ that she was my mother.",
+        "options": {
+            "A": "to believe",
+            "B": "believing",
+            "C": "believe"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 26,
+        "question": "She was late for work today because she ...... to go to the doctor's.",
+        "options": {
+            "A": "must",
+            "B": "had",
+            "C": "have",
+            "D": "should"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 27,
+        "question": "Speed cameras … shown to reduce accidents.",
+        "options": {
+            "A": "have",
+            "B": "were being",
+            "C": "have been",
+            "D": "are being"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 28,
+        "question": "The flight to London was ...... expensive than I thought.",
+        "options": {
+            "A": "more less",
+            "B": "much less",
+            "C": "more or less",
+            "D": "least"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 29,
+        "question": "The horses struggled ________ the carriage out of the mud.",
+        "options": {
+            "A": "-pulling",
+            "B": "to pull",
+            "C": "pull"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 30,
+        "question": "The manager let Jane ________ early as she had a doctor's appointment.",
+        "options": {
+            "A": "going",
+            "B": "to go",
+            "C": "go"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 31,
+        "question": "The number of turtles on the island … by 70% over the last decade.",
+        "options": {
+            "A": "has declined",
+            "B": "has been declining",
+            "C": "has been declined",
+            "D": "is declining"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 32,
+        "question": "There you are! …",
+        "options": {
+            "A": "I have waited for ages",
+            "B": "I have been waiting for ages",
+            "C": "I waited for ages"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 33,
+        "question": "Vivian can't help ________ about her children.",
+        "options": {
+            "A": "worrying",
+            "B": "worry",
+            "C": "to worry"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 34,
+        "question": "You ...... exhausted after your exam yesterday.",
+        "options": {
+            "A": "should be",
+            "B": "must be",
+            "C": "must been",
+            "D": "must have been"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 35,
+        "question": "You don't happen to know where Malcom might be, … you?",
+        "options": {
+            "A": "mightn’t",
+            "B": "don’t",
+            "C": "do"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 36,
+        "question": "It's something of a mystery how ancient bridge builders succeeded __________ spanning this wide river.",
+        "options": {},
+        "correct_answer": "in"
+    },
+    {
+        "id": 37,
+        "question": "Are you sure you want to go on holiday to that part of the world, considering all the problems _________are right now?",
+        "options": {},
+        "correct_answer": "there"
+    },
+    {
+        "id": 38,
+        "question": "Life hasn't been found on any planet in the solar system, _________ from our own.",
+        "options": {},
+        "correct_answer": "apart"
+    },
+    {
+        "id": 39,
+        "question": "The city of Istanbul in Turkey was known _________ Constantinople until the early 20th century.",
+        "options": {},
+        "correct_answer": "as"
+    },
+    {
+        "id": 40,
+        "question": "In _________ to a company car and large annual bonuses, we are also offering help in finding a new house.",
+        "options": {},
+        "correct_answer": "addition"
+    },
+    {
+        "id": 41,
+        "question": "The difficulty with _________ he managed to speak showed how upset he was.",
+        "options": {},
+        "correct_answer": "which"
+    },
+    {
+        "id": 42,
+        "question": "I love Lebanese food but what's the country itself _________? Tell me about the weather, for example.",
+        "options": {},
+        "correct_answer": "like"
+    },
+    {
+        "id": 43,
+        "question": "_________ deep is that river? Do you think we'll need a boat to cross it?",
+        "options": {},
+        "correct_answer": "how"
+    },
+    {
+        "id": 44,
+        "question": "There are several very interesting ingredients we can add to this cake. ________ of them is nutmeg and another is vanilla.",
+        "options": {},
+        "correct_answer": "one"
+    },
+    {
+        "id": 45,
+        "question": "We discussed who would give money for the gift for about ten minutes and ________ the end, Cyril just grabbed the bill and paid.",
+        "options": {},
+        "correct_answer": "in"
+    },
+    {
+        "id": 46,
+        "question": "________ from yourself, do you know anyone else who'd be willing to volunteer?",
+        "options": {},
+        "correct_answer": "apart"
+    },
+    {
+        "id": 47,
+        "question": "Brunei, a tiny ________ very wealthy state, lies in Asia.",
+        "options": {},
+        "correct_answer": "but"
+    },
+    {
+        "id": 48,
+        "question": "My mother warned my brother that dinner would be at 6pm and ________ this, he was eating doughnuts half an hour before!",
+        "options": {},
+        "correct_answer": "despite"
+    },
+    {
+        "id": 49,
+        "question": "It looks ________ though the new employee is going to be late on his first day.",
+        "options": {},
+        "correct_answer": "as"
+    },
+    {
+        "id": 50,
+        "question": "________ the work you do for the government, what else do you do for a living?",
+        "options": {},
+        "correct_answer": "besides"
+    },
+    {
+        "id": 51,
+        "question": "We loved the house, but couldn't contact the agent and that's________ is the most frustrating thing.",
+        "options": {},
+        "correct_answer": "what"
+    }
+]

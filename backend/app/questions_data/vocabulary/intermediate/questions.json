@@ -1,0 +1,596 @@
+[
+    {
+        "id": 1,
+        "question": "Diamonds are____, which is probably one of the reasons they are valuable.",
+        "options": {
+            "A": "broad",
+            "B": "rare",
+            "C": "flexible",
+            "D": "talented"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 2,
+        "question": "Even today, many scientists are still unsure about the_______________of global warming.",
+        "options": {
+            "A": "review",
+            "B": "cause",
+            "C": "effort",
+            "D": "flood"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "question": "For a company to succeed, good management is _____.",
+        "options": {
+            "A": "tough",
+            "B": "essential",
+            "C": "broad",
+            "D": "affordable"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 4,
+        "question": "Forest fires can start naturally; for example, when __________ strikes the ground during a storm.",
+        "options": {
+            "A": "lightning",
+            "B": "thunder",
+            "C": "gasoline",
+            "D": "rubbish"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 5,
+        "question": "I got a cheque _ a hundred pounds this morning.",
+        "options": {
+            "A": "in",
+            "B": "on",
+            "C": "out of",
+            "D": "of"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 6,
+        "question": "I don’t mind your baking a cake, but just make sure you ___ everything when you’ve finished.",
+        "options": {
+            "A": "put/away",
+            "B": "clear/up",
+            "C": "put/out",
+            "D": "take/back"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 7,
+        "question": "I won’t be able to go shopping with you today, I’m afraid. I’ve got a lot to do at the moment. Can we_____it___till next week?",
+        "options": {
+            "A": "put/off",
+            "B": "find/out",
+            "C": "put/out",
+            "D": "take/back"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "question": "I’ll dry the dishes if you _ them _ .",
+        "options": {
+            "A": "put/away",
+            "B": "find/out",
+            "C": "put/out",
+            "D": "wash/up"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 9,
+        "question": "If an employee is no longer needed, he or she can be made ____ .",
+        "options": {
+            "A": "resigned",
+            "B": "redundant",
+            "C": "employer",
+            "D": "retiring"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 10,
+        "question": "If an employer is interested in meeting you, you will be asked to come to a/an _ .",
+        "options": {
+            "A": "sensation",
+            "B": "addition",
+            "C": "completion",
+            "D": "interview"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 11,
+        "question": "If you have the right talents and experience for a job, then you are ______for it.",
+        "options": {
+            "A": "resigned",
+            "B": "resumed",
+            "C": "careered",
+            "D": "qualified"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 12,
+        "question": "In twenty years' time, the food supplies will be so ___ for some countries that people will start immigrating in huge numbers.",
+        "options": {
+            "A": "scale",
+            "B": "scarce",
+            "C": "scan",
+            "D": "scare"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 13,
+        "question": "It is a very strange fact that frogs____water through their skins.",
+        "options": {
+            "A": "accelerate",
+            "B": "balance",
+            "C": "access",
+            "D": "absorb"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 14,
+        "question": "Jack______did a thing at work today. He spent most of his time chatting with the secretary.",
+        "options": {
+            "A": "seldom",
+            "B": "rarely",
+            "C": "hardly",
+            "D": "slightly"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 15,
+        "question": "John recently changed his _____. He used to be an accountant, but now he's a real estate agent.",
+        "options": {
+            "A": "source",
+            "B": "mood",
+            "C": "profit",
+            "D": "career"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 16,
+        "question": "Johnathan had his ________tested yesterday. The doctor said he needed glasses.",
+        "options": {
+            "A": "stamina",
+            "B": "vision",
+            "C": "courage",
+            "D": "pressure"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 17,
+        "question": "Kate's lifestyle is ___________. She jogs every day and plays tennis three times a week.",
+        "options": {
+            "A": "cautious",
+            "B": "worthy",
+            "C": "active",
+            "D": "silent"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 18,
+        "question": "Lisa is ___ buying a pet but she's not sure what kind to get.",
+        "options": {
+            "A": "recalling",
+            "B": "considering",
+            "C": "regretting",
+            "D": "recommending"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 19,
+        "question": "Many people in the world are forced to leave their countries and become________because of their religious or political views.",
+        "options": {
+            "A": "patriot",
+            "B": "peasant",
+            "C": "refugee",
+            "D": "bandit"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 20,
+        "question": "My boss_________ me the task of cleaning the staff kitchen.",
+        "options": {
+            "A": "labelled",
+            "B": "shipped",
+            "C": "assigned",
+            "D": "recruited"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 21,
+        "question": "One day, I want to climb Mt. Everest. That's a goal I want to_______________.",
+        "options": {
+            "A": "achieve",
+            "B": "recall",
+            "C": "invent",
+            "D": "acquire"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 22,
+        "question": "One should never ______ the importance of family life in the overall development of a child.",
+        "options": {
+            "A": "capture",
+            "B": "underestimate",
+            "C": "calculate",
+            "D": "gamble"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 23,
+        "question": "Queen Victoria wore some beautiful______________on her neck at the party.",
+        "options": {
+            "A": "jewellery",
+            "B": "inspiration",
+            "C": "criticism",
+            "D": "odor"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 24,
+        "question": "Takeshi's job with the government is______. He'll probably work there until he dies.",
+        "options": {
+            "A": "loyal",
+            "B": "efficient",
+            "C": "stable",
+            "D": "limited"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 25,
+        "question": "The chances of winning the lottery are very low. Although Jim ________he'll ever win, he buys a lottery ticket every weekend.",
+        "options": {
+            "A": "imagines",
+            "B": "contains",
+            "C": "reports",
+            "D": "doubts"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 26,
+        "question": "The company owner _______ the meeting. The other managers didn't even get the chance to speak.",
+        "options": {
+            "A": "ensured",
+            "B": "facilitated",
+            "C": "dominated",
+            "D": "alleviated"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 27,
+        "question": "The factory workers are _ strike because they want more money.",
+        "options": {
+            "A": "in",
+            "B": "on",
+            "C": "out of",
+            "D": "of"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 28,
+        "question": "The fire was so intense that it took the firemen three hours to _it .",
+        "options": {
+            "A": "put/away",
+            "B": "find/out",
+            "C": "put/out",
+            "D": "clear/up"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 29,
+        "question": "The government wants to _______a new scheme to encourage people to start their own businesses.",
+        "options": {
+            "A": "put away",
+            "B": "find out",
+            "C": "try out",
+            "D": "clear up"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 30,
+        "question": "The police are ___________a murder that happened last night downtown They don't know who the killer is yet.",
+        "options": {
+            "A": "investigating",
+            "B": "coordinating",
+            "C": "demonstrating",
+            "D": "searching"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 31,
+        "question": "The water around Tokyo is too _____________to swim in or drink.",
+        "options": {
+            "A": "slippery",
+            "B": "polluted",
+            "C": "extinct",
+            "D": "thick"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 32,
+        "question": "Theft and _________ are still among the most serious crimes in many countries.",
+        "options": {
+            "A": "welfare",
+            "B": "homicide",
+            "C": "sacrifice",
+            "D": "ignorance"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 33,
+        "question": "They weren't in a safe area, so John________________Brenda to her car from the restaurant.",
+        "options": {
+            "A": "accompanied",
+            "B": "indicated",
+            "C": "scattered",
+            "D": "appealed"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 34,
+        "question": "Thousands of people are _ work in this town. It’s really difficult to get a job.",
+        "options": {
+            "A": "in",
+            "B": "on",
+            "C": "out of",
+            "D": "of"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 35,
+        "question": "Tina doesn't like speaking English in front of others because she is not ________in her English skills.",
+        "options": {
+            "A": "available",
+            "B": "confident",
+            "C": "visible",
+            "D": "wealthy"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 36,
+        "question": "To ____there would be enough food at the party, Kelly ordered twice as much as she thought she needed.",
+        "options": {
+            "A": "preview",
+            "B": "suspect",
+            "C": "predict",
+            "D": "ensure"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 37,
+        "question": "Can you ______ _______the time of the next train to London?’ ‘O.K. I’ll phone the station.’",
+        "options": {
+            "A": "put away",
+            "B": "find out",
+            "C": "put out",
+            "D": "clear up"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 38,
+        "question": "“Look at these shoes! They’re brand new, and the heel’s fallen off already.” - “______ them _______and change them, then.”",
+        "options": {
+            "A": "Put/away",
+            "B": "Find/out",
+            "C": "Put/out",
+            "D": "Take/back"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 39,
+        "question": "A car slowed down as it _______the stop sign.",
+        "options": {
+            "A": "focused",
+            "B": "approached",
+            "C": "trained",
+            "D": "wiped"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 40,
+        "question": "After two hours of hard training, the coach felt that his players______ a break.",
+        "options": {
+            "A": "deserved",
+            "B": "encouraged",
+            "C": "identified",
+            "D": "wasted"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 41,
+        "question": "Bob got _______ from his job because his boss caught him stealing office supplies.",
+        "options": {
+            "A": "signed",
+            "B": "fired",
+            "C": "split",
+            "D": "reached"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 42,
+        "question": "After Mark saw his test score, he was ____________ He thought that he had failed.",
+        "options": {
+            "A": "disabled",
+            "B": "relieved",
+            "C": "exhausted",
+            "D": "meaningless"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 43,
+        "question": "‘Can I _____ these jeans ___ please?’ - ‘Sure. The changing rooms are over there.’",
+        "options": {
+            "A": "put/away",
+            "B": "try/out",
+            "C": "put/out",
+            "D": "try/on"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 44,
+        "question": "All the runners had completed the first ______ of the race when a sudden rain started.",
+        "options": {
+            "A": "hint",
+            "B": "ladder",
+            "C": "lane",
+            "D": "lap"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 45,
+        "question": "We must have an _ supply of food before we start our journey.",
+        "options": {
+            "A": "absolute",
+            "B": "abstract",
+            "C": "abundant",
+            "D": "aboard"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 46,
+        "question": "Weather experts have that next summer will be extremely hot.",
+        "options": {
+            "A": "reflected",
+            "B": "included",
+            "C": "predicted",
+            "D": "prescribed"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 47,
+        "question": "What should I do with this form?’ - ‘____it_____.’",
+        "options": {
+            "A": "Find/out",
+            "B": "Fill/in",
+            "C": "Put/out",
+            "D": "Clear/up"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 48,
+        "question": "When you try and get a job, you usually have to complete a/an _______form.",
+        "options": {
+            "A": "resignation",
+            "B": "resume",
+            "C": "application",
+            "D": "retirement"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 49,
+        "question": "When you want to leave a job, you have to give your ___.",
+        "options": {
+            "A": "resignation",
+            "B": "resume",
+            "C": "career",
+            "D": "retirement"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 50,
+        "question": "Yesterday morning, I found my little bird lying dead inside his____.",
+        "options": {
+            "A": "cave",
+            "B": "cage",
+            "C": "cemetery",
+            "D": "pavement"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 51,
+        "question": "You can often find about a new job by a/an in a newspaper.",
+        "options": {
+            "A": "news",
+            "B": "completion",
+            "C": "sensation",
+            "D": "advertisement"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 52,
+        "question": "You’re really annoying me. You’re doing it _ purpose, aren’t you?",
+        "options": {
+            "A": "in",
+            "B": "on",
+            "C": "out of",
+            "D": "of"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 53,
+        "question": "After watching the Burger King commercial, I had a strong___________to eat a hamburger.",
+        "options": {
+            "A": "desire",
+            "B": "injury",
+            "C": "fever",
+            "D": "order"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 54,
+        "question": "Carol didn't have a good___________for being late this morning. She just slept too long.",
+        "options": {
+            "A": "blame",
+            "B": "excuse",
+            "C": "scenario",
+            "D": "mood"
+        },
+        "correct_answer": "B"
+    }
+]

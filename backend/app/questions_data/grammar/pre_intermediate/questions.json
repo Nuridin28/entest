@@ -1,0 +1,563 @@
+[
+    {
+        "id": 1,
+        "question": "Choose the correct answer: A, B, C or D.\n ______ raining?",
+        "options": {
+            "A": "Is it",
+            "B": "Does",
+            "C": "It",
+            "D": "Is"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 2,
+        "question": "Choose the correct answer: A, B, C or D.\n ______ to Milan?",
+        "options": {
+            "A": "Have you been",
+            "B": "Have you be",
+            "C": "Have you",
+            "D": "You be"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 3,
+        "question": "Choose the correct answer: A, B, C or D.\n ______ to see that film that is on at the cinema next week?",
+        "options": {
+            "A": "Do you go",
+            "B": "Is you going",
+            "C": "Are you going",
+            "D": "Will you go"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 4,
+        "question": "Choose the correct answer: A, B, C or D.\n ______ it was very cold, she wasn't wearing a coat.",
+        "options": {
+            "A": "So",
+            "B": "Although",
+            "C": "Because",
+            "D": "But"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 5,
+        "question": "Choose the correct answer: A, B, C or D.\n ______ John this morning?",
+        "options": {
+            "A": "Did you see",
+            "B": "You saw",
+            "C": "Did you seen",
+            "D": "You did see"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "question": "Choose the correct answer: A, B, C or D.\n ______ she's very nice, she doesn't have many friends.",
+        "options": {
+            "A": "Although",
+            "B": "Because",
+            "C": "But",
+            "D": "So"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "question": "Choose the correct answer: A, B, C or D.\n A thermometer is a tool ______ measuring the temperature.",
+        "options": {
+            "A": "to",
+            "B": "for",
+            "C": "of",
+            "D": "at"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 8,
+        "question": "Choose the correct answer: A, B, C or D.\n A: Do you like shopping? B: ______.",
+        "options": {
+            "A": "Yes, I am",
+            "B": "Yes, I do",
+            "C": "No, I do",
+            "D": "No, I am"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 9,
+        "question": "Choose the correct answer: A, B, C or D.\n Bob will meet ______ at the airport.",
+        "options": {
+            "A": "us",
+            "B": "we",
+            "C": "our",
+            "D": "ours"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "question": "Choose the correct answer: A, B, C or D.\n Can I ______ your sweater, please? It's cold and I have only a T-shirt.",
+        "options": {
+            "A": "borrow",
+            "B": "get",
+            "C": "give",
+            "D": "lend"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 11,
+        "question": "Choose the correct answer: A, B, C or D.\n Can you ______ me all right over there because you are rather a long way away?",
+        "options": {
+            "A": "listening",
+            "B": "hearing",
+            "C": "listen",
+            "D": "hear"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 12,
+        "question": "Choose the correct answer: A, B, C or D. Can you drive ______",
+        "options": {
+            "A": "more slowly",
+            "B": "slowy",
+            "C": "most slowly",
+            "D": "slowerly"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 13,
+        "question": "Choose the correct answer: A, B, C or D. Do you ______ clean the house every day or every week?",
+        "options": {
+            "A": "must",
+            "B": "have",
+            "C": "have to",
+            "D": "must to"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 14,
+        "question": "Choose the correct answer: A, B, C or D. Do you sell stamps? Yes, we do. How ______ do you want?",
+        "options": {
+            "A": "many",
+            "B": "much",
+            "C": "little",
+            "D": "lot"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 15,
+        "question": "Choose the correct answer: A, B, C or D. He isn't as ______ you.",
+        "options": {
+            "A": "smarter as",
+            "B": "smart as",
+            "C": "smarter than",
+            "D": "smartest"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 16,
+        "question": "Choose the correct answer: A, B, C or D. How many bedrooms ______ in your flat?",
+        "options": {
+            "A": "is there",
+            "B": "are there",
+            "C": "there is",
+            "D": "it was"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 17,
+        "question": "Choose the correct answer: A, B, C or D. How many brothers and sisters______ ?",
+        "options": {
+            "A": "have you got",
+            "B": "have you",
+            "C": "you have",
+            "D": "got you"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 18,
+        "question": "Choose the correct answer: A, B, C or D. I ______ her every day and she never says hello to me.",
+        "options": {
+            "A": "see",
+            "B": "am seeing",
+            "C": "will see",
+            "D": "saw"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 19,
+        "question": "Choose the correct answer: A, B, C or D. I ______ to remember your name but I'm afraid I can't remember it.",
+        "options": {
+            "A": "try",
+            "B": "am trying",
+            "C": "trying",
+            "D": "will trying"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 20,
+        "question": "Choose the correct answer: A, B, C or D. I don't want ______ juice, thanks.",
+        "options": {
+            "A": "any",
+            "B": "many",
+            "C": "few",
+            "D": "something"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 21,
+        "question": "Choose the correct answer: A, B, C or D. I have never ______ her before.",
+        "options": {
+            "A": "saw",
+            "B": "seeing",
+            "C": "seen",
+            "D": "see"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 22,
+        "question": "Choose the correct answer: A, B, C or D. I like this apartment but the ______ is too expensive for me.",
+        "options": {
+            "A": "rent",
+            "B": "money",
+            "C": "number",
+            "D": "finance"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 23,
+        "question": "Choose the correct answer: A, B, C or D. I may ______ able to come to your party if I have the time.",
+        "options": {
+            "A": "be",
+            "B": "being",
+            "C": "being to",
+            "D": "been"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 24,
+        "question": "Choose the correct answer: A, B, C or D. I need my computer ______ send an important email",
+        "options": {
+            "A": "of",
+            "B": "about",
+            "C": "to",
+            "D": "for"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 25,
+        "question": "Choose the correct answer: A, B, C or D. I only want ______ little sugar in my tea, please.",
+        "options": {
+            "A": "a",
+            "B": "the",
+            "C": "such",
+            "D": "-"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 26,
+        "question": "Choose the correct answer: A, B, C or D. I want to go to the cinema to see a film about ______ and the French.",
+        "options": {
+            "A": "France",
+            "B": "a France",
+            "C": "the France",
+            "D": "an France"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 27,
+        "question": "Choose the correct answer: A, B, C or D. I woke up ______ there was a noise.",
+        "options": {
+            "A": "so",
+            "B": "because",
+            "C": "although",
+            "D": "but"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 28,
+        "question": "Choose the correct answer: A, B, C or D. I'm looking at the photograph ______ you sent me with your letter.",
+        "options": {
+            "A": "which",
+            "B": "who",
+            "C": "whom",
+            "D": "whose"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 29,
+        "question": "Choose the correct answer: A, B, C or D. I'm going to a concert tonight. ______ you like to come?",
+        "options": {
+            "A": "Would",
+            "B": "Are",
+            "C": "Do",
+            "D": "Is"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 30,
+        "question": "Choose the correct answer: A, B, C or D. It is ______ book that I have ever read.",
+        "options": {
+            "A": "funniest",
+            "B": "a funniest",
+            "C": "the funniest",
+            "D": "the most funniest"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 31,
+        "question": "Choose the correct answer: A, B, C or D. My current job is ______ more stressful than my last job.",
+        "options": {
+            "A": "much",
+            "B": "many",
+            "C": "very",
+            "D": "lot"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 32,
+        "question": "Choose the correct answer: A, B, C or D. My sister's studying the law ______ university.",
+        "options": {
+            "A": "at",
+            "B": "for",
+            "C": "inside",
+            "D": "of"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 33,
+        "question": "Choose the correct answer: A, B, C or D. Now will you please ______ me and pay attention to what I'm saying because it's very important.",
+        "options": {
+            "A": "hear",
+            "B": "listen to",
+            "C": "hearing",
+            "D": "listening to"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 34,
+        "question": "Choose the correct answer: A, B, C or D. Paula ______ loves working with children.",
+        "options": {
+            "A": "really",
+            "B": "more",
+            "C": "very",
+            "D": "much"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 35,
+        "question": "Choose the correct answer: A, B, C or D. Picasso and Monet ______ famous painters.",
+        "options": {
+            "A": "was",
+            "B": "were",
+            "C": "is",
+            "D": "are"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 36,
+        "question": "Choose the correct answer: A, B, C or D. She's going to university ______ her studies.",
+        "options": {
+            "A": "for continuing",
+            "B": "to continue",
+            "C": "to continuing",
+            "D": "continue"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 37,
+        "question": "Choose the correct answer: A, B, C or D. The brothers will ______ school both together at the end of this year.",
+        "options": {
+            "A": "end",
+            "B": "ending",
+            "C": "finish",
+            "D": "finishes"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 38,
+        "question": "Choose the correct answer: A, B, C or D. The bus didn't stop in Lyon. It only ______ in Paris.",
+        "options": {
+            "A": "didn't stop",
+            "B": "stopped",
+            "C": "stop",
+            "D": "stopping"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 39,
+        "question": "Choose the correct answer: A, B, C or D. The grass, ______ I cut every week, seems to grow very quickly.",
+        "options": {
+            "A": "who",
+            "B": "who's",
+            "C": "which",
+            "D": "that"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 40,
+        "question": "Choose the correct answer: A, B, C or D. There was nothing on TV, ______ I went to bed.",
+        "options": {
+            "A": "so",
+            "B": "but",
+            "C": "because",
+            "D": "although"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 41,
+        "question": "Choose the correct answer: A, B, C or D. This is going to be ______ show you have ever seen",
+        "options": {
+            "A": "the biggest",
+            "B": "the bigger",
+            "C": "the bigger",
+            "D": "bigger"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 42,
+        "question": "Choose the correct answer: A, B, C or D. We couldn't find a taxi, ______ we walked home.",
+        "options": {
+            "A": "so",
+            "B": "but",
+            "C": "because",
+            "D": "although"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 43,
+        "question": "Choose the correct answer: A, B, C or D. What is ______ option in the menu?",
+        "options": {
+            "A": "healthier",
+            "B": "the healthiest",
+            "C": "most healthy",
+            "D": "health"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 44,
+        "question": "Choose the correct answer: A, B, C or D. What time ______ call you tomorrow?",
+        "options": {
+            "A": "should I",
+            "B": "I should",
+            "C": "do I should",
+            "D": "should do I"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 45,
+        "question": "Choose the correct answer: A, B, C or D. What's ______ river in the world?",
+        "options": {
+            "A": "the longest",
+            "B": "longer",
+            "C": "long",
+            "D": "more long"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 46,
+        "question": "Choose the correct answer: A, B, C or D. When will you ______ come and see us in our new house?",
+        "options": {
+            "A": "can",
+            "B": "be able to",
+            "C": "must",
+            "D": "being able"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 47,
+        "question": "Choose the correct answer: A, B, C or D. When ______ a decision?",
+        "options": {
+            "A": "will she make",
+            "B": "she will make",
+            "C": "make she",
+            "D": "she making"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 48,
+        "question": "Choose the correct answer: A, B, C or D. Where ______ for dinner last night?",
+        "options": {
+            "A": "did you went",
+            "B": "did you go",
+            "C": "you went",
+            "D": "you are"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 49,
+        "question": "Choose the correct answer: A, B, C or D. Which of these is a noun?",
+        "options": {
+            "A": "thing",
+            "B": "think",
+            "C": "that",
+            "D": "there"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 50,
+        "question": "Choose the correct answer: A, B, C or D. Which of these is an adjective? It is ______",
+        "options": {
+            "A": "hard",
+            "B": "hardly",
+            "C": "harden",
+            "D": "hardship"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 51,
+        "question": "Choose the correct answer: A, B, C or D. Who ______ to the party?",
+        "options": {
+            "A": "did Sandra invite",
+            "B": "Sandra did invite",
+            "C": "inviting Sandra",
+            "D": "Sandra don't invite"
+        },
+        "correct_answer": "A"
+    }
+]

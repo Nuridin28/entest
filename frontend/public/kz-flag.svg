@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <!-- Фон флага -->
+  <rect width="1200" height="600" fill="#00AFCA"/>
+  
+  <!-- Группа для золотых элементов (солнце, орел, орнамент) -->
+  <g fill="#FFC91C">
+    <!-- Солнце (круг) -->
+    <circle cx="700" cy="300" r="145"/>
+    
+    <!-- Лучи солнца (32 луча, сгенерированные вращением одного луча) -->
+    <g transform="translate(700, 300)">
+      <g id="ray">
+        <path d="M0 -155 L-20 -195 L0 -190 L20 -195 Z"/>
+      </g>
+      <use href="#ray" transform="rotate(11.25)"/>
+      <use href="#ray" transform="rotate(22.5)"/>
+      <use href="#ray" transform="rotate(33.75)"/>
+      <use href="#ray" transform="rotate(45)"/>
+      <use href="#ray" transform="rotate(56.25)"/>
+      <use href="#ray" transform="rotate(67.5)"/>
+      <use href="#ray" transform="rotate(78.75)"/>
+      <use href="#ray" transform="rotate(90)"/>
+      <use href="#ray" transform="rotate(101.25)"/>
+      <use href="#ray" transform="rotate(112.5)"/>
+      <use href="#ray" transform="rotate(123.75)"/>
+      <use href="#ray" transform="rotate(135)"/>
+      <use href="#ray" transform="rotate(146.25)"/>
+      <use href="#ray" transform="rotate(157.5)"/>
+      <use href="#ray" transform="rotate(168.75)"/>
+      <use href="#ray" transform="rotate(180)"/>
+      <use href="#ray" transform="rotate(191.25)"/>
+      <use href="#ray" transform="rotate(202.5)"/>
+      <use href="#ray" transform="rotate(213.75)"/>
+      <use href="#ray" transform="rotate(225)"/>
+      <use href="#ray" transform="rotate(236.25)"/>
+      <use href="#ray" transform="rotate(247.5)"/>
+      <use href="#ray" transform="rotate(258.75)"/>
+      <use href="#ray" transform="rotate(270)"/>
+      <use href="#ray" transform="rotate(281.25)"/>
+      <use href="#ray" transform="rotate(292.5)"/>
+      <use href="#ray" transform="rotate(303.75)"/>
+      <use href="#ray" transform="rotate(315)"/>
+      <use href="#ray" transform="rotate(326.25)"/>
+      <use href="#ray" transform="rotate(337.5)"/>
+      <use href="#ray" transform="rotate(348.75)"/>
+    </g>
+    
+    <!-- Парящий орел -->
+    <path d="M700,535 C685,520 630,480 630,480 C600,455 560,450 560,450 C540,450 500,435 500,435 C485,425 470,415 470,415 C460,410 450,400 450,400 C440,390 435,380 435,380 C425,360 425,340 430,320 C435,300 450,295 450,295 C470,290 480,300 480,300 C490,305 500,320 500,320 C510,335 520,345 530,350 C545,355 560,355 575,350 L700,380 L825,350 C840,355 855,355 870,350 C880,345 890,335 900,320 C900,320 910,305 920,300 C920,300 930,290 950,295 C950,295 965,300 970,320 C975,340 975,360 965,380 C965,380 960,390 950,400 C950,400 940,410 930,415 C930,415 915,425 900,435 C900,435 860,450 840,450 C840,450 800,455 770,480 C770,480 715,520 700,535 Z"/>
+    
+    <!-- Национальный орнамент "қошқар-мүйіз" (бараньи рога) -->
+    <path d="M125,0 V600 H105 V580 H85 V560 H65 V540 H45 V520 H25 V500 H45 V480 H65 V460 H85 V440 H105 V420 H85 V400 H65 V380 H45 V360 H25 V340 H45 V320 H65 V300 H85 V280 H105 V260 H85 V240 H65 V220 H45 V200 H25 V180 H45 V160 H65 V140 H85 V120 H105 V100 H85 V80 H65 V60 H45 V40 H25 V20 H105 V0 Z M25,300 H0"/>
+  </g>
+</svg>

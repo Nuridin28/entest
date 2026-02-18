@@ -1,0 +1,662 @@
+[
+    {
+        "id": 1,
+        "question": "Complete the sentence with the appropriate word from the list:\n'Holland,' as it is __________________________ known to most of us abroad - a name stemming from its once most prominent provinces - has more going on per kilometre than most countries, and more English-speaking natives.",
+        "options": {
+            "A": "regularly",
+            "B": "occasionally",
+            "C": "commonly",
+            "D": "unusually"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 2,
+        "question": "Complete the sentence with the appropriate word from the list:\nWelcome to the Netherlands, a tiny country that only extends, at its broadest, 312 km north to south, and 264 km east to west - although the land area increases slightly each year as a _______________ of continuous land reclamation and drainage",
+        "options": {
+            "A": "whole",
+            "B": "result",
+            "C": "consequently",
+            "D": "rule"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "question": "Complete the sentence with the appropriate word from the list:\nCattle and chicken are ______________________ animals.",
+        "options": {
+            "A": "domesticated",
+            "B": "pet",
+            "C": "tame",
+            "D": "farm"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 4,
+        "question": "Complete the sentence with the appropriate word from the list:\nDon't forget to _________ the letter before you post it.",
+        "options": {
+            "A": "fasten",
+            "B": "shut",
+            "C": "seal",
+            "D": "do up"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 5,
+        "question": "fill in the gap with the appropriate word from the list:\nhe turned up his ______________________ to protect his neck from the blowing wind.",
+        "options": {
+            "A": "cap",
+            "B": "collar",
+            "C": "sleeve",
+            "D": "scarf"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "question": "Complete the sentence with the appropriate word from the list:\nHow are we going to identify him ___________ all these people? It's impossible.",
+        "options": {
+            "A": "between",
+            "B": "with",
+            "C": "among",
+            "D": "together"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 7,
+        "question": "Complete the sentence with the appropriate word from the list:\nI often judge a book by looking at its _______.",
+        "options": {
+            "A": "cover",
+            "B": "skin",
+            "C": "face",
+            "D": "coating"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "question": "fill in the gap with appropriate word from the list:\nI'm going to spend a few days with some ______________________ of mine who live on the continent.",
+        "options": {
+            "A": "relatives",
+            "B": "families",
+            "C": "neighbours",
+            "D": "companies"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "question": "Complete the sentence with the appropriate word from the list:\nIt's an old and large house, so the __________________ costs are very high.",
+        "options": {
+            "A": "protection",
+            "B": "maintenance",
+            "C": "conservation",
+            "D": "preservation"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 10,
+        "question": "Complete the sentence with the appropriate word from the list:\nMajor newspapers have expressed their _________ about the economic situation of the country.",
+        "options": {
+            "A": "concern",
+            "B": "alarm",
+            "C": "anxiety",
+            "D": "distress"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 11,
+        "question": "Complete the sentence with the appropriate word from the list:\nMany animals ________ to other regions when the weather changes.",
+        "options": {
+            "A": "journey",
+            "B": "migrate",
+            "C": "roam",
+            "D": "wander"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 12,
+        "question": "Complete the sentence with the appropriate word from the list:misuse / develop / use / exploit\nMany multinational companies only move to developing countries in order to _________ them.",
+        "options": {
+            "A": "misuse",
+            "B": "develop",
+            "C": "use",
+            "D": "exploit"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 13,
+        "question": "Complete the sentence with the appropriate word from the list:degree / field / topic / subject\nMaths was one __________ I was never good at.",
+        "options": {
+            "A": "degree",
+            "B": "field",
+            "C": "topic",
+            "D": "subject"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 14,
+        "question": "Complete the sentence with the appropriate word from the list:cured / attended / healed / treated\nMike had to stay in hospital for several weeks where he was __________ for a heart weakness.",
+        "options": {
+            "A": "cured",
+            "B": "attended",
+            "C": "healed",
+            "D": "treated"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 15,
+        "question": "Complete the sentence with the appropriate word from the list:regret / grief / disturbance / gloom\nMrs. Butler was in deep ________________ after her husband's sudden death.",
+        "options": {
+            "A": "regret",
+            "B": "grief",
+            "C": "disturbance",
+            "D": "gloom"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 16,
+        "question": "Complete the sentence with the appropriate word from the list:live / alive / life / living\nMy oldest __________________ relative is over 90.",
+        "options": {
+            "A": "live",
+            "B": "alive",
+            "C": "life",
+            "D": "living"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 17,
+        "question": "Complete the sentence with the appropriate word from the list:explained / informed / reported / advised\nNobody _________ me about any changes in the secretary's itinerary.",
+        "options": {
+            "A": "explained",
+            "B": "informed",
+            "C": "reported",
+            "D": "advised"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 18,
+        "question": "Complete the sentence with the appropriate word from the list:bed / end / bottom /deep\nNobody knows what kind of plants you can find at the ____________ of the ocean",
+        "options": {
+            "A": "bed",
+            "B": "end",
+            "C": "bottom",
+            "D": "deep"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 19,
+        "question": "Complete the sentence with the appropriate word from the list: line /entry / access/ link\nNow if we want mobile _________to the web, we have to travel around with things like tablets and smartphones in our bags or pockets.",
+        "options": {
+            "A": "line",
+            "B": "entry",
+            "C": "access",
+            "D": "link"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 20,
+        "question": "Complete the sentence with the appropriate word from the list: from start/ from noting/ from scratch / from zero\nOnly if you are a proficient speaker of a language that you have learned _______ in adulthood, can you really tell how hard it is for someone to get that level.",
+        "options": {
+            "A": "from start",
+            "B": "from noting",
+            "C": "from scratch",
+            "D": "from zero"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 21,
+        "question": "Complete the sentence with the appropriate word from the list:draw / turn / close / shut\nPlease, ________ the curtains so that nobody can see us.",
+        "options": {
+            "A": "draw",
+            "B": "turn",
+            "C": "close",
+            "D": "shut"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 22,
+        "question": "Complete the sentence with the appropriate word from the list:whole / complete / full / total\nThe _________ number of infections has increased to over a thousand.",
+        "options": {
+            "A": "whole",
+            "B": "complete",
+            "C": "full",
+            "D": "total"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 23,
+        "question": "Complete the sentence with the appropriate word from the list:former / prior / past / late\nThe ___________ prime minister has moved to a residence in the countryside.",
+        "options": {
+            "A": "former",
+            "B": "prior",
+            "C": "past",
+            "D": "late"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 24,
+        "question": "Complete the sentence with the appropriate word from the list: based/ started / founded/ begun\nThe idea is _____________on simple technology that is already in existence.",
+        "options": {
+            "A": "based",
+            "B": "started",
+            "C": "founded",
+            "D": "begun"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 25,
+        "question": "Complete the sentence with the appropriate word from the list:direct / straight / instant / immediate\nThe manager is always in _________ contact with his players",
+        "options": {
+            "A": "direct",
+            "B": "straight",
+            "C": "instant",
+            "D": "immediate"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 26,
+        "question": "Complete the sentence with the appropriate word from the list:coloured / stained / polluted / marked\nThe red wine you have spilt _________ the carpet.",
+        "options": {
+            "A": "coloured",
+            "B": "stained",
+            "C": "polluted",
+            "D": "marked"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 27,
+        "question": "Complete the sentence with the appropriate word from the list:thoughts / minute / moment / time\nThere's no need to rush. Take your ____________ before you give me your answer.",
+        "options": {
+            "A": "thoughts",
+            "B": "minute",
+            "C": "moment",
+            "D": "time"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 28,
+        "question": "Complete the sentence with the appropriate word from the list: site / mark / point / time\nThere's no turning back. This is the ________ of no return.",
+        "options": {
+            "A": "site",
+            "B": "mark",
+            "C": "point",
+            "D": "time"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 29,
+        "question": "Complete the sentence with the appropriate word from the list:border / boundary / bank / edge\nThousands of refugees have crossed the ____________ since fighting in the region started.",
+        "options": {
+            "A": "border",
+            "B": "boundary",
+            "C": "bank",
+            "D": "edge"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 30,
+        "question": "complete the sentence with the appropriate word from the list: sit/ catch / do / make\nthe possibilities are countless and the nationwide tourist office, which is on hand to give you information and___________\nreservations.",
+        "options": {
+            "A": "sit",
+            "B": "catch",
+            "C": "do",
+            "D": "make"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 31,
+        "question": "_____________________ looking everywhere, i simply couldn't find the car keys.",
+        "options": {
+            "A": "despite",
+            "B": "although",
+            "C": "nevertheless",
+            "D": "however"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 32,
+        "question": "a written set of questions which you give to a large number of people in order to collect information is called a/an_____.",
+        "options": {
+            "A": "balance sheet",
+            "B": "challenge",
+            "C": "questionnaire",
+            "D": "question supply"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 33,
+        "question": "choose an antonym to the bold word:\nthe computer comes with a year’s warranty on all parts.",
+        "options": {
+            "A": "authority",
+            "B": "guaranty",
+            "C": "insecurity",
+            "D": "insurance"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 34,
+        "question": "choose the odd word:",
+        "options": {
+            "A": "eye-catching",
+            "B": "attractive",
+            "C": "ugly",
+            "D": "noticeable"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 35,
+        "question": "dad _____________________ at the clock and saw that it was time to leave",
+        "options": {
+            "A": "glanced",
+            "B": "glimpsed",
+            "C": "watched",
+            "D": "observed"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 36,
+        "question": "he has shown outstanding leadership __________.",
+        "options": {
+            "A": "scopes",
+            "B": "aspects",
+            "C": "attracts",
+            "D": "qualities"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 37,
+        "question": "i asked if i could speak to the person in _______________ of the store.",
+        "options": {
+            "A": "control",
+            "B": "order",
+            "C": "care",
+            "D": "charge"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 38,
+        "question": "i don't like reading history or biography books. i prefer reading __________________ .",
+        "options": {
+            "A": "fiction",
+            "B": "description",
+            "C": "invention",
+            "D": "narration"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 39,
+        "question": "i hate nothing more than long car _____________________ .",
+        "options": {
+            "A": "trips",
+            "B": "journeys",
+            "C": "voyages",
+            "D": "excursions"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 40,
+        "question": "i have decided to _____________________ my hair red because i haven't had that before.",
+        "options": {
+            "A": "dye",
+            "B": "colour",
+            "C": "paint",
+            "D": "draw"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 41,
+        "question": "if you want the job you must send your _____________________ to the manager directly.",
+        "options": {
+            "A": "application",
+            "B": "demand",
+            "C": "request",
+            "D": "appeal"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 42,
+        "question": "choose an antonym to the bold word:\nin the six months since it was launched the car has sold extremely well.",
+        "options": {
+            "A": "started",
+            "B": "established",
+            "C": "stopped",
+            "D": "set up"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 43,
+        "question": "it can _________________ a long time to get to the top of your career",
+        "options": {
+            "A": "be",
+            "B": "take",
+            "C": "have",
+            "D": "do"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 44,
+        "question": "it was an unpleasant competition for him but he could face____ to it.",
+        "options": {
+            "A": "up",
+            "B": "in",
+            "C": "down",
+            "D": "off"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 45,
+        "question": "it's very unhealthy to ______________ the potatoes in animal oil.",
+        "options": {
+            "A": "cook",
+            "B": "boil",
+            "C": "bake",
+            "D": "fry"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 46,
+        "question": "jeans will never be out of _____________________.",
+        "options": {
+            "A": "trend",
+            "B": "fashion",
+            "C": "growth",
+            "D": "image"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 47,
+        "question": "my sister was made _____________________ a few weeks ago and is still looking for a job.",
+        "options": {
+            "A": "unemployed",
+            "B": "redundant",
+            "C": "retired",
+            "D": "fired"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 48,
+        "question": "since the middle of the 1960s great _____________________ has been made in technology.",
+        "options": {
+            "A": "progress",
+            "B": "increase",
+            "C": "development",
+            "D": "growth"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 49,
+        "question": "some people _____________________ to the city from the outlying suburbs every day.",
+        "options": {
+            "A": "connect",
+            "B": "compute",
+            "C": "commute",
+            "D": "correspond"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 50,
+        "question": "something that is no longer needed and has been thrown away is a____.",
+        "options": {
+            "A": "rubbish",
+            "B": "merchandise",
+            "C": "demand",
+            "D": "product"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 51,
+        "question": "the _____________________ for this type of job starts at about € 40,000 a year.",
+        "options": {
+            "A": "wage",
+            "B": "money",
+            "C": "payment",
+            "D": "salary"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 52,
+        "question": "the children spent the whole afternoon ______________________ blackberries.",
+        "options": {
+            "A": "gaining",
+            "B": "cutting",
+            "C": "taking",
+            "D": "picking"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 53,
+        "question": "the plane flew circles over the airport until the ______________________ was clear.",
+        "options": {
+            "A": "runway",
+            "B": "highway",
+            "C": "terminal",
+            "D": "landing"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 54,
+        "question": "the quality of always being the same or always being good is __________.",
+        "options": {
+            "A": "consistency",
+            "B": "durability",
+            "C": "perfection",
+            "D": "failure"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 55,
+        "question": "to ____________ is to make the best use of something.",
+        "options": {
+            "A": "lose",
+            "B": "prefer",
+            "C": "satisfy",
+            "D": "optimize"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 56,
+        "question": "which of the following words is a synonym to the bold word:\nunfortunately our competitors have brought out a new product and it looks very good.",
+        "options": {
+            "A": "customers",
+            "B": "tailors",
+            "C": "rivals",
+            "D": "consumers"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 57,
+        "question": "why don't you wear ______________________ when you work in the kitchen?",
+        "options": {
+            "A": "a cloth",
+            "B": "a duster",
+            "C": "a towel",
+            "D": "an apron"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 58,
+        "question": "you can exchange the shoes any time you like but you must keep the _____________________.",
+        "options": {
+            "A": "prescription",
+            "B": "bill",
+            "C": "receipt",
+            "D": "recipe"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 59,
+        "question": "you must pay income tax based on the amount you _____________________ every year.",
+        "options": {
+            "A": "win",
+            "B": "benefit",
+            "C": "gain",
+            "D": "earn"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 60,
+        "question": "you should lower your _____________________. it isn't easy to be a famous model in today's world.",
+        "options": {
+            "A": "requirements",
+            "B": "prospects",
+            "C": "expectations",
+            "D": "beliefs"
+        },
+        "correct_answer": "C"
+    }
+]

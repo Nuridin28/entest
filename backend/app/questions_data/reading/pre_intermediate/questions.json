@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "text": "Many studies about language learning ask the question: What makes a good language learner? There are some things that good language learners do and some things they don't do. Here are some of the most useful suggestions from studies.\n\nDon't be afraid of making mistakes. People often get things wrong. Good language learners notice their mistakes and learn from them.\nDo group activities. People use language to communicate with other people. A good language learner always looks for opportunities to talk with other students.\nMake notes during every class. Notes help you to remember new language. Look at your notes when you do your homework.\nUse a dictionary. Good language learners often use dictionaries to check the meaning of words they don't know. They also make their own vocabulary lists.\nThink in the language you're learning outside the classroom. When you're shopping or walking down the street, remember useful words and phrases. Sometimes, when you're at home, say new words to practise your pronunciation.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Good language learners don't make mistakes.",
+                "correct_answer": "False"
+            },
+            {
+                "id": 2,
+                "statement": "It's a good idea to talk with other students.",
+                "correct_answer": "True"
+            },
+            {
+                "id": 3,
+                "statement": "Take notes only before an exam.",
+                "correct_answer": "False"
+            },
+            {
+                "id": 4,
+                "statement": "Good language learners write down the words and expressions they learn.",
+                "correct_answer": "True"
+            },
+            {
+                "id": 5,
+                "statement": "Think of language you know when you are outside the classroom.",
+                "correct_answer": "True"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Hi Samia,\n\nJust a quick email to say that sounds like a great idea. Saturday is better for me because I'm meeting my parents on Sunday. So if that's still good for you, why don't you come here? Then you can see the new flat and all the work we've done on the kitchen since we moved in. We can eat at home and then go for a walk in the afternoon. It's going to be so good to catch up finally. I want to hear all about your new job!\n\nOur address is 52 Charles Road, but it's a bit difficult to find because the house numbers are really strange here. If you turn left at the post office and keep going past the big white house on Charles Road, there's a small side street behind it with the houses 50–56 in. Don't ask me why the side street doesn't have a different name! But call me if you get lost and I'll come and get you.\n\nLet me know if there's anything you do/don't like to eat. Really looking forward to seeing you!\n\nSee you soon!\n\nGregor",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Samia and Gregor are going to meet on Sunday.",
+                "correct_answer": "False"
+            },
+            {
+                "id": 2,
+                "statement": "Gregor is going to make lunch.",
+                "correct_answer": "True"
+            },
+            {
+                "id": 3,
+                "statement": "They haven't seen each other for a long time.",
+                "correct_answer": "True"
+            },
+            {
+                "id": 4,
+                "statement": "Samia's life hasn't changed since they last met.",
+                "correct_answer": "False"
+            },
+            {
+                "id": 5,
+                "statement": "The house is easy to find.",
+                "correct_answer": "False"
+            },
+            {
+                "id": 6,
+                "statement": "Gregor doesn't know the name of the side street his flat is on.",
+                "correct_answer": "False"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Maria\n\nI am an architect with 20 years' experience of designing and developing spaces. I am a partner in the award-winning STG Architects Ltd, which is famous for its work on the Galroy Building in London. I enjoy working with people from all over the world and have international experience of working in Italy, Greece, Thailand, Australia and Brazil. I have a Master of Science from Sheffield University and a BA in Architecture from Hull University. I also speak Italian and Thai. When I am not working, I spend my time hiking, skiing and diving.\n\nEmily\n\nI am an experienced sales manager with 12 years' experience of developing customer service teams. I am skilled in negotiation, team motivation and building successful sales teams. After ten years of working in sales and customer service at Halo Bank, I am now the sales office manager of a team of 120 at Southern General Plastics Ltd. I have an MBA from Stanford University and a degree in Business Studies from Cornell University. I am creative and hardworking, and enjoy working with others.",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "Maria manages a large team of people.",
+                "correct_answer": "False"
+            },
+            {
+                "id": 2,
+                "statement": "Maria is a partner of a company.",
+                "correct_answer": "True"
+            },
+            {
+                "id": 3,
+                "statement": "Emily has worked in many different countries.",
+                "correct_answer": "False"
+            },
+            {
+                "id": 4,
+                "statement": "Emily's last job was in a bank.",
+                "correct_answer": "True"
+            },
+            {
+                "id": 5,
+                "statement": "Maria speaks two other languages.",
+                "correct_answer": "True"
+            },
+            {
+                "id": 6,
+                "statement": "Emily likes outdoor sports.",
+                "correct_answer": "False"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "The building company Hong Kong Housing is building a new suburb in Shanghai, a city with a population of more than 15 million people. But this suburb is not like other parts of Shanghai. It is a little piece of England. The name of the new area is \"English Town\". The manager of Hong Kong Housing, Shi Guangsheng, says many people in this area of China want to buy an English house and live in an English town.\n\n\"This town is like Bristol or Chester. There is an English square and there are pigeons to feed like in Trafalgar Square, London. There are four English-style pubs and you can buy English beer to drink. There is a canal and you can row a boat there like in Cambridge.\"\n\nAre there any cricket fields? \"No, there aren't any places to play cricket because nobody in Shanghai can play this game. But there is a football stadium like those in England. And the thing we are very proud of is our shopping street. There are several shops where you can buy traditional English food like fish and chips or Christmas Pudding.\"\n\nThe rich Shanghai businessman can do some gardening too. For with every house in \"English Town\", there is an English lawn and there are long gardens with ponds and tall hedges.\n\nBut there is one problem. The houses in this part of town cost a minimum of $400,000!",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "\"English Town\" is in a Chinese city.",
+                "correct_answer": "True"
+            },
+            {
+                "id": 2,
+                "statement": "These houses are only for English people to buy.",
+                "correct_answer": "False"
+            },
+            {
+                "id": 3,
+                "statement": "There are pigeons in all the gardens.",
+                "correct_answer": "False"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Ingrid McFarlane Zoo Keeper\n\nWhen I left school at eighteen, I got a job at a zoo as a student keeper. Now, five years later, things have changed – I have passed my exams and I am a full animal keeper.\n\nThe money is not good. I only get £9,000 a year. You have to be outside in rain and snow, which is hard work, and you get very dirty. But this doesn’t matter to me because animals are the most important thing in my life!\n\nThere are a hundred monkeys and fifty deer in my part of the zoo and I give them their food and clean their houses. I also need to watch them carefully to be sure that they are all well. In fact, rhinos are my favourite animals and so last year I went to Africa with a colleague for a month to study them.\n\nThe zoo is open every day and I work five different days each week. I live in a small flat twenty minutes away and I get up at ten to seven and start work at eight. The first thing I do when I get home at quarter past five is have a shower!",
+        "questions": [
+            {
+                "id": 1,
+                "statement": "If Ingrid doesn’t check the monkeys, they may run away.",
+                "correct_answer": "False"
+            }
+        ]
+    }
+]

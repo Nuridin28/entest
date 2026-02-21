@@ -235,3 +235,86 @@ http://212.116.240.23 {
 		respond @4xx "Bad request" 400
 	}
 }
+
+# Домен testalmv.kz с SSL (Let's Encrypt)
+# Подставь свой email для уведомлений о сертификате
+testalmv.kz {
+	tls nnurman347@gmail.com
+
+	encode gzip zstd
+
+	handle /health {
+		reverse_proxy backend-1:8000
+	}
+
+	handle /api/v1/tests/*/audio/* {
+		reverse_proxy backend-1:8000 {
+			transport http {
+				read_timeout 10m
+				write_timeout 10m
+			}
+			flush_interval -1
+		}
+	}
+
+	handle /api/v1/proctoring/* {
+		request_body max_size 2048m
+		reverse_proxy backend-1:8000 {
+			transport http {
+				read_timeout 15m
+				write_timeout 15m
+			}
+			flush_interval -1
+		}
+	}
+
+	handle /api/v1/tests/*/upload-screen* {
+		request_body max_size 2048m
+		reverse_proxy backend-1:8000 {
+			transport http {
+				read_timeout 15m
+				write_timeout 15m
+			}
+			flush_interval -1
+		}
+	}
+
+	handle /api/* {
+		request_body max_size 1024m
+		reverse_proxy backend-1:8000 {
+			transport http {
+				read_timeout 5m
+				write_timeout 5m
+			}
+			flush_interval -1
+		}
+	}
+
+	handle /app/uploads/proctoring/* {
+		reverse_proxy backend-1:8000
+		header X-Content-Type-Options nosniff
+		header Cache-Control "no-cache, no-store, must-revalidate"
+	}
+
+	handle /app/uploads/screen_recordings/* {
+		reverse_proxy backend-1:8000
+		header X-Content-Type-Options nosniff
+		header Cache-Control "no-cache, no-store, must-revalidate"
+	}
+
+	handle /app/uploads/* {
+		reverse_proxy backend-1:8000
+		header Cache-Control "public, max-age=3600"
+	}
+
+	handle {
+		root * /srv/frontend
+		try_files {path} /index.html
+		file_server
+		header X-Frame-Options DENY
+		header X-Content-Type-Options nosniff
+		header Referrer-Policy strict-origin-when-cross-origin
+		header X-XSS-Protection "1; mode=block"
+		header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+	}
+}

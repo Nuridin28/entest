@@ -166,8 +166,14 @@ async def generate_full_test(
         return await test_service.get_session_questions(session_id)
 
     try:
-                                                                         
-        result = await test_service.generate_full_test(session_id, request.level)
+        language = "en"
+        if session.preliminary_test_id:
+            from ....services.preliminary_test_service import PreliminaryTestService
+            prelim_service = PreliminaryTestService(db)
+            prelim_session = await prelim_service.get_preliminary_test_session(session.preliminary_test_id)
+            if prelim_session:
+                language = getattr(prelim_session, "language", None) or "en"
+        result = await test_service.generate_full_test(session_id, request.level, language)
         
                                                                       
         if result.get("status") == "generating":

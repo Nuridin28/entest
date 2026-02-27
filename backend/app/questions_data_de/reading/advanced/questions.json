@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "text": "Viele Studien über das Sprachenlernen stellen die Frage: Was macht einen guten Sprachenlerner aus? Es gibt einige Dinge, die gute Sprachenlerner tun, und einige, die sie nicht tun. Hier sind die nützlichsten Tipps aus Studien.\n\nHabe keine Angst vor Fehlern. Menschen machen oft Fehler. Gute Sprachenlerner bemerken ihre Fehler und lernen daraus.\nMache Gruppenaktivitäten. Menschen nutzen Sprache, um mit anderen zu kommunizieren. Ein guter Sprachenlerner sucht immer nach Gelegenheiten, mit anderen Schülern zu sprechen.\nMache Notizen in jeder Stunde. Notizen helfen dir, neue Sprache zu behalten. Schau dir deine Notizen an, wenn du Hausaufgaben machst.",
+        "questions": [
+            {"id": 1, "statement": "Gute Sprachenlerner machen keine Fehler.", "correct_answer": "False"},
+            {"id": 2, "statement": "Es ist eine gute Idee, mit anderen Schülern zu sprechen.", "correct_answer": "True"},
+            {"id": 3, "statement": "Mache Notizen nur vor einer Prüfung.", "correct_answer": "False"},
+            {"id": 4, "statement": "Gute Sprachenlerner schreiben Wörter auf, die sie lernen.", "correct_answer": "True"},
+            {"id": 5, "statement": "Denke an die Sprache, wenn du außerhalb des Klassenzimmers bist.", "correct_answer": "True"}
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Hallo Anna,\n\nSchnell eine E-Mail, um zu sagen, dass das eine tolle Idee klingt. Samstag ist besser für mich, weil ich am Sonntag meine Eltern treffe. Wenn das also noch gut für dich ist, warum kommst du nicht zu mir? Dann kannst du die neue Wohnung sehen und alle Arbeiten in der Küche, die wir seit dem Einzug gemacht haben. Wir können zu Hause essen und dann am Nachmittag spazieren gehen. Es wird so gut sein, endlich wieder in Kontakt zu sein. Ich möchte alles über deinen neuen Job hören!\n\nUnsere Adresse ist Musterstraße 52. Ruf mich an, wenn du dich verirrst!\n\nBis bald!\n\nThomas",
+        "questions": [
+            {"id": 1, "statement": "Anna und Thomas treffen sich am Sonntag.", "correct_answer": "False"},
+            {"id": 2, "statement": "Thomas wird das Mittagessen machen.", "correct_answer": "True"},
+            {"id": 3, "statement": "Sie haben sich lange nicht gesehen.", "correct_answer": "True"},
+            {"id": 4, "statement": "Annas Leben hat sich seit dem letzten Treffen nicht geändert.", "correct_answer": "False"},
+            {"id": 5, "statement": "Das Haus ist schwer zu finden.", "correct_answer": "True"}
+        ]
+    }
+]

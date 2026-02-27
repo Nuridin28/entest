@@ -54,10 +54,11 @@ class PreliminaryTestSession(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     user_id = Column(Integer, ForeignKey("users.id"))
+    language = Column(String, default="en")  # en=English, de=German
     start_time = Column(DateTime, default=datetime.utcnow)
     completed_at = Column(DateTime, nullable=True)
-    status = Column(String, default="in_progress")                                 
-    current_level = Column(String)                                                                
+    status = Column(String, default="in_progress")
+    current_level = Column(String)
     score_percentage = Column(Float, nullable=True)
     next_action = Column(String, nullable=True)                                     
     determined_level = Column(String, nullable=True)

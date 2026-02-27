@@ -5,9 +5,11 @@ import { addToast } from '../../shared/utils/toast';
 import { withErrorHandling } from '../../shared/utils/errorHandler';
 import { t } from '../../shared/utils/i18n';
 import { AlmatyTimeClock } from '../../shared/components/layout';
+export type TestLanguage = 'en' | 'de';
+
 interface TestStartPageProps {
     onLogout: () => void;
-    onStartTest: () => void;
+    onStartTest: (language: TestLanguage) => void;
     proctoringState: ProctoringState;
     screenState: ScreenState;
     audioState: AudioState;
@@ -22,6 +24,7 @@ interface TestStartPageProps {
     canvasRef: React.RefObject<HTMLCanvasElement | null>;
 }
 function TestStartPage({ onLogout, onStartTest, proctoringState, screenState, requestCameraStream, requestScreenStream, startMonitoring, proctoringCameraStream, videoRef, }: TestStartPageProps) {
+    const [selectedLanguage, setSelectedLanguage] = useState<TestLanguage>('en');
     const [message, setMessage] = useState('');
     const [isError, setIsError] = useState(false);
     const [isCameraRequesting, setIsCameraRequesting] = useState(false);
@@ -131,7 +134,7 @@ function TestStartPage({ onLogout, onStartTest, proctoringState, screenState, re
         }
         await withErrorHandling(async () => {
             startMonitoring(proctoringCameraStream!, screenState.stream!);
-            onStartTest();
+            onStartTest(selectedLanguage);
         }, 'start test', (error) => {
             setIsError(true);
             if (error.message?.includes('401') || error.message?.includes('credentials')) {
@@ -154,6 +157,34 @@ function TestStartPage({ onLogout, onStartTest, proctoringState, screenState, re
 
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">{t('startTest')}</h2>
 
+        <div className="mb-6">
+          <p className="text-lg font-semibold text-gray-800 mb-3">{t('selectTestLanguage')}</p>
+          <div className="flex gap-3">
+            <button
+              type="button"
+              onClick={() => setSelectedLanguage('en')}
+              className={`flex-1 py-2 px-4 rounded-lg font-medium transition-colors ${
+                selectedLanguage === 'en'
+                  ? 'bg-purple-600 text-white ring-2 ring-purple-600 ring-offset-2'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
+            >
+              {t('testLanguageEnglish')}
+            </button>
+            <button
+              type="button"
+              onClick={() => setSelectedLanguage('de')}
+              className={`flex-1 py-2 px-4 rounded-lg font-medium transition-colors ${
+                selectedLanguage === 'de'
+                  ? 'bg-purple-600 text-white ring-2 ring-purple-600 ring-offset-2'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
+            >
+              {t('testLanguageGerman')}
+            </button>
+          </div>
+        </div>
+
         
         {isLoadingAttempts ? (<div className="mb-6 p-4 bg-blue-50 rounded-lg text-center">
             <p className="text-blue-700">{t('checkingAttempts')}</p>
@@ -173,7 +204,7 @@ function TestStartPage({ onLogout, onStartTest, proctoringState, screenState, re
           </div>)}
 
         <div className="mb-6 text-gray-700 leading-relaxed">
-          <p className="mb-2 font-semibold">{t('welcomeMessage')}</p>
+          <p className="mb-2 font-semibold">{selectedLanguage === 'de' ? t('welcomeMessageGerman') : t('welcomeMessage')}</p>
           <p className="mb-2">{t('rulesHeader')}</p>
           <ul className="list-disc list-inside space-y-1">
             <li>{t('rule1')}</li>

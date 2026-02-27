@@ -58,19 +58,13 @@ def get_db() -> Session:
 
                     
 async def get_async_db() -> AsyncSession:
-    max_retries = 3
-    retry_delay = 1
-    
-    for attempt in range(max_retries):
+    """Async DB session. Простой паттерн без retry — избегает 'generator didn't stop after athrow'."""
+    async with AsyncSessionLocal() as session:
         try:
-            async with AsyncSessionLocal() as session:
-                yield session
-                break
-        except Exception as e:
-            if attempt == max_retries - 1:
-                raise e
-            await asyncio.sleep(retry_delay)
-            retry_delay *= 2
+            yield session
+        except Exception:
+            await session.rollback()
+            raise
 
                                   
 async def get_async_session() -> AsyncSession:

@@ -155,13 +155,15 @@ class TestService:
         await self.db.refresh(db_question)
         return db_question
 
-    async def generate_full_test(self, session_id: str, level: str) -> Dict[str, Any]:
+    async def generate_full_test(self, session_id: str, level: str, language: str = "en") -> Dict[str, Any]:
         """Generates a full test, including all sections, asynchronously with caching and background processing."""
         from app.core.cache import cache
         from app.tasks.test_generation import generate_full_test_async
-        
-                                                                 
-        cache_key = f"generated_test:{session_id}:{level}"
+
+        if language not in ("en", "de"):
+            language = "en"
+
+        cache_key = f"generated_test:{session_id}:{level}:{language}"
         cached_test = await cache.aget(cache_key)
         if cached_test and cached_test.get("status") != "error":
             print(f"[DEBUG] Using cached test data for session {session_id}")
@@ -189,10 +191,10 @@ class TestService:
             
             try:
                                                                                
-                print(f"[DEBUG] Starting test generation for session {session_id}, level {level}")
+                print(f"[DEBUG] Starting test generation for session {session_id}, level {level}, language {language}")
                 full_test_data = await asyncio.wait_for(
-                    openai_service.generate_full_test(level), 
-                    timeout=120.0                                       
+                    openai_service.generate_full_test(level, language),
+                    timeout=120.0
                 )
                 print(f"[DEBUG] Test generation completed for session {session_id}")
                 
@@ -251,8 +253,7 @@ class TestService:
                 
             except asyncio.TimeoutError:
                 print(f"[WARNING] Test generation timed out for session {session_id}, falling back to background task")
-                                                                  
-                task = generate_full_test_async.delay(session_id, level)
+                task = generate_full_test_async.delay(session_id, level, language)
                 print(f"[DEBUG] Background task created with ID: {task.id}")
                 
                                        

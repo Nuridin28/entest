@@ -15,6 +15,8 @@ import { preliminaryTestService } from '@shared/services/preliminaryTestService'
 import { MainTestService } from '@shared/services/mainTestService';
 import { addToast } from '@shared/utils/toast';
 import { t } from '@shared/utils/i18n';
+export type TestLanguage = 'en' | 'de';
+
 export interface UnifiedTestInterfaceProps {
     onTestComplete: () => void;
     onLogout: () => void;
@@ -39,9 +41,10 @@ export interface UnifiedTestInterfaceProps {
     saveFinalRecording: () => Promise<void>;
     setTransitionState: (isTransitioning: boolean) => void;
     initialSessionId?: string;
+    testLanguage?: TestLanguage;
 }
 function UnifiedTestInterface(props: UnifiedTestInterfaceProps) {
-    const { onTestComplete, onLogout, cameraStream, proctoringState, screenState, audioState, videoRef, canvasRef, onVideoMetadataLoaded, logCheatingEvent, isTestActive, setIsTestActive, pauseProctoringSession, resumeProctoringMonitoring, requestFullscreenProgrammatically, saveCurrentRecording, saveFinalRecording, setTransitionState, initialSessionId, } = props;
+    const { onTestComplete, onLogout, cameraStream, proctoringState, screenState, audioState, videoRef, canvasRef, onVideoMetadataLoaded, logCheatingEvent, isTestActive, setIsTestActive, pauseProctoringSession, resumeProctoringMonitoring, requestFullscreenProgrammatically, saveCurrentRecording, saveFinalRecording, setTransitionState, initialSessionId, testLanguage = 'en', } = props;
     const { isLoading, setLoadingWithDelay } = useLoadingManager();
     const [testResultId, setTestResultId] = useState<number | null>(null);
     const [testMode, setTestMode] = useState<TestMode>(initialSessionId ? 'main' : 'preliminary');
@@ -174,7 +177,7 @@ function UnifiedTestInterface(props: UnifiedTestInterfaceProps) {
             return;
         }
         console.log('Starting preliminary test...');
-        await preliminaryTestService.startTest(preliminaryTest.setPreliminarySessionId, setTestResultId, (status: string) => preliminaryTest.setPreliminaryTestStatus(status as any), preliminaryTest.generateLevelTest, restartPreliminaryTimer);
+        await preliminaryTestService.startTest(testLanguage, preliminaryTest.setPreliminarySessionId, setTestResultId, (status: string) => preliminaryTest.setPreliminaryTestStatus(status as any), preliminaryTest.generateLevelTest, restartPreliminaryTimer);
     };
     const handlePreviousQuestion = () => {
         if (preliminaryTest.currentQuestionIndex > 0) {
@@ -407,7 +410,7 @@ function UnifiedTestInterface(props: UnifiedTestInterfaceProps) {
 
             {isTestAnnulled ? (<TestAnnulledStatus reason={annulmentReason} onReturnHome={onTestComplete}/>) : (<>
                     <div className="mb-4">
-                        <h1 className="text-2xl font-bold mb-2">{t('englishTest')}</h1>
+                        <h1 className="text-2xl font-bold mb-2">{testLanguage === 'de' ? t('germanTest') : t('englishTest')}</h1>
                     </div>
 
                     <div className="flex flex-1 overflow-hidden">

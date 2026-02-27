@@ -1,6 +1,6 @@
 import { useAuth } from '../providers';
 import { AuthPage } from '../../pages/authentication';
-import { TestStartPage } from '../../pages/testing';
+import { TestStartPage, type TestLanguage } from '../../pages/testing';
 import { AdminPage } from '../../pages/administration';
 import UnifiedTestInterface from '../../widgets/UnifiedTestInterface';
 import { useProctoring } from '../../shared/utils/proctoring';
@@ -11,6 +11,7 @@ export const AppRouter = () => {
     const { isAuthenticated, isAdmin, logout, setOnLogoutCallback } = useAuth();
     const [isTestActive, setIsTestActive] = useState(false);
     const [testStage, setTestStage] = useState<'start' | 'preliminary' | 'main'>('start');
+    const [selectedTestLanguage, setSelectedTestLanguage] = useState<TestLanguage>('en');
     const [testStartKey, setTestStartKey] = useState(0);
     const videoRef = useRef<HTMLVideoElement>(null);
     const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -24,7 +25,8 @@ export const AppRouter = () => {
     const handleLogout = useCallback(() => {
         logout();
     }, [logout]);
-    const handleStartPreliminaryTest = useCallback(() => {
+    const handleStartPreliminaryTest = useCallback((language: TestLanguage) => {
+        setSelectedTestLanguage(language);
         setTestStage('preliminary');
         setIsTestActive(true);
         if (!proctoringCameraStream) {
@@ -45,7 +47,7 @@ export const AppRouter = () => {
         return <AdminPage />;
     }
     if (testStage === 'preliminary' || testStage === 'main') {
-        return (<UnifiedTestInterface key="unified-test" onTestComplete={handleTestComplete} onLogout={handleLogout} cameraStream={proctoringCameraStream} screenStream={screenState.stream} proctoringState={proctoringState} screenState={screenState} audioState={audioState} videoRef={videoRef} canvasRef={canvasRef} onVideoMetadataLoaded={onVideoMetadataLoaded} logCheatingEvent={logCheatingEvent} isTestActive={isTestActive} setIsTestActive={setIsTestActive} stopProctoringSession={stopProctoringSession} pauseProctoringSession={pauseProctoringSession} pauseProctoringSessionKeepRecording={pauseProctoringSessionKeepRecording} resumeProctoringMonitoring={resumeProctoringMonitoring} resetForNewTest={resetForNewTest} requestFullscreenProgrammatically={requestFullscreenProgrammatically} saveCurrentRecording={saveCurrentRecording} saveFinalRecording={saveFinalRecording} setTransitionState={setTransitionState} initialSessionId={undefined}/>);
+        return (<UnifiedTestInterface key="unified-test" onTestComplete={handleTestComplete} onLogout={handleLogout} cameraStream={proctoringCameraStream} screenStream={screenState.stream} proctoringState={proctoringState} screenState={screenState} audioState={audioState} videoRef={videoRef} canvasRef={canvasRef} onVideoMetadataLoaded={onVideoMetadataLoaded} logCheatingEvent={logCheatingEvent} isTestActive={isTestActive} setIsTestActive={setIsTestActive} stopProctoringSession={stopProctoringSession} pauseProctoringSession={pauseProctoringSession} pauseProctoringSessionKeepRecording={pauseProctoringSessionKeepRecording} resumeProctoringMonitoring={resumeProctoringMonitoring} resetForNewTest={resetForNewTest} requestFullscreenProgrammatically={requestFullscreenProgrammatically} saveCurrentRecording={saveCurrentRecording} saveFinalRecording={saveFinalRecording} setTransitionState={setTransitionState} initialSessionId={undefined} testLanguage={selectedTestLanguage}/>);
     }
     return (<TestStartPage key={testStartKey} onLogout={handleLogout} onStartTest={handleStartPreliminaryTest} proctoringState={proctoringState} screenState={screenState} audioState={audioState} requestCameraStream={requestCameraStream} requestScreenStream={requestScreenStream} startMonitoring={startMonitoring} proctoringCameraStream={proctoringCameraStream} onVideoMetadataLoaded={onVideoMetadataLoaded} logCheatingEvent={logCheatingEvent} isTestActive={isTestActive} videoRef={videoRef} canvasRef={canvasRef}/>);
 };

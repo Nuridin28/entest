@@ -10,21 +10,17 @@ import json
 from typing import Dict, Any
 
 @celery_app.task(bind=True, name="generate_full_test_async")
-def generate_full_test_async(self, session_id: str, level: str):
+def generate_full_test_async(self, session_id: str, level: str, language: str = "en"):
     """Background task for generating full test"""
     try:
-                            
         current_task.update_state(
             state='PROGRESS',
             meta={'current': 0, 'total': 4, 'status': 'Starting test generation...'}
         )
-        
-                                          
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
-        
         try:
-            result = loop.run_until_complete(_generate_full_test_internal(session_id, level, self))
+            result = loop.run_until_complete(_generate_full_test_internal(session_id, level, self, language))
             return result
         finally:
             loop.close()
@@ -36,30 +32,23 @@ def generate_full_test_async(self, session_id: str, level: str):
         )
         raise exc
 
-async def _generate_full_test_internal(session_id: str, level: str, task):
+async def _generate_full_test_internal(session_id: str, level: str, task, language: str = "en"):
     """Internal async function for test generation"""
     async with AsyncSessionLocal() as db:
         test_service = TestService(db)
-        
         try:
-                                   
             session = await test_service.get_test_session(session_id)
             if not session:
                 raise Exception("Test session not found")
-            
+            if language not in ("en", "de"):
+                language = "en"
             session.status = "generating"
             await db.commit()
-            
-                                    
             task.update_state(
                 state='PROGRESS',
                 meta={'current': 1, 'total': 4, 'status': 'Generating reading section...'}
             )
-            
-                                          
-            cache_key = f"generated_test:{session_id}:{level}"
-            
-                                             
+            cache_key = f"generated_test:{session_id}:{level}:{language}"
             cached_test = await cache.aget(cache_key)
             if cached_test:
                 task.update_state(
@@ -67,9 +56,7 @@ async def _generate_full_test_internal(session_id: str, level: str, task):
                     meta={'current': 4, 'total': 4, 'status': 'Using cached test data...'}
                 )
                 return cached_test
-            
-                                
-            full_test_data = await openai_service.generate_full_test(level)
+            full_test_data = await openai_service.generate_full_test(level, language)
             
             task.update_state(
                 state='PROGRESS',

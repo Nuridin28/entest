@@ -303,9 +303,10 @@ const preliminaryTestApi = {
     async checkAttempts() {
         return await apiRequest('/preliminary-tests/attempts/check');
     },
-    async startPreliminaryTest() {
+    async startPreliminaryTest(language: 'en' | 'de' = 'en') {
         return await apiRequest('/preliminary-tests/start', {
             method: 'POST',
+            body: JSON.stringify({ language }),
         });
     },
     async generateLevelTest(sessionId: number, level: string) {

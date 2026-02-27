@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File, Form
+from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File, Form, Body
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import Dict, Any
 import os
@@ -6,7 +6,7 @@ import time
 import asyncio
 
 from ....core.database import get_async_db
-from ....api.deps import get_current_active_user
+from ....core.security import get_current_active_user
 from ....services.preliminary_test_service import PreliminaryTestService
 from ....schemas.user import User
 from ....utils.timezone import get_almaty_now
@@ -22,6 +22,10 @@ class SubmitAnswerRequest(BaseModel):
 
 
                                     
+class StartTestRequest(BaseModel):
+    language: str = "en"  # en=English, de=German
+
+
 class InitRequest(BaseModel):
     uploadId: str
     totalChunks: int
@@ -53,10 +57,11 @@ async def check_preliminary_test_attempts(
 
 @router.post("/start")
 async def start_preliminary_test(
+    request: StartTestRequest = Body(default=StartTestRequest(language="en")),
     current_user: User = Depends(get_current_active_user),
     db: AsyncSession = Depends(get_async_db)
 ):
-    """Начинает предварительное тестирование"""
+    """Начинает предварительное тестирование. Body: {"language": "en"} или {"language": "de"}."""
     from ....services.test_result_service import TestResultService
     
                                              
@@ -75,12 +80,14 @@ async def start_preliminary_test(
         )
     
     try:
-                                                                
+        language = (request.language if request else "en") or "en"
+        if language not in ("en", "de"):
+            language = "en"
+
         test_result = await result_service.create_test_result(current_user.id)
-        
-                                      
+
         service = PreliminaryTestService(db)
-        session = await service.create_preliminary_test_session(current_user.id)
+        session = await service.create_preliminary_test_session(current_user.id, language=language)
         
                                                             
         test_result.preliminary_test_id = session.id
@@ -385,11 +392,11 @@ async def start_ai_test(
     
                                      
     ai_test_level = session.determined_level or "intermediate"
-    
-                                                   
+    test_language = getattr(session, "language", None) or "en"
+
     async def generate_ai_test():
         try:
-            await test_service.generate_full_test(main_session_id, ai_test_level)
+            await test_service.generate_full_test(main_session_id, ai_test_level, test_language)
             print(f"ИИ тест уровня {ai_test_level} успешно сгенерирован для сессии {main_session_id}")
         except Exception as e:
             print(f"Ошибка генерации ИИ теста: {e}")
@@ -511,9 +518,10 @@ async def create_main_test_from_preliminary(
     }
     
     test_level = level_mapping.get(session.determined_level, "B1")
-    
+    test_language = getattr(session, "language", None) or "en"
+
     try:
-        full_test = await test_service.generate_full_test(main_session_id, test_level)
+        full_test = await test_service.generate_full_test(main_session_id, test_level, test_language)
         
         return {
             "main_test_session_id": main_session_id,

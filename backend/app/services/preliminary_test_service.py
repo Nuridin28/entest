@@ -1,3 +1,4 @@
+import asyncio
 import json
 import os
 import random
@@ -11,15 +12,24 @@ from ..schemas.test import PreliminaryTestSessionCreate, PreliminaryQuestionCrea
 from ..utils.timezone import get_almaty_now
 
 
+_questions_cache: Dict[str, List[Dict]] = {}
+
 class PreliminaryTestService:
     def __init__(self, db: AsyncSession):
         self.db = db
         self.questions_base_path = "/app/app/questions_data"
-        
-    async def create_preliminary_test_session(self, user_id: int) -> PreliminaryTestSession:
+
+    def _get_questions_path(self, language: str) -> str:
+        """Returns base path for questions by language."""
+        if language == "de":
+            return "/app/app/questions_data_de"
+        return "/app/app/questions_data"
+
+    async def create_preliminary_test_session(self, user_id: int, language: str = "en") -> PreliminaryTestSession:
         """Создает новую сессию предварительного тестирования"""
         session = PreliminaryTestSession(
             user_id=user_id,
+            language=language,
             status="in_progress",
             current_level="pre_intermediate"
         )
@@ -57,14 +67,32 @@ class PreliminaryTestService:
         await self.db.refresh(session)
         return session
     
-    def _load_questions_from_file(self, level: str, category: str) -> List[Dict]:
-        """Загружает вопросы из JSON файла"""
-        file_path = os.path.join(self.questions_base_path, category, level, "questions.json")
+    def _load_questions_from_file_sync(self, level: str, category: str, language: str = "en") -> List[Dict]:
+        """Загружает вопросы из JSON файла (sync). Кэш для ускорения повторных запросов."""
+        cache_key = f"{language}:{category}:{level}"
+        if cache_key in _questions_cache:
+            return _questions_cache[cache_key]
+        base_path = self._get_questions_path(language)
+        file_path = os.path.join(base_path, category, level, "questions.json")
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                data = json.load(f)
+            _questions_cache[cache_key] = data
+            return data
         except FileNotFoundError:
+            if language != "en":
+                return self._load_questions_from_file_sync(level, category, "en")
             return []
+
+    async def _load_questions_parallel(self, level: str, language: str) -> tuple:
+        """Параллельно загружает grammar, vocabulary, reading (не блокирует event loop)."""
+        loop = asyncio.get_event_loop()
+        grammar, vocab, reading = await asyncio.gather(
+            loop.run_in_executor(None, lambda: self._load_questions_from_file_sync(level, "grammar", language)),
+            loop.run_in_executor(None, lambda: self._load_questions_from_file_sync(level, "vocabulary", language)),
+            loop.run_in_executor(None, lambda: self._load_questions_from_file_sync(level, "reading", language)),
+        )
+        return grammar, vocab, reading
     
     def _select_first_questions(self, questions: List[Dict], count: int = 10) -> List[Dict]:
         """Выбирает первые count вопросов из списка"""
@@ -77,78 +105,54 @@ class PreliminaryTestService:
         session = await self.get_preliminary_test_session(session_id)
         if not session:
             raise Exception("Preliminary test session not found")
-        
-                                                
+
+        language = getattr(session, "language", None) or "en"
+
         delete_stmt = PreliminaryQuestion.__table__.delete().where(PreliminaryQuestion.session_id == session_id)
         await self.db.execute(delete_stmt)
-        await self.db.commit()
-        
-                                         
-        grammar_questions = self._load_questions_from_file(level, "grammar")
-        vocabulary_questions = self._load_questions_from_file(level, "vocabulary")
-        reading_questions = self._load_questions_from_file(level, "reading")
-        
-                                                         
+
+        grammar_questions, vocabulary_questions, reading_questions = await self._load_questions_parallel(level, language)
         selected_grammar = self._select_first_questions(grammar_questions, 10)
         selected_vocabulary = self._select_first_questions(vocabulary_questions, 10)
         selected_reading = self._select_first_questions(reading_questions, 10)
-        
-                                         
-        all_questions = []
-        
-                           
-        for i, q in enumerate(selected_grammar):
-            question = PreliminaryQuestion(
+
+        all_questions: List[PreliminaryQuestion] = []
+        order_num = 1
+        for q in selected_grammar:
+            all_questions.append(PreliminaryQuestion(
                 session_id=session_id,
                 category="grammar",
                 question_data=json.dumps(q),
-                order_number=i + 1
-            )
-            self.db.add(question)
-            all_questions.append(question)
-        
-                              
-        for i, q in enumerate(selected_vocabulary):
-            question = PreliminaryQuestion(
+                order_number=order_num
+            ))
+            order_num += 1
+        for q in selected_vocabulary:
+            all_questions.append(PreliminaryQuestion(
                 session_id=session_id,
-                category="vocabulary", 
+                category="vocabulary",
                 question_data=json.dumps(q),
-                order_number=i + 11                      
-            )
-            self.db.add(question)
-            all_questions.append(question)
-        
-                                                         
-                                                                
+                order_number=order_num
+            ))
+            order_num += 1
         reading_questions_count = 0
         for passage_data in selected_reading:
             if "questions" in passage_data:
-                for i, q in enumerate(passage_data["questions"]):
-                                                              
+                for q in passage_data["questions"]:
                     if reading_questions_count >= 10:
                         break
-                        
-                    question_with_text = {
-                        "text": passage_data.get("text", ""),
-                        "question": q
-                    }
-                    question = PreliminaryQuestion(
+                    question_with_text = {"text": passage_data.get("text", ""), "question": q}
+                    all_questions.append(PreliminaryQuestion(
                         session_id=session_id,
                         category="reading",
                         question_data=json.dumps(question_with_text),
-                        order_number=len(all_questions) + 1
-                    )
-                    self.db.add(question)
-                    all_questions.append(question)
+                        order_number=order_num
+                    ))
+                    order_num += 1
                     reading_questions_count += 1
-                
-                                                              
                 if reading_questions_count >= 10:
                     break
-        
-        await self.db.commit()
-        
-                                 
+
+        self.db.add_all(all_questions)
         session.current_level = level
         session.status = "ready"
         await self.db.commit()

@@ -56,10 +56,19 @@ class OpenAIService:
             print(f"Error calling Azure OpenAI chat completion: {e}")
             return None
 
-    async def generate_reading_test(self, level: str) -> Optional[Dict[str, Any]]:
+    def _lang_instruction(self, language: str) -> str:
+        """Возвращает инструкцию по языку для промптов."""
+        if language == "de":
+            return "Create ALL content in GERMAN (Deutsch). Passage, questions, options, explanations — everything must be in German."
+        return "Create ALL content in English."
+
+    async def generate_reading_test(self, level: str, language: str = "en") -> Optional[Dict[str, Any]]:
         """Генерирует тест на чтение (текст и вопросы)."""
+        lang_inst = self._lang_instruction(language)
+        lang_teacher = "German" if language == "de" else "English"
         system_prompt = f"""
-You are an expert English language teacher creating a reading comprehension test for {level} level students.
+You are an expert {lang_teacher} language teacher creating a reading comprehension test for {level} level students.
+{lang_inst}
 Your task is to create a reading passage of 400-500 words and 5 multiple-choice questions.
 Ensure that the correct answers are varied and not predominantly a single option (e.g., not always 'A').
 Return the response in this EXACT JSON format with no extra text:
@@ -78,13 +87,15 @@ Return the response in this EXACT JSON format with no extra text:
         response = await self._generate_chat_completion(messages, temperature=0.4)
         return self._parse_json_response(response, "generate_reading_test")
 
-    async def generate_listening_test(self, level: str) -> Optional[Dict[str, Any]]:
+    async def generate_listening_test(self, level: str, language: str = "en") -> Optional[Dict[str, Any]]:
         """Генерирует сценарии для аудирования (скрипты и вопросы)."""
-        print(f"[DEBUG] Generating listening test for level: {level}")
-        
+        print(f"[DEBUG] Generating listening test for level: {level}, language: {language}")
+        lang_inst = self._lang_instruction(language)
+        lang_teacher = "German" if language == "de" else "English"
         try:
             system_prompt = f"""
-You are an expert English language teacher creating 5 listening comprehension scenarios for {level} level students.
+You are an expert {lang_teacher} language teacher creating 5 listening comprehension scenarios for {level} level students.
+{lang_inst}
 For each scenario, provide an audio script and one related multiple-choice question.
 Return the response in this EXACT JSON format with no extra text:
 {{
@@ -134,10 +145,13 @@ Return the response in this EXACT JSON format with no extra text:
             print(f"[ERROR] Traceback: {traceback.format_exc()}")
             return {"error": f"Exception during generation: {str(e)}"}
 
-    async def generate_writing_test(self, level: str) -> Optional[Dict[str, Any]]:
+    async def generate_writing_test(self, level: str, language: str = "en") -> Optional[Dict[str, Any]]:
         """Генерирует задания для письменной части."""
+        lang_inst = self._lang_instruction(language)
+        lang_teacher = "German" if language == "de" else "English"
         system_prompt = f"""
-You are an English language teacher creating 1 writing prompt for {level} level students.
+You are a {lang_teacher} language teacher creating 1 writing prompt for {level} level students.
+{lang_inst}
 Provide clear instructions and evaluation criteria.
 Return the response in this EXACT JSON format with no extra text:
 {{
@@ -156,10 +170,13 @@ Return the response in this EXACT JSON format with no extra text:
         response = await self._generate_chat_completion(messages, temperature=0.8)
         return self._parse_json_response(response, "generate_writing_test")
 
-    async def generate_speaking_test(self, level: str) -> Optional[Dict[str, Any]]:
+    async def generate_speaking_test(self, level: str, language: str = "en") -> Optional[Dict[str, Any]]:
         """Генерирует вопросы для устной части."""
+        lang_inst = self._lang_instruction(language)
+        lang_teacher = "German" if language == "de" else "English"
         system_prompt = f"""
-You are an English language teacher creating 5 speaking assessment questions for {level} level students.
+You are a {lang_teacher} language teacher creating 5 speaking assessment questions for {level} level students.
+{lang_inst}
 Include a variety of types: personal, opinion, situational, and descriptive.
 Return the response in this EXACT JSON format with no extra text:
 {{
@@ -178,7 +195,7 @@ Return the response in this EXACT JSON format with no extra text:
         response = await self._generate_chat_completion(messages, temperature=0.8)
         return self._parse_json_response(response, "generate_speaking_test")
 
-    async def generate_full_test(self, level: str) -> Dict[str, Any]:
+    async def generate_full_test(self, level: str, language: str = "en") -> Dict[str, Any]:
         """Генерирует полный тест, выполняя все секции параллельно с кэшированием."""
         if not self.client:
             msg = "Azure OpenAI not configured. Set AZURE_OPENAI_ENDPOINT and AZURE_OPENAI_API_KEY in backend/.env"
@@ -188,54 +205,49 @@ Return the response in this EXACT JSON format with no extra text:
                 "writing": {"error": msg},
                 "speaking": {"error": msg},
             }
-        from app.core.cache import acached
-
         from app.core.cache import cache
-        pregenerated_key = f"pregenerated_test:{level}"
+        pregenerated_key = f"pregenerated_test:{level}:{language}"
         pregenerated_test = await cache.aget(pregenerated_key)
-        
         if pregenerated_test:
-                                                            
             await cache.adelete(pregenerated_key)
             return pregenerated_test
-        
-                                                                              
+
         async def cached_generate_reading():
-            cache_key = f"test_section_{level}_reading"
+            cache_key = f"test_section_{level}_{language}_reading"
             cached = await cache.aget(cache_key)
             if cached and not (isinstance(cached, dict) and "error" in cached):
                 return cached
-            result = await self.generate_reading_test(level)
+            result = await self.generate_reading_test(level, language)
             if not (isinstance(result, dict) and "error" in result):
                 await cache.aset(cache_key, result, ttl=1800)
             return result
-        
+
         async def cached_generate_listening():
-            cache_key = f"test_section_{level}_listening"
+            cache_key = f"test_section_{level}_{language}_listening"
             cached = await cache.aget(cache_key)
             if cached and not (isinstance(cached, dict) and "error" in cached):
                 return cached
-            result = await self.generate_listening_test(level)
+            result = await self.generate_listening_test(level, language)
             if not (isinstance(result, dict) and "error" in result):
                 await cache.aset(cache_key, result, ttl=1800)
             return result
-        
+
         async def cached_generate_writing():
-            cache_key = f"test_section_{level}_writing"
+            cache_key = f"test_section_{level}_{language}_writing"
             cached = await cache.aget(cache_key)
             if cached and not (isinstance(cached, dict) and "error" in cached):
                 return cached
-            result = await self.generate_writing_test(level)
+            result = await self.generate_writing_test(level, language)
             if not (isinstance(result, dict) and "error" in result):
                 await cache.aset(cache_key, result, ttl=1800)
             return result
-        
+
         async def cached_generate_speaking():
-            cache_key = f"test_section_{level}_speaking"
+            cache_key = f"test_section_{level}_{language}_speaking"
             cached = await cache.aget(cache_key)
             if cached and not (isinstance(cached, dict) and "error" in cached):
                 return cached
-            result = await self.generate_speaking_test(level)
+            result = await self.generate_speaking_test(level, language)
             if not (isinstance(result, dict) and "error" in result):
                 await cache.aset(cache_key, result, ttl=1800)
             return result
@@ -274,10 +286,12 @@ Return the response in this EXACT JSON format with no extra text:
         feedback = f"{'Correct.' if is_correct else 'Incorrect.'} The correct answer was '{correct_answer}'."
         return {"score": score, "feedback": feedback}
 
-    async def evaluate_writing_answer(self, prompt: str, user_answer: str, level: str) -> Optional[Dict[str, Any]]:
+    async def evaluate_writing_answer(self, prompt: str, user_answer: str, level: str, language: str = "en") -> Optional[Dict[str, Any]]:
         """Оценивает письменный ответ с помощью AI."""
+        lang_note = "The prompt and response are in GERMAN. Evaluate grammar, vocabulary, and coherence in German." if language == "de" else ""
         system_prompt = f"""
-You are an English teacher strictly evaluating a writing task for a {level} level student.
+You are a language teacher strictly evaluating a writing task for a {level} level student.
+{lang_note}
 Criteria (each 0-25):
 1. Grammar
 2. Vocabulary
@@ -307,10 +321,12 @@ Return ONLY valid JSON in the following format with no additional keys or text:
             "breakdown": {}, "suggestions": []
         }
 
-    async def evaluate_speaking_answer(self, question: str, transcribed_text: str, level: str) -> Optional[Dict[str, Any]]:
+    async def evaluate_speaking_answer(self, question: str, transcribed_text: str, level: str, language: str = "en") -> Optional[Dict[str, Any]]:
         """Оценивает устный ответ по его транскрипции."""
+        lang_note = "The question and response are in GERMAN. Evaluate fluency, vocabulary, grammar in German." if language == "de" else ""
         system_prompt = f"""
-You are an English teacher evaluating a speaking response for a {level} level student.
+You are a language teacher evaluating a speaking response for a {level} level student.
+{lang_note}
 You receive ONLY the transcription, so disregard pronunciation and focus on MEANING.
 
 Criteria (0-25 each):

@@ -6,16 +6,16 @@ import { UI_CONSTANTS } from '@shared/utils/testConstants';
 import type { TestLevel } from '@shared/hooks/usePreliminaryTest';
 class PreliminaryTestService {
     private isStarting = false;
-    async startTest(setPreliminarySessionId: (id: number) => void, setTestResultId: (id: number) => void, setPreliminaryTestStatus: (status: string) => void, generateLevelTest: (sessionId: number, level: TestLevel) => Promise<void>, startTimer: () => void) {
+    async startTest(language: 'en' | 'de', setPreliminarySessionId: (id: number) => void, setTestResultId: (id: number) => void, setPreliminaryTestStatus: (status: string) => void, generateLevelTest: (sessionId: number, level: TestLevel) => Promise<void>, startTimer: () => void) {
         if (this.isStarting) {
             console.log('PreliminaryTestService.startTest already in progress, skipping');
             return;
         }
         try {
             this.isStarting = true;
-            console.log('PreliminaryTestService.startTest called');
+            console.log('PreliminaryTestService.startTest called, language:', language);
             setPreliminaryTestStatus('loading');
-            const response = await preliminaryTestApi.startPreliminaryTest();
+            const response = await preliminaryTestApi.startPreliminaryTest(language);
             const sessionId = response.session_id;
             const resultId = response.test_result_id;
             setPreliminarySessionId(sessionId);

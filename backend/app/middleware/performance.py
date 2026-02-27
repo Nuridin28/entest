@@ -348,25 +348,17 @@ class CacheOptimizationMiddleware(BaseHTTPMiddleware):
                                                                                  
             if response.status_code == 200:
                 try:
-                                                                                
                     content_type = response.headers.get('content-type', '')
                     if 'application/json' in content_type:
-                                                  
                         response_body = getattr(response, 'body', None)
-                        if response_body:
-                            if isinstance(response_body, bytes):
-                                content = response_body.decode('utf-8', errors='ignore')
-                            else:
-                                content = str(response_body)
-                            
+                        if response_body is not None and isinstance(response_body, bytes):
+                            content = response_body.decode('utf-8', errors='ignore')
                             cache_data = {
                                 "content": content,
                                 "status_code": response.status_code,
                                 "headers": dict(response.headers),
-                                "media_type": response.media_type
+                                "media_type": response.media_type or "application/json"
                             }
-                            
-                                                             
                             asyncio.create_task(cache.aset(cache_key, cache_data, self.cache_duration))
                 except Exception as e:
                     perf_logger.error(f"Failed to cache response: {e}")
@@ -382,16 +374,8 @@ class CacheOptimizationMiddleware(BaseHTTPMiddleware):
         
         except Exception as e:
             perf_logger.error(f"Cache middleware error: {e}")
-                                                             
-            try:
-                return await call_next(request)
-            except Exception as inner_e:
-                perf_logger.error(f"Fallback call_next also failed: {inner_e}")
-                return Response(
-                    content='{"error": "Internal server error"}',
-                    status_code=500,
-                    media_type="application/json"
-                )
+            # Не вызывать call_next повторно — запрос уже consumed, это вызывает generator athrow
+            raise
     
     def _should_cache(self, request: Request) -> bool:
         """Determine if request should be cached"""

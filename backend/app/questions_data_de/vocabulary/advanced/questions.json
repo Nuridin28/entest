@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Ich ______ jeden Tag zur Arbeit.",
+        "options": {
+            "A": "gehe",
+            "B": "komme",
+            "C": "fahre",
+            "D": "laufe"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "id": 2,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Kannst du mir ______ helfen?",
+        "options": {
+            "A": "etwas",
+            "B": "bitte",
+            "C": "vielleicht",
+            "D": "gerne"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Das Essen war sehr ______.",
+        "options": {
+            "A": "gut",
+            "B": "viel",
+            "C": "groß",
+            "D": "alt"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Ich habe ______ vergessen.",
+        "options": {
+            "A": "mein",
+            "B": "meine",
+            "C": "meinen",
+            "D": "mein"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 5,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Er arbeitet ______ einer Bank.",
+        "options": {
+            "A": "in",
+            "B": "bei",
+            "C": "von",
+            "D": "zu"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 6,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Wir treffen uns ______ 8 Uhr.",
+        "options": {
+            "A": "um",
+            "B": "am",
+            "C": "im",
+            "D": "zu"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Sie hat zwei ______.",
+        "options": {
+            "A": "Kind",
+            "B": "Kinder",
+            "C": "Kinds",
+            "D": "Kindern"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 8,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Das ist ______ interessant.",
+        "options": {
+            "A": "sehr",
+            "B": "viel",
+            "C": "mehr",
+            "D": "am"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Ich brauche ______ Wasser.",
+        "options": {
+            "A": "ein",
+            "B": "eine",
+            "C": "einen",
+            "D": "kein"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 10,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n ______ du mich verstanden?",
+        "options": {
+            "A": "Hast",
+            "B": "Habe",
+            "C": "Hat",
+            "D": "Habt"
+        },
+        "correct_answer": "A"
+    }
+]

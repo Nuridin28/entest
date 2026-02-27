@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n ______ du Deutsch?",
+        "options": {
+            "A": "Sprechen",
+            "B": "Sprechst",
+            "C": "Spreche",
+            "D": "Sprecht"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 2,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Er ______ gestern ins Kino.",
+        "options": {
+            "A": "geht",
+            "B": "ging",
+            "C": "gehen",
+            "D": "gegangen"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n ______ du morgen Zeit?",
+        "options": {
+            "A": "Hast",
+            "B": "Habe",
+            "C": "Hat",
+            "D": "Habt"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 4,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Das Buch liegt ______ dem Tisch.",
+        "options": {
+            "A": "in",
+            "B": "auf",
+            "C": "unter",
+            "D": "bei"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 5,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n ______ du mir helfen?",
+        "options": {
+            "A": "Kannst",
+            "B": "Können",
+            "C": "Kann",
+            "D": "Könnt"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Wir ______ jeden Tag Sport.",
+        "options": {
+            "A": "macht",
+            "B": "machen",
+            "C": "mache",
+            "D": "machst"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 7,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n ______ du gern Musik?",
+        "options": {
+            "A": "Höre",
+            "B": "Hörst",
+            "C": "Hört",
+            "D": "Hören"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 8,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Sie ______ seit zwei Jahren Deutsch.",
+        "options": {
+            "A": "lernt",
+            "B": "lernen",
+            "C": "lerne",
+            "D": "lernt"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 9,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n Ich habe ______ Brot gekauft.",
+        "options": {
+            "A": "ein",
+            "B": "eine",
+            "C": "einen",
+            "D": "kein"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "question": "Wähle die richtige Antwort: A, B, C oder D.\n ______ Wetter ist heute schön.",
+        "options": {
+            "A": "Der",
+            "B": "Die",
+            "C": "Das",
+            "D": "Den"
+        },
+        "correct_answer": "C"
+    }
+]

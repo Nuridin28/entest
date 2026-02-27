@@ -63,9 +63,16 @@ def run_migrations_online() -> None:
     and associate a connection with the context.
 
     """
-                                                 
+    database_url = os.environ.get("DATABASE_URL")
+    if not database_url or "/dbname" in database_url:
+        user = os.environ.get("POSTGRES_USER", "user")
+        pwd = os.environ.get("POSTGRES_PASSWORD", "password")
+        host = os.environ.get("POSTGRES_HOST", "db")
+        port = os.environ.get("POSTGRES_PORT", "5432")
+        db = os.environ.get("POSTGRES_DB", "englishtest_db")
+        database_url = f"postgresql://{user}:{pwd}@{host}:{port}/{db}"
     connectable = engine_from_config(
-        {'sqlalchemy.url': os.environ.get("DATABASE_URL")},
+        {'sqlalchemy.url': database_url},
         prefix="sqlalchemy.",
         poolclass=pool.NullPool,
     )

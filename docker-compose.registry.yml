@@ -1,0 +1,17 @@
+# Использование предсобранных образов с registry (без build на сервере)
+# BACKEND_IMAGE должен быть задан, например: ghcr.io/username/englishtest-backend:latest
+# Запуск: BACKEND_IMAGE=... docker compose -f docker-compose.prod.yml -f docker-compose.registry.yml pull
+#        BACKEND_IMAGE=... docker compose -f docker-compose.prod.yml -f docker-compose.registry.yml up -d
+
+services:
+  backend-1:
+    image: ${BACKEND_IMAGE}
+    build: !reset null
+
+  celery-worker-1:
+    image: ${BACKEND_IMAGE}
+    build: !reset null
+
+  celery-beat:
+    image: ${BACKEND_IMAGE}
+    build: !reset null

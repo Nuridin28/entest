@@ -166,7 +166,7 @@ services:
       timeout: 10s
       retries: 3
 
-  # Frontend build stage - runs once to populate volume
+  # Frontend build stage - копирует свежую сборку в volume
   frontend-builder:
     build:
       context: ./frontend
@@ -174,7 +174,7 @@ services:
       target: build
     volumes:
       - frontend_dist:/app/dist
-    command: sh -c "echo 'Frontend build completed'"
+    command: sh -c "cp -r /app/build-output/. /app/dist/ && echo 'Frontend build completed'"
     restart: "no"
 
   # Database Service - Production

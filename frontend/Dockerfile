@@ -9,13 +9,8 @@ RUN npm install --legacy-peer-deps
 # Copy the rest of the application source code
 COPY . .
 
-# Build the application
-RUN npm run build
-
-# Ensure the dist directory exists and has proper permissions
-RUN ls -la /app/dist && chmod -R 755 /app/dist
-
-# The output of this stage is the /app/dist directory
+# Build the application (output to build-output, т.к. volume перезапишет /app/dist)
+RUN npm run build && mv /app/dist /app/build-output && chmod -R 755 /app/build-output
 
 # Stage 2: Development server
 FROM node:20-alpine AS development

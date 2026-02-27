@@ -249,6 +249,29 @@ def show_proctoring_logs(session_id: str, event_type: Optional[str] = None) -> N
         db.close()
 
 
+def reset_password(email: str, new_password: str) -> bool:
+    """Сменить пароль пользователя по email"""
+    db = get_db()
+    try:
+        user = db.query(User).filter(User.email == email).first()
+        if not user:
+            print(f"❌ Пользователь с email {email} не найден")
+            return False
+
+        user.hashed_password = get_password_hash(new_password)
+        db.commit()
+
+        print(f"✅ Пароль успешно изменён для {email}")
+        return True
+
+    except Exception as e:
+        print(f"❌ Ошибка при смене пароля: {e}")
+        db.rollback()
+        return False
+    finally:
+        db.close()
+
+
 def delete_user(user_id: int, confirm: bool = False) -> bool:
     """Удалить пользователя и все связанные данные"""
     db = get_db()
@@ -504,6 +527,10 @@ def main():
     logs_parser.add_argument('--event-type', help='Тип события')
     
                            
+    reset_password_parser = subparsers.add_parser('reset-password', help='Сменить пароль пользователя')
+    reset_password_parser.add_argument('--email', required=True, help='Email пользователя')
+    reset_password_parser.add_argument('--password', required=True, help='Новый пароль')
+
     delete_parser = subparsers.add_parser('delete-user', help='Удалить пользователя')
     delete_parser.add_argument('--user-id', type=int, required=True, help='ID пользователя')
     delete_parser.add_argument('--force', action='store_true', help='Принудительное удаление без подтверждения')
@@ -545,6 +572,9 @@ def main():
     elif args.command == 'session-violations':
         show_session_violations(args.session_id)
     
+    elif args.command == 'reset-password':
+        reset_password(args.email, args.password)
+
     elif args.command == 'delete-user':
         delete_user(args.user_id, args.force)
     

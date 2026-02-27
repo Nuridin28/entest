@@ -37,8 +37,10 @@ services:
     env_file:
       - ./.env
     depends_on:
-      - backend-1
-      - frontend-builder
+      backend-1:
+        condition: service_healthy
+      frontend-builder:
+        condition: service_completed_successfully
     networks:
       - app-network
     deploy:

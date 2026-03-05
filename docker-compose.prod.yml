@@ -70,8 +70,10 @@ services:
     networks:
       - app-network
     depends_on:
-      - db
-      - redis
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
     restart: always
     deploy:
       resources:
@@ -179,7 +181,7 @@ services:
     command: sh -c "cp -r /app/build-output/. /app/dist/ && echo 'Frontend build completed'"
     restart: "no"
 
-  # Database Service - Production
+  # Database Service - Production (порт не пробрасываем — доступ только внутри сети)
   db:
     image: postgres:15
     container_name: postgres_prod
@@ -189,8 +191,6 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - pgdata_prod:/var/lib/postgresql/data
-    ports:
-      - "5433:5432"
     networks:
       - app-network
     healthcheck:

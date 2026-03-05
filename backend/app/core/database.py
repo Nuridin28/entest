@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.ext.declarative import declarative_base
@@ -73,8 +73,12 @@ async def get_async_session() -> AsyncSession:
 
 def create_db_and_tables():
     try:
+        with engine.connect() as conn:
+            conn.execute(text("SELECT 1"))
         Base.metadata.create_all(engine, checkfirst=True)
         print("Database tables created successfully")
     except Exception as e:
-        print(f"Database tables creation error (may be normal if tables exist): {e}")
+        print(f"Database connection error: {e}")
+        print(f"Check: POSTGRES_HOST (use 'db' in Docker), POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_DB")
+        raise
                                                           

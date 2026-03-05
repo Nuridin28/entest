@@ -100,14 +100,14 @@
     },
     {
         "id": 10,
-        "question": "Choose the correct answer: A, B, C or D.\n Can I ______ your sweater, please? It's cold and I have only a T-shirt.",
+        "question": "Choose the correct answer: A, B, C or D.\n Do you ______ clean the house every day or every week?",
         "options": {
-            "A": "borrow",
-            "B": "get",
-            "C": "give",
-            "D": "lend"
+            "A": "must",
+            "B": "have",
+            "C": "have to",
+            "D": "must to"
         },
-        "correct_answer": "D"
+        "correct_answer": "C"
     },
     {
         "id": 11,
@@ -133,11 +133,11 @@
     },
     {
         "id": 13,
-        "question": "Choose the correct answer: A, B, C or D. Do you ______ clean the house every day or every week?",
+        "question": "Choose the correct answer: A, B, C or D.\n I ______ go to the dentist yesterday. I had a terrible toothache.",
         "options": {
             "A": "must",
-            "B": "have",
-            "C": "have to",
+            "B": "have to",
+            "C": "had to",
             "D": "must to"
         },
         "correct_answer": "C"

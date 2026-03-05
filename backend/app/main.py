@@ -186,8 +186,13 @@ async def startup_event():
     logger.info("Required directories created")
     
                          
-    create_db_and_tables()
-    logger.info("Database initialized")
+    try:
+        create_db_and_tables()
+        logger.info("Database initialized")
+    except Exception as e:
+        logger.error(f"Database connection failed: {e}")
+        logger.error("Check backend/.env: POSTGRES_HOST=db (in Docker), POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_DB")
+        raise
     
                            
     try:

@@ -15,9 +15,12 @@ class Settings(BaseSettings):
     postgres_db: str = os.getenv("POSTGRES_DB", "englishtest_db")
     postgres_host: str = os.getenv("POSTGRES_HOST", "db")
     postgres_port: int = 5432
-    
+
     @property
     def database_url(self) -> str:
+        url = os.getenv("DATABASE_URL")
+        if url and "dbname" not in url.lower():
+            return url
         return f"postgresql://{self.postgres_user}:{self.postgres_password}@{self.postgres_host}:{self.postgres_port}/{self.postgres_db}"
     
                                                                
@@ -74,6 +77,9 @@ class Settings(BaseSettings):
     
     @property
     def async_database_url(self) -> str:
+        url = os.getenv("ASYNC_DATABASE_URL")
+        if url and "dbname" not in url.lower():
+            return url
         return f"postgresql+asyncpg://{self.postgres_user}:{self.postgres_password}@{self.postgres_host}:{self.postgres_port}/{self.postgres_db}"
     
     

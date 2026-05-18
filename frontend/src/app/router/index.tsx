@@ -5,9 +5,15 @@ import { AdminPage } from '../../pages/administration';
 import UnifiedTestInterface from '../../widgets/UnifiedTestInterface';
 import { useProctoring } from '../../shared/utils/proctoring';
 import { useState, useRef, useCallback, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
+import { SsoFromPkPage } from '../../pages/sso-from-pk';
+import { TakePage } from '../../pages/take';
+import { ExternalTestsListPage } from '../../pages/external-tests/ListPage';
+import { ExternalTestEditorPage } from '../../pages/external-tests/EditorPage';
+
 export const AppRouter = () => {
     const navigate = useNavigate();
+    const location = useLocation();
     const { isAuthenticated, isAdmin, logout, setOnLogoutCallback } = useAuth();
     const [isTestActive, setIsTestActive] = useState(false);
     const [testStage, setTestStage] = useState<'start' | 'preliminary' | 'main'>('start');
@@ -40,10 +46,23 @@ export const AppRouter = () => {
         resetForNewTest();
         setTestStartKey(prev => prev + 1);
     }, [pauseProctoringSession, resetForNewTest]);
+    // Standalone pages that bypass the proctoring/auth wrapper of the legacy app.
+    if (location.pathname.startsWith('/sso/from-pk')) {
+        return <SsoFromPkPage />;
+    }
+    if (location.pathname.startsWith('/take')) {
+        return <TakePage />;
+    }
     if (!isAuthenticated) {
         return <AuthPage onLoginSuccess={handleLoginSuccess}/>;
     }
     if (isAdmin) {
+        if (location.pathname.startsWith('/admin/external-tests/new') || /^\/admin\/external-tests\/\d+$/.test(location.pathname)) {
+            return <ExternalTestEditorPage />;
+        }
+        if (location.pathname.startsWith('/admin/external-tests')) {
+            return <ExternalTestsListPage />;
+        }
         return <AdminPage />;
     }
     if (testStage === 'preliminary' || testStage === 'main') {

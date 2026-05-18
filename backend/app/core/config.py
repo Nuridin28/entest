@@ -71,9 +71,19 @@ class Settings(BaseSettings):
     celery_broker_url: str = os.getenv("CELERY_BROKER_URL", "redis://localhost:6379/0")
     celery_result_backend: str = os.getenv("CELERY_RESULT_BACKEND", "redis://localhost:6379/0")
     
-                       
+
     default_timezone: str = "Asia/Almaty"
     timezone_display_format: str = "%d.%m.%Y, %H:%M:%S"
+
+    pk_api_key: Optional[str] = os.getenv("PK_API_KEY", "")
+    pk_sso_secret: Optional[str] = os.getenv("PK_SSO_SECRET", "")
+    pk_webhook_secret: Optional[str] = os.getenv("PK_WEBHOOK_SECRET", "")
+    pk_webhook_url: Optional[str] = os.getenv("PK_WEBHOOK_URL", "")
+    pk_student_token_ttl_minutes: int = int(os.getenv("PK_STUDENT_TOKEN_TTL_MINUTES", "15"))
+    entest_frontend_url: Optional[str] = os.getenv("ENTEST_FRONTEND_URL", "")
+
+    openai_api_key: Optional[str] = os.getenv("OPENAI_API_KEY", "")
+    openai_model: str = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
     
     @property
     def async_database_url(self) -> str:

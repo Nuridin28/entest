@@ -5,16 +5,21 @@ from .test_result import TestResult
 from .proctoring_violations import ProctoringViolation
 from .proctoring_log import ProctoringLog
 from .preliminary_proctoring_violations import PreliminaryProctoringViolation
+from .external_test import ExternalTest, ExternalQuestion, ExternalAttempt, ExternalProctoringEvent
 
 __all__ = [
-    "BaseModel", 
-    "User", 
-    "TestSession", 
-    "Question", 
-    "PreliminaryTestSession", 
-    "PreliminaryQuestion", 
-    "TestResult", 
-    "ProctoringViolation", 
+    "BaseModel",
+    "User",
+    "TestSession",
+    "Question",
+    "PreliminaryTestSession",
+    "PreliminaryQuestion",
+    "TestResult",
+    "ProctoringViolation",
     "ProctoringLog",
-    "PreliminaryProctoringViolation"
-] 
+    "PreliminaryProctoringViolation",
+    "ExternalTest",
+    "ExternalQuestion",
+    "ExternalAttempt",
+    "ExternalProctoringEvent",
+]

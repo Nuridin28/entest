@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { adminApi } from '@shared/api/api';
 import { useLoadingState } from '@shared/hooks/useLoadingState';
 import UserAttempts from './UserAttempts';
@@ -6,6 +7,7 @@ import SystemMonitoring from './SystemMonitoring';
 import PerformanceDashboard from './PerformanceDashboard';
 import { ErrorBoundary } from '@shared/components';
 import { t } from '@shared/utils/i18n';
+import { useAuth } from '../../../app/providers';
 interface User {
     id: number;
     full_name: string;
@@ -13,6 +15,8 @@ interface User {
     is_superuser: boolean;
 }
 function AdminDashboard() {
+    const navigate = useNavigate();
+    const { logout } = useAuth();
     const [users, setUsers] = useState<User[]>([]);
     const [selectedUserId, setSelectedUserId] = useState<number | null>(null);
     const [activeTab, setActiveTab] = useState<'users' | 'monitoring' | 'performance'>('users');
@@ -40,9 +44,25 @@ function AdminDashboard() {
         return <div className="text-red-500 p-8">{error}</div>;
     }
     return (<div className="p-4 md:p-8">
-      <h1 className="text-2xl font-bold mb-6">{t('adminDashboard')}</h1>
+      <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
+        <h1 className="text-2xl font-bold">{t('adminDashboard')}</h1>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => navigate('/admin/external-tests')}
+            className="px-4 py-2 rounded-md bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700 transition"
+          >
+            Тесты
+          </button>
+          <button
+            onClick={logout}
+            className="px-4 py-2 rounded-md border border-red-200 text-red-600 text-sm font-semibold hover:bg-red-50 transition"
+          >
+            Выйти
+          </button>
+        </div>
+      </div>
 
-      
+
       <div className="mb-6">
         <nav className="flex space-x-8">
           <button onClick={() => setActiveTab('users')} className={`py-2 px-1 border-b-2 font-medium text-sm ${activeTab === 'users'

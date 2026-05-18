@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from .endpoints import auth, users, main_tests, admin, proctoring, preliminary_tests, results, health, timezone, upload
+from .endpoints import auth, users, main_tests, admin, proctoring, preliminary_tests, results, health, timezone, upload, integrations_pk, external_attempts
 
 api_router = APIRouter()
 
@@ -14,6 +14,8 @@ api_router.include_router(admin.router, prefix="/admin", tags=["admin"])
 api_router.include_router(proctoring.router, prefix="/proctoring", tags=["proctoring"])
 api_router.include_router(health.router, prefix="/health", tags=["health"])
 api_router.include_router(timezone.router, prefix="/timezone", tags=["timezone"])
+api_router.include_router(integrations_pk.router, prefix="/integrations/pk", tags=["integrations:pk"])
+api_router.include_router(external_attempts.router, prefix="/external-attempts", tags=["external-attempts"])
 
 
 

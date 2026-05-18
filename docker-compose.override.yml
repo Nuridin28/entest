@@ -1,0 +1,9 @@
+# Local-only port overrides — avoids clashes with other dev stacks
+# (e.g. agro-* using 6379 and 5433). Redis stays internal-only, postgres moves to 5435.
+services:
+  redis:
+    ports: !reset []
+
+  db:
+    ports: !reset
+      - "5435:5432"

@@ -7,17 +7,18 @@ class ProctoringViolation(Base):
     __tablename__ = "proctoring_violations"
 
     id = Column(Integer, primary_key=True, index=True)
-    session_id = Column(String, ForeignKey("test_sessions.id"), nullable=False)
-    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
-    violation_type = Column(String, nullable=False)                                   
-    severity = Column(String, default="medium")                               
+    session_id = Column(String, ForeignKey("test_sessions.id"), nullable=True)
+    external_attempt_id = Column(Integer, ForeignKey("external_attempts.id", ondelete="CASCADE"), nullable=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=True)
+    violation_type = Column(String, nullable=False)
+    severity = Column(String, default="medium")
     description = Column(Text)
-    violation_metadata = Column(JSON)                                       
+    violation_metadata = Column(JSON)
     timestamp = Column(DateTime(timezone=True), server_default=func.now())
-    
-                   
+
     session = relationship("TestSession", back_populates="violations")
+    external_attempt = relationship("ExternalAttempt", back_populates="violations")
     user = relationship("User")
-    
+
     def __repr__(self):
-        return f"<ProctoringViolation {self.violation_type} for session {self.session_id}>" 
+        return f"<ProctoringViolation {self.violation_type} for session {self.session_id or self.external_attempt_id}>"

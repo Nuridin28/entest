@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { externalAttemptsApi, type AttemptStart } from '../../shared/api/externalTests';
 import { PreStartProctoring } from './PreStartProctoring';
 import { useExternalProctoring } from './useExternalProctoring';
+import { ProctoringSidebar } from '../../features/proctoring/ProctoringSidebar';
 
 type AnswerMap = Record<number, unknown>;
 
@@ -17,14 +18,24 @@ export const TakePage = () => {
     const [error, setError] = useState<string | null>(null);
     const [done, setDone] = useState<{ score: number; status: string } | null>(null);
     const [ready, setReady] = useState(false);
-    const { violationsLocal } = useExternalProctoring({ token, enabled: ready && !done });
+
+    // Always in DOM so refs are valid when onReady fires (before setReady(true))
+    const videoRef = useRef<HTMLVideoElement>(null);
+    const canvasRef = useRef<HTMLCanvasElement>(null);
+
+    const isTestActive = ready && !done;
+
+    const {
+        state: procState,
+        cameraStream,
+        injectCameraStream,
+        requestScreenStream,
+        startMonitoring,
+        stopProctoring,
+    } = useExternalProctoring({ token, isTestActive, videoRef, canvasRef });
 
     useEffect(() => {
-        if (!token) {
-            setError('Ссылка не валидна — отсутствует токен');
-            setLoading(false);
-            return;
-        }
+        if (!token) { setError('Ссылка не валидна — отсутствует токен'); setLoading(false); return; }
         (async () => {
             try {
                 const d = await externalAttemptsApi.start(token);
@@ -37,6 +48,19 @@ export const TakePage = () => {
         })();
     }, [token]);
 
+    // Both streams already obtained by PreStartProctoring — no extra getUserMedia needed.
+    const handleReady = async (cam: MediaStream, screen: MediaStream) => {
+        injectCameraStream(cam);
+        if (videoRef.current) {
+            videoRef.current.srcObject = cam;
+            await videoRef.current.play().catch(() => {});
+        }
+        startMonitoring(cam, screen);
+        setReady(true);
+    };
+
+    const onVideoMetadataLoaded = useCallback(() => {}, []);
+
     const setAnswer = (qid: number, value: unknown) => setAnswers((a) => ({ ...a, [qid]: value }));
 
     const submit = async () => {
@@ -46,6 +70,7 @@ export const TakePage = () => {
         try {
             const payload = data.questions.map((q) => ({ question_id: q.id, answer: answers[q.id] ?? null }));
             const result = await externalAttemptsApi.submit(token, payload);
+            stopProctoring();
             setDone({ score: result.score, status: result.status });
         } catch (e: unknown) {
             setError(e instanceof Error ? e.message : 'Ошибка отправки');
@@ -58,18 +83,58 @@ export const TakePage = () => {
         return data ? [...data.questions].sort((a, b) => a.order_number - b.order_number) : [];
     }, [data]);
 
-    if (loading) return <div className="min-h-screen flex items-center justify-center">Загрузка...</div>;
+    // Hidden video/canvas only when sidebar isn't showing them (pre-test phases)
+    const hiddenMedia = !isTestActive ? (
+        <>
+            <video ref={videoRef} autoPlay muted playsInline style={{ display: 'none' }} />
+            <canvas ref={canvasRef} style={{ display: 'none' }} />
+        </>
+    ) : null;
+
+    const proctoringStateForUI = {
+        modelsLoaded: procState.modelsLoaded,
+        cameraEnabled: procState.cameraEnabled,
+        faceDetected: procState.faceDetected,
+        multipleFaces: procState.multipleFaces,
+        headTurned: procState.headTurned,
+        lookingAway: procState.lookingAway,
+        eyesClosed: procState.eyesClosed,
+        error: procState.error,
+        videoReady: true,
+        violationCount: procState.violationCount,
+        isTestTerminated: procState.isTerminated,
+        showFullscreenPrompt: false,
+        fullscreenRequestRefused: false,
+        isTransitioning: false,
+    };
+    const screenStateForUI = { isScreenShared: procState.screenShared, isEntireScreen: true, error: '', stream: null };
+    const audioStateForUI = { isMonitoring: false, noiseLevel: 0, isSilent: false, error: '' };
+
+    if (loading) return <>{hiddenMedia}<div className="min-h-screen flex items-center justify-center">Загрузка...</div></>;
     if (error)
         return (
+            <>{hiddenMedia}
             <div className="min-h-screen flex items-center justify-center p-6">
                 <div className="bg-red-50 border border-red-200 text-red-700 rounded p-4 max-w-md">{error}</div>
-            </div>
+            </div></>
         );
     if (data && !ready && !done) {
-        return <PreStartProctoring token={token} title={data.title} onReady={() => setReady(true)} />;
+        return <>{hiddenMedia}<PreStartProctoring token={token} title={data.title} onRequestScreen={requestScreenStream} onReady={handleReady} /></>;
+    }
+    if (procState.isTerminated && !done) {
+        return (
+            <>{hiddenMedia}
+            <div className="min-h-screen flex items-center justify-center p-6">
+                <div className="bg-red-50 border border-red-200 text-red-700 rounded p-4 max-w-md text-center">
+                    <h2 className="font-semibold text-lg mb-2">Тест прерван</h2>
+                    <p>Зафиксировано слишком много нарушений прокторинга. Тест был завершён автоматически.</p>
+                </div>
+            </div></>
+        );
     }
     if (done) {
         return (
+            <>{hiddenMedia}
             <div className="min-h-screen flex items-center justify-center p-6">
                 <div className="bg-white rounded shadow p-8 max-w-md text-center">
                     <h2 className="text-2xl font-semibold mb-2">Тест завершён</h2>
@@ -77,25 +142,18 @@ export const TakePage = () => {
                     <div className="text-4xl font-bold text-blue-600">{done.score}%</div>
                     <p className="text-sm text-gray-500 mt-4">Окно можно закрыть.</p>
                 </div>
-            </div>
+            </div></>
         );
     }
-    if (!data) return null;
+    if (!data) return <>{hiddenMedia}</>;
 
     return (
-        <div className="min-h-screen bg-gray-50 p-6">
-            <div className="max-w-3xl mx-auto">
-                <div className="flex items-center justify-between gap-3 mb-2">
-                    <h1 className="text-3xl font-semibold">{data.title}</h1>
-                    {violationsLocal > 0 && (
-                        <span
-                            title="Зафиксированы нарушения. Проктор видит их."
-                            className="shrink-0 rounded-full bg-red-50 text-red-700 px-3 py-1 text-xs font-semibold border border-red-200"
-                        >
-                            ⚠ Нарушений: {violationsLocal}
-                        </span>
-                    )}
-                </div>
+        <div className="min-h-screen bg-gray-50 p-6 flex">
+            {hiddenMedia}
+
+            {/* Questions */}
+            <div className="flex-1 max-w-3xl">
+                <h1 className="text-3xl font-semibold mb-2">{data.title}</h1>
                 {data.description && <p className="text-gray-600 mb-6">{data.description}</p>}
 
                 <div className="space-y-4">
@@ -170,6 +228,21 @@ export const TakePage = () => {
                     </button>
                 </div>
             </div>
+
+            {/* Proctoring sidebar */}
+            <ProctoringSidebar
+                violationCount={procState.violationCount}
+                isTestTerminated={procState.isTerminated}
+                sessionId=""
+                videoRef={videoRef}
+                canvasRef={canvasRef}
+                onVideoMetadataLoaded={onVideoMetadataLoaded}
+                videoReady={procState.cameraEnabled}
+                proctoringState={proctoringStateForUI}
+                screenState={screenStateForUI}
+                audioState={audioStateForUI}
+                cameraStream={cameraStream}
+            />
         </div>
     );
 };

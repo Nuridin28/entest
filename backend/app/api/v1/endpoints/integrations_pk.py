@@ -233,6 +233,10 @@ def get_proctoring_details(attempt_id: int, db: Session = Depends(get_db)):
             f"/api/v1/integrations/pk/attempts/{attempt.id}/proctoring/photo"
             if attempt.initial_photo_path else None
         ),
+        screen_recording_url=(
+            f"/api/v1/integrations/pk/attempts/{attempt.id}/proctoring/screen"
+            if attempt.screen_recording_path else None
+        ),
         violation_count=attempt.violation_count or 0,
         events=[
             ProctoringEventOut(
@@ -261,6 +265,25 @@ def get_proctoring_photo(attempt_id: int, db: Session = Depends(get_db)):
     if not p:
         raise HTTPException(status_code=404, detail="Initial photo not captured")
     return FileResponse(str(p))
+
+
+@router.get(
+    "/attempts/{attempt_id}/proctoring/screen",
+    dependencies=[Depends(deps.require_pk_api_key_or_admin)],
+)
+def get_proctoring_screen(attempt_id: int, db: Session = Depends(get_db)):
+    attempt = db.query(ExternalAttempt).filter(ExternalAttempt.id == attempt_id).first()
+    if not attempt:
+        raise HTTPException(status_code=404, detail="Attempt not found")
+    if not attempt.screen_recording_path:
+        raise HTTPException(status_code=404, detail="Screen recording not available")
+    from ....utils.file_paths import get_upload_paths
+    import os
+    base_dir, _ = get_upload_paths()
+    path = os.path.join(base_dir, attempt.screen_recording_path)
+    if not os.path.exists(path):
+        raise HTTPException(status_code=404, detail="Screen recording file not found")
+    return FileResponse(path, media_type="video/webm")
 
 
 @router.post("/sso/admin/exchange", response_model=AdminSsoExchangeOut)

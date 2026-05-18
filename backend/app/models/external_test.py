@@ -60,6 +60,7 @@ class ExternalAttempt(Base):
     score = Column(Float, nullable=True)
     answers = Column(JSONB, nullable=True)
     initial_photo_path = Column(String, nullable=True)
+    screen_recording_path = Column(String, nullable=True)
     violation_count = Column(Integer, nullable=False, default=0)
     started_at = Column(DateTime, default=datetime.utcnow)
     completed_at = Column(DateTime, nullable=True)
@@ -73,6 +74,11 @@ class ExternalAttempt(Base):
         back_populates="attempt",
         cascade="all, delete-orphan",
         order_by="ExternalProctoringEvent.recorded_at",
+    )
+    violations = relationship(
+        "ProctoringViolation",
+        back_populates="external_attempt",
+        cascade="all, delete-orphan",
     )
 
 

@@ -140,4 +140,31 @@ export const externalAttemptsApi = {
             // best-effort; don't break the test on logging failures
         }
     },
+    logViolation: async (token: string, v: { violation_type: string; severity?: string; description?: string; violation_metadata?: unknown }) => {
+        try {
+            await fetch(`${API_BASE}/external-attempts/proctoring/violation?token=${encodeURIComponent(token)}`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(v),
+                keepalive: true,
+            });
+        } catch (_) {
+            // best-effort
+        }
+    },
+    uploadScreenChunk: async (token: string, blob: Blob, chunkIndex: number, isFinal: boolean) => {
+        const form = new FormData();
+        form.append('chunk', blob, `chunk_${chunkIndex}.webm`);
+        form.append('chunk_index', String(chunkIndex));
+        form.append('is_final', String(isFinal));
+        const res = await fetch(`${API_BASE}/external-attempts/screen-chunk?token=${encodeURIComponent(token)}`, {
+            method: 'POST',
+            body: form,
+        });
+        if (!res.ok) {
+            const data = await res.json().catch(() => ({}));
+            throw new Error(data.detail || `Upload failed: ${res.status}`);
+        }
+        return res.json();
+    },
 };

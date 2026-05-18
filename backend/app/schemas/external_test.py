@@ -171,5 +171,6 @@ class ProctoringEventOut(BaseModel):
 class ProctoringDetailsOut(BaseModel):
     attempt_id: int
     initial_photo_url: Optional[str] = None
+    screen_recording_url: Optional[str] = None
     violation_count: int
     events: List[ProctoringEventOut]

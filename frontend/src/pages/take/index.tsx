@@ -1,9 +1,9 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { externalAttemptsApi, type AttemptStart } from '../../shared/api/externalTests';
 import { PreStartProctoring } from './PreStartProctoring';
 import { useExternalProctoring } from './useExternalProctoring';
-import { ProctoringSidebar } from '../../features/proctoring/ProctoringSidebar';
+import { ExternalProctoringPanel } from './ExternalProctoringPanel';
 
 type AnswerMap = Record<number, unknown>;
 
@@ -59,8 +59,6 @@ export const TakePage = () => {
         setReady(true);
     };
 
-    const onVideoMetadataLoaded = useCallback(() => {}, []);
-
     const setAnswer = (qid: number, value: unknown) => setAnswers((a) => ({ ...a, [qid]: value }));
 
     const submit = async () => {
@@ -91,24 +89,6 @@ export const TakePage = () => {
         </>
     ) : null;
 
-    const proctoringStateForUI = {
-        modelsLoaded: procState.modelsLoaded,
-        cameraEnabled: procState.cameraEnabled,
-        faceDetected: procState.faceDetected,
-        multipleFaces: procState.multipleFaces,
-        headTurned: procState.headTurned,
-        lookingAway: procState.lookingAway,
-        eyesClosed: procState.eyesClosed,
-        error: procState.error,
-        videoReady: true,
-        violationCount: procState.violationCount,
-        isTestTerminated: procState.isTerminated,
-        showFullscreenPrompt: false,
-        fullscreenRequestRefused: false,
-        isTransitioning: false,
-    };
-    const screenStateForUI = { isScreenShared: procState.screenShared, isEntireScreen: true, error: '', stream: null };
-    const audioStateForUI = { isMonitoring: false, noiseLevel: 0, isSilent: false, error: '' };
 
     if (loading) return <>{hiddenMedia}<div className="min-h-screen flex items-center justify-center">Загрузка...</div></>;
     if (error)
@@ -148,11 +128,11 @@ export const TakePage = () => {
     if (!data) return <>{hiddenMedia}</>;
 
     return (
-        <div className="min-h-screen bg-gray-50 p-6 flex">
+        <div className="min-h-screen bg-gray-50">
             {hiddenMedia}
 
-            {/* Questions */}
-            <div className="flex-1 max-w-3xl">
+            {/* Questions — full width with right padding for the fixed panel */}
+            <div className="pr-64 p-6 max-w-none">
                 <h1 className="text-3xl font-semibold mb-2">{data.title}</h1>
                 {data.description && <p className="text-gray-600 mb-6">{data.description}</p>}
 
@@ -229,19 +209,11 @@ export const TakePage = () => {
                 </div>
             </div>
 
-            {/* Proctoring sidebar */}
-            <ProctoringSidebar
-                violationCount={procState.violationCount}
-                isTestTerminated={procState.isTerminated}
-                sessionId=""
+            <ExternalProctoringPanel
+                procState={procState}
+                cameraStream={cameraStream}
                 videoRef={videoRef}
                 canvasRef={canvasRef}
-                onVideoMetadataLoaded={onVideoMetadataLoaded}
-                videoReady={procState.cameraEnabled}
-                proctoringState={proctoringStateForUI}
-                screenState={screenStateForUI}
-                audioState={audioStateForUI}
-                cameraStream={cameraStream}
             />
         </div>
     );
